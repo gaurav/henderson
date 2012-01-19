@@ -3,9 +3,14 @@ package WWW::Wikisource;
 use warnings;
 use strict;
 
+use Carp;
+use Try::Tiny;
+
+use MediaWiki::API;
+
 =head1 NAME
 
-WWW::Wikisource - The great new WWW::Wikisource!
+WWW::Wikisource - An API for Wikisource
 
 =head1 VERSION
 
@@ -18,34 +23,68 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
+This module lets you access Wikisource; in particular, it
+hopes to make Index pages (provided through the Proofread Page
+extension) accessible to Perl scripts.
 
     use WWW::Wikisource;
 
-    my $foo = WWW::Wikisource->new();
-    ...
+    my $ws = WWW::Wikisource->new();
+    $index_page = $ws->lookup('Index:Field Notes of Junius Henderson, Notebook 1.djvu')
 
-=head1 EXPORT
+=head1 METHODS
 
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
+=head2 new
 
 =cut
 
-sub function1 {
+sub new {
+    my $class = shift;
+
+    my $self = {};
+    bless $self, $class;
+
+    # Initialization.
+    $self->{'mwa'} = MediaWiki::API->new({
+        api_url => 'http://en.wikisource.org/w/api.php'
+    });
+
+    return $self;
 }
 
-=head2 function2
+=head2 get
+
+  $page = $ws->get('Wikisource:About')
+
+Open a particular page (by title) on Wikisource.
+
+Returns undef if the page doesn't exist, or
+a 'page' (in the sense of MediaWiki::API->get_page),
+or a WWW::Wikisource::IndexPage if you've got one
+of them.
 
 =cut
 
-sub function2 {
+sub get {
+    my $self = shift;
+    my $title = shift;
+
+    croak "lookup() needs one argument: a page title to look up"
+        if not defined $title;
+    
+    my $mw = $self->{'mwa'};
+
+    my $page = $mw->get_page({title => $title});
+
+    # Return 'undef' if no such page found.
+    return undef if exists $page->{'missing'};
+    
+    # An index page!
+    if($page->{'ns'} eq '106') {
+        # TODO: Make an index page.
+    }
+
+    return $page;
 }
 
 =head1 AUTHOR

@@ -13,7 +13,7 @@ Proofread Page extension, which allows side-by-side
 transcription of text with image scans. This module is
 primarily designed to expose Proofread Page features 
 through other, more general Mediawiki modules, such 
-as WWW-Wikipedia.
+as MediaWiki::API and WWW::Wikipedia.
 
 
 INSTALLATION
