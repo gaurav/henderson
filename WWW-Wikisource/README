@@ -1,15 +1,19 @@
 WWW-Wikisource
 
-The README is used to introduce the module and provide instructions on
-how to install the module, any machine dependencies it may have (for
-example C compilers and installed libraries) and any other information
-that should be provided before the module is installed.
+Wikisource is a project to transcribe text from public
+domain and open-licensed documents. It is managed by
+the Wikimedia Foundation, the organization behind Wikipedia,
+and runs the same Mediawiki software other Wikipedia-like
+websites use.
 
-A README file is required for CPAN modules since CPAN extracts the README
-file from a module distribution so that people browsing the archive
-can use it to get an idea of the module's uses. It is usually a good idea
-to provide version information here so that people can decide whether
-fixes for the module are worth downloading.
+This module will provide an API to access and manipulate
+Wikisource documents. In particular, Wikisource differs
+from other MediaWiki installations because of the 
+Proofread Page extension, which allows side-by-side
+transcription of text with image scans. This module is
+primarily designed to expose Proofread Page features 
+through other, more general Mediawiki modules, such 
+as WWW-Wikipedia.
 
 
 INSTALLATION
