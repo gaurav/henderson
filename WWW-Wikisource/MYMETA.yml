@@ -7,10 +7,8 @@ build_requires:
   MediaWiki::API: 0
   Test::More: 0
   Try::Tiny: 0
-configure_requires:
-  Module::Build: 0.36
 dynamic_config: 0
-generated_by: 'Module::Build version 0.3607'
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html

@@ -1,4 +1,4 @@
-package WWW::Wikisource;
+package WWW::Wikisource::IndexPage;
 
 use warnings;
 use strict;
@@ -10,7 +10,7 @@ use MediaWiki::API;
 
 =head1 NAME
 
-WWW::Wikisource - An API for Wikisource
+WWW::Wikisource::IndexPage - An Index page on Wikisource
 
 =head1 VERSION
 
@@ -23,53 +23,87 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-This module lets you access Wikisource; in particular, it
-hopes to make Index pages (provided through the Proofread Page
-extension) accessible to Perl scripts.
+This module lets you access Index pages on Wikisource. Index
+pages are special pages provided by the Proofread Page extension
+(see http://www.mediawiki.org/wiki/Extension:Proofread_Page).
+This module makes these pages accessible to Perl scripts.
 
-    use WWW::Wikisource;
+While it is recommended that this module be created by 
+L<WWW::Wikisource/get_index>, it can also be created 
+independently if necessary.
 
-    my $ws = WWW::Wikisource->new();
-    $index_page = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu')
+    use WWW::Wikisource::IndexPage;
+
+    my $index = WWW::Wikisource::IndexPage->new('Index:Field Notes of Junius Henderson, Notebook 1.djvu')
 
 =head1 METHODS
 
 =head2 new
 
+    my $index = WWW::Wikisource::IndexPage->new('Index:Wind in the Willows (1913).djvu')
+
+Creates a new IndexPage object. Calling new() will initiate HTTP
+connection with Wikipedia to load some basic information; individual
+transcribed pages will not, however, be loaded.
+
+Certain properties can also be provided as a hashref as the second value.
+Valid values include:
+
+=over 4
+
+=item MediaWikiAPI
+
+The MediaWiki::API object to use to talk to Wikipedia.
+
+=back
+
 =cut
 
 sub new {
     my $class = shift;
+    my $title = shift;
+    my $props = shift;
+    
+    croak "No title provided!"  unless exists $title;
+    $props = {}                 unless defined $props;
 
+    # Bless.
     my $self = {};
     bless $self, $class;
 
     # Initialization.
-    $self->{'mwa'} = MediaWiki::API->new({
-        api_url => 'http://en.wikisource.org/w/api.php',
-        use_http_get => 1,
-        retries => 4,
-        max_lag => 5
-    });
+    if (exists $props->{'MediaWikiAPI'}) {
+        $self->{'mwa'} = $props->{'MediaWikiAPI'};
+    } else {
+        $self->{'mwa'} = MediaWiki::API->new({
+            api_url => 'http://en.wikisource.org/w/api.php'
+        });
+    }
+
+    # Load the basic information.
+    $self->load()
 
     return $self;
 }
 
-=head2 get
+=head2 load
 
-  $page = $ws->get('Wikisource:About')
+  $index->load();
 
-Open a particular page (by title) on Wikisource.
+Loads basic information about this index page from Wikisource
+and the Wikimedia Commons. You should not need to use this: it
+is called automatically by L</new>.
 
-Returns undef if the page doesn't exist, or
-a 'page' (in the sense of MediaWiki::API->get_page).
-
+This method will die() if unable to connect to Wikipedia, or
+if the title does not appear to be valid.
 
 =cut
 
-sub get {
+sub new {
     my $self = shift;
-    my $title = shift;
+
+    my $title = $self->{'title'};
+    my $mwa =   $self->{'mwa'};
 
     croak "get() needs one argument: a page title to look up"
         if not defined $title;
