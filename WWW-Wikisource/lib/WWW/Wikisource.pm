@@ -8,6 +8,8 @@ use Try::Tiny;
 
 use MediaWiki::API;
 
+use WWW::Wikisource::IndexPage;
+
 =head1 NAME
 
 WWW::Wikisource - An API for Wikisource
@@ -30,6 +32,7 @@ extension) accessible to Perl scripts.
     use WWW::Wikisource;
 
     my $ws = WWW::Wikisource->new();
+    $page = $ws->get('Page:Field Notes of Junius Henderson, Notebook 1.djvu/1')
     $index_page = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu')
 
 =head1 METHODS

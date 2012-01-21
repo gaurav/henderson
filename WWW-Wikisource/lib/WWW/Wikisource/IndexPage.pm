@@ -2,6 +2,7 @@ package WWW::Wikisource::IndexPage;
 
 use warnings;
 use strict;
+use feature 'state';
 
 use Carp;
 use Try::Tiny;
@@ -64,7 +65,7 @@ sub new {
     my $title = shift;
     my $props = shift;
     
-    croak "No title provided!"  unless exists $title;
+    croak "No title provided!"  unless defined $title;
     $props = {}                 unless defined $props;
 
     # Bless.
@@ -72,6 +73,7 @@ sub new {
     bless $self, $class;
 
     # Initialization.
+    $self->{'title'} = $title;
     if (exists $props->{'MediaWikiAPI'}) {
         $self->{'mwa'} = $props->{'MediaWikiAPI'};
     } else {
@@ -81,7 +83,7 @@ sub new {
     }
 
     # Load the basic information.
-    $self->load()
+    $self->load();
 
     return $self;
 }
@@ -99,45 +101,108 @@ if the title does not appear to be valid.
 
 =cut
 
-sub new {
+sub load {
     my $self = shift;
 
     my $title = $self->{'title'};
     my $mwa =   $self->{'mwa'};
 
-    croak "get() needs one argument: a page title to look up"
-        if not defined $title;
-    
-    my $mw = $self->{'mwa'};
-
-    my $page = $mw->get_page({title => $title});
+    # Load the index page.
+    my $page = $mwa->get_page({title => $title});
 
     # Return 'undef' if no such page found.
-    return undef if exists $page->{'missing'};
-    
-    return $page;
+    die "Index page '$title' could not be found." if exists $page->{'missing'};
+
+    # Load the corresponding image.
+    my $image_name = $title;
+    $image_name =~ s/^Index/File/;
+
+    my $image_page = $mwa->get_page({title => $image_name}); 
+    # if(exists $image_page->{'missing'}) {
+    #    die "Could not find an image file at '$image_name' (to correspond to index page at '$title').";
+    # }
+
+    my $image = $mwa->api({
+        action =>   'query',
+        titles =>   $image_name,
+        prop =>     'imageinfo',
+        iiprop =>   'size'
+    });
+    if (exists $image->{'query'}->{'pages'}) {
+        my $results = $image->{'query'}->{'pages'};
+        $image = $results->{(keys %$results)[0]}->{'imageinfo'}[0];
+    } else {
+        $image = undef;
+    }
+
+    # Store everything.
+    $self->{'page'} =       $page;
+    $self->{'pages'} =      [];
+    $self->{'image_page'} = $image_page;
+    $self->{'imagesize'} =  $image;
+    $self->{'page_count'} = $image->{'pagecount'};
 }
 
-=head2 get_index
+sub get_page {
+    state $last_upload_time = time;
+    my $self =      shift;
+    my $page_no =   shift;
 
-  $index = $ws->get_index('Index:Wind in the Willows (1913).djvu');
+    croak "No page number provided to get_page()!"
+        unless defined $page_no;
+    croak "Non-numerical page number provided: '$page_no'"
+        unless $page_no =~ /^\d+$/;
+    croak "Zero is not a valid page number: $page_no"
+        if $page_no == 0;
 
-Returns undef if this Index page doesn't exist, or a WWW::Wikisource::IndexPage
-object if it does.
+    my $mwa = $self->{'mwa'};
+    my $page_title = $self->{'title'};
 
+    $page_title =~ s/^Index/Page/;
 
-=cut
+    if (not exists $self->{'pages'}->[$page_no]) {
+        if ( (time - $last_upload_time) > 10) {
+            sleep(5);
+            $last_upload_time = time;
+        }
+        $self->{'pages'}->[$page_no] = $mwa->get_page({title => "$page_title/$page_no"});
 
-sub get_index {
+        # print STDERR "Last upload time: $last_upload_time (" . (time - $last_upload_time) . ")\n";
+        # print STDERR "# GOT (last_upload_time=$last_upload_time): " . Dumper($self->{'pages'}->[$page_no]);
+        # print STDERR "Storing result in #$page_no: " . $self->{'pages'}->[$page_no];
+    }
+    return $self->{'pages'}->[$page_no]; 
+}
+
+sub get_all_pages {
     my $self = shift;
-    my $title = shift;
 
-    croak "get_index() needs one argument: a page title to look up"
-        if not defined $title;
-    
-    my $mw = $self->{'mwa'};
+    my $page_count = $self->{'page_count'};
+    for my $x (1..$page_count) {
+        # say STDERR "# Downloading page $x";
+        $self->get_page($x) 
+            unless exists $self->{'pages'}->[$x];
+    }
 
-    return WWW::Wikisource::IndexPage->new($title, {MediaWikiAPI => $mw}) 
+    # TODO check context before return.
+    my @pages = @{$self->{'pages'}};
+    shift @pages;   # Because otherwise the array goes from '1' to '$#array', which
+                    # can be odd for Perl users.
+
+    return @pages;
+}
+
+sub dump {
+    my $self = shift;
+
+    use Data::Dumper;
+
+    return Dumper({
+        'title' =>      $self->{'title'},
+        'page' =>       $self->{'page'},
+        'page_count' => $self->{'page_count'},
+        'imagesize' =>  $self->{'imagesize'}
+    });
 }
 
 =head1 AUTHOR
