@@ -192,6 +192,32 @@ sub get_all_pages {
     return @pages;
 }
 
+sub get_all_editors_with_revisions {
+    my $self = shift;
+    my %editors;
+
+    my $page_count = $self->{'page_count'};
+    for my $x (1..$page_count) {
+        # say STDERR "# Downloading page $x";
+        my $page = $self->get_page($x) 
+            unless exists $self->{'pages'}->[$x];
+
+        my %editors_with_revs = $page->all_editors_with_revisions();
+        for my $editor (keys %editors_with_revs) {
+            $editors{$editor} = 0 unless exists $editors{$editor};
+            $editors{$editor} += $editors_with_revs{$editor};
+        }
+    }
+
+    return \%editors;
+}
+
+sub page_count {
+    my $self = shift;
+
+    return $self->{'page_count'};
+}
+
 sub dump {
     my $self = shift;
 
@@ -204,6 +230,20 @@ sub dump {
         'imagesize' =>  $self->{'imagesize'}
     });
 }
+
+sub title {
+    my $self = shift;
+
+    return $self->{'title'};
+}
+
+# If stringified, return the title of this page.
+use overload fallback => 1,
+    '""' => sub { 
+        my $self = shift; 
+        return $self->title() . "(" . $self->page_count() . " pages)"; 
+    }
+;
 
 =head1 AUTHOR
 

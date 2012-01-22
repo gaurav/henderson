@@ -133,6 +133,71 @@ sub dump {
     return $self->{'page'};
 }
 
+sub pageid {
+    my $self = shift;
+
+    return $self->{'page'}->{'pageid'};
+}
+
+sub revisions {
+    my $self = shift;
+    my @revisions;
+
+    # No revisions for missing pages!
+    return () if $self->is_missing();
+
+    my $mwa = $self->{'mwa'};
+    my $result = $mwa->api({
+        action => 'query',
+        prop => 'revisions',
+        titles => $self->title(),
+        rvlimit => 'max',
+        rvprop => "user|comment|timestamp|size|flags|tags"
+    });
+
+    die "No results returned (response: " . $mwa->{'response'} . ")"
+        if not defined $result;
+    
+    use Data::Dumper;
+    die "OMGISH QUERY-CONTINUE: " . Dumper($result->{'query-continue'})
+        if exists $result->{'query-continue'};
+
+    die "Unexpected page id in " . Dumper($result)
+        if not exists $result->{'query'}->{'pages'}->{$self->pageid()}->{'revisions'};
+
+    @revisions = @{$result->{'query'}->{'pages'}->{$self->pageid()}->{'revisions'}};
+    return @revisions;
+}
+
+sub all_editors_with_revisions {
+    my $self = shift;
+    my %editors;
+
+    my @revisions = $self->revisions();
+    for my $revision (@revisions) {
+        my $username = $revision->{'user'};
+
+        $editors{$username} = 0 unless exists $editors{$username};
+        $editors{$username}++;
+    }
+
+    return %editors;
+}
+
+sub all_editors {
+    my $self = shift;
+
+    my %editors = $self->all_editors_with_revisions();
+
+    my @editors = sort { $editors{$b} <=> $editors{$a} } keys %editors;
+    return @editors;
+}
+
+# If stringified, return the title of this page.
+use overload fallback => 1,
+    '""' => "title"
+;
+
 
 =head1 AUTHOR
 

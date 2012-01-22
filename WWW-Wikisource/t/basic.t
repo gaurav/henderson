@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 4;
+use Test::More tests => 5;
 
 use Data::Dumper;
 use Try::Tiny;
@@ -33,10 +33,12 @@ try {
     }
 };
 
-my $index = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu');
-diag $index->dump();
+my $index_page = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu');
+diag $index_page->dump();
 
-diag "Please wait, loading all pages ...";
-my @pages = $index->get_all_pages();
-is(scalar(@pages), $index->{'page_count'}, "All pages loaded for index.");
-diag scalar(@pages) . " pages loaded.";
+# my $first_page = $index->get_page(1);
+# diag "Edits made to $first_page: " . Dumper($first_page->revisions());
+# diag "Editors who have worked on $first_page: " . Dumper($first_page->all_editors());
+
+diag "Editorial stats for $index_page: " . Dumper($index_page->get_all_editors_with_revisions());
+
