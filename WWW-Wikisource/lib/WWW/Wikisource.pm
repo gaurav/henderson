@@ -9,6 +9,7 @@ use Try::Tiny;
 use MediaWiki::API;
 
 use WWW::Wikisource::IndexPage;
+use WWW::Wikisource::Page;
 
 =head1 NAME
 
@@ -65,7 +66,7 @@ sub new {
 Open a particular page (by title) on Wikisource.
 
 Returns undef if the page doesn't exist, or
-a 'page' (in the sense of MediaWiki::API->get_page).
+a WWW::Wikisource::Page if it does.
 
 
 =cut
@@ -79,10 +80,10 @@ sub get {
     
     my $mw = $self->{'mwa'};
 
-    my $page = $mw->get_page({title => $title});
+    my $page = WWW::Wikisource::Page->new($title, {MediaWikiAPI => $mw});
 
     # Return 'undef' if no such page found.
-    return undef if exists $page->{'missing'};
+    return undef if $page->is_missing();
     
     return $page;
 }

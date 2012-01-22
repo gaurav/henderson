@@ -18,8 +18,8 @@ is($blank, undef, "Non-existent page not found on Wikisource");
 
 # Test a normal page.
 my $page = $ws->get('Field_Notes_of_Junius_Henderson/Notebook_1');
-is($page->{'title'}, 'Field Notes of Junius Henderson/Notebook 1');
-is($page->{'ns'}, 0, "Is this page in the article (0) namespace");
+is($page->title(), 'Field Notes of Junius Henderson/Notebook 1');
+is($page->ns(), 0, "Is this page in the article (0) namespace");
 
 # Test an index page.
 try {
@@ -36,8 +36,7 @@ try {
 my $index = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu');
 diag $index->dump();
 
+diag "Please wait, loading all pages ...";
 my @pages = $index->get_all_pages();
 is(scalar(@pages), $index->{'page_count'}, "All pages loaded for index.");
-# diag Dumper({pages => @pages});
-diag "First page: " . Dumper($pages[0]);
-diag "Last page: " . Dumper($pages[$#pages]);
+diag scalar(@pages) . " pages loaded.";

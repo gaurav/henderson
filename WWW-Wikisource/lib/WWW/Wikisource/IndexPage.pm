@@ -108,16 +108,16 @@ sub load {
     my $mwa =   $self->{'mwa'};
 
     # Load the index page.
-    my $page = $mwa->get_page({title => $title});
+    my $page = WWW::Wikisource::Page->new($title, {MediaWikiAPI => $mwa});
 
     # Return 'undef' if no such page found.
-    die "Index page '$title' could not be found." if exists $page->{'missing'};
+    die "Index page '$title' could not be found." if $page->is_missing();
 
     # Load the corresponding image.
     my $image_name = $title;
     $image_name =~ s/^Index/File/;
 
-    my $image_page = $mwa->get_page({title => $image_name}); 
+    my $image_page = WWW::Wikisource::Page->new($image_name, {MediaWikiAPI => $mwa}); 
     # if(exists $image_page->{'missing'}) {
     #    die "Could not find an image file at '$image_name' (to correspond to index page at '$title').";
     # }
@@ -165,7 +165,7 @@ sub get_page {
             sleep(5);
             $last_upload_time = time;
         }
-        $self->{'pages'}->[$page_no] = $mwa->get_page({title => "$page_title/$page_no"});
+        $self->{'pages'}->[$page_no] = WWW::Wikisource::Page->new("$page_title/$page_no", {MediaWikiAPI => $mwa});
 
         # print STDERR "Last upload time: $last_upload_time (" . (time - $last_upload_time) . ")\n";
         # print STDERR "# GOT (last_upload_time=$last_upload_time): " . Dumper($self->{'pages'}->[$page_no]);
@@ -199,7 +199,7 @@ sub dump {
 
     return Dumper({
         'title' =>      $self->{'title'},
-        'page' =>       $self->{'page'},
+        'page' =>       $self->{'page'}->dump(),
         'page_count' => $self->{'page_count'},
         'imagesize' =>  $self->{'imagesize'}
     });
