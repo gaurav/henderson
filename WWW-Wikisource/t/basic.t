@@ -40,7 +40,12 @@ diag $index_page->dump();
 # diag "Edits made to $first_page: " . Dumper($first_page->revisions());
 # diag "Editors who have worked on $first_page: " . Dumper($first_page->all_editors());
 
-diag "Editorial stats for $index_page: " . Dumper($index_page->get_all_editors_with_revisions());
+# diag "Editorial stats for $index_page: " . Dumper($index_page->get_all_editors_with_revisions());
+
+$page = $index_page->get_page(3);
+diag "Annotations for dated: " . join(", ", $page->get_annotations("dated"));
+diag "Annotations for taxa: " . join(", ", $page->get_annotations("taxon"));
+diag "Annotations for place: " . join(", ", $page->get_annotations("place"));
 
 # my @pages = $index_page->get_all_pages();
 # foreach my $page (@pages) {

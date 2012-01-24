@@ -237,6 +237,68 @@ sub title {
     return $self->{'title'};
 }
 
+use XML::Writer;
+sub as_xml {
+    my $self = shift;
+
+    my $xml_string = "";
+    my $xml = XML::Writer->new(
+        OUTPUT => \$xml_string,
+        DATA_MODE => 1,
+        DATA_INDENT => 4
+    );
+
+    $xml->startTag("transcription",
+        'title' =>      $self->title,
+        'created' =>    scalar gmtime(time),
+    );
+
+    my @pages = $self->get_all_pages();
+    foreach my $page (@pages) {
+        $xml->startTag("page",
+            'title' =>  $page->title
+        );
+
+        $xml->startTag("content");
+        $xml->cdata($page->content);
+        $xml->endTag("content");
+
+        sub add_attributes {
+            my ($xml, $hashref) = @_;
+
+            foreach my $key (keys %{$hashref}) {
+                next unless defined $key;
+
+                my $value = $hashref->{$key};
+                next unless defined $value;
+
+                if(ref($value) eq 'HASH') {
+                    $xml->startTag($key);
+                    add_attributes($xml, $value);
+                    $xml->endTag($key);
+                } elsif(ref($value) eq 'ARRAY') {
+                    foreach my $val (@{$value}) {
+                        $xml->emptyTag("attribute", 'key' => $key, 'value' => $val);
+                    }
+                } else {
+                    $xml->emptyTag("attribute", 'key' => $key, 'value' => $value);
+                }
+            }
+        }
+
+        my %attr = $page->get_attributes();
+        add_attributes($xml, \%attr);
+
+        $xml->endTag("page");
+    }
+
+    $xml->endTag("transcription");
+
+    $xml->end();
+
+    return $xml_string;
+}
+
 # If stringified, return the title of this page.
 use overload fallback => 1,
     '""' => sub { 

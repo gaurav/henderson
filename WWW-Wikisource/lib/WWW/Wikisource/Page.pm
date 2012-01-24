@@ -193,6 +193,48 @@ sub all_editors {
     return @editors;
 }
 
+sub get_annotations {
+    my $self = shift;
+    my $type = shift;
+
+    $type = 'dated' unless defined $type;
+
+    my @annotations = ($self->content =~ /\{\{$type\|\s*(.*?)\s*(?:\||\}\})/g);
+
+    # Remove duplicates.
+    @annotations = sort keys %{{ map { $_ => 1 } @annotations }};
+
+    return \@annotations;
+}
+
+sub annotations {
+    my $self = shift;
+
+    my %annotations = (
+        'place' =>      $self->get_annotations('place'),
+        'dated' =>      $self->get_annotations('dated'),
+        'taxon' =>      $self->get_annotations('taxon')
+    );
+
+    return %annotations;
+}
+
+sub get_attributes {
+    my $self = shift;
+
+    my %annotations =   $self->annotations;
+    my %editors =       $self->all_editors_with_revisions();
+
+    my %attributes = (
+        'title' =>      $self->title,
+        # 'content' =>    $self->content,
+        'annotations' =>    \%annotations,
+        'editors' =>        \%editors
+    );
+
+    return %attributes;
+}
+
 # If stringified, return the title of this page.
 use overload fallback => 1,
     '""' => "title"
