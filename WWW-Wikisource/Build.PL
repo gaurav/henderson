@@ -11,7 +11,8 @@ my $builder = Module::Build->new(
         'Test::More' => 0,
         'Try::Tiny' => 0,
         'Carp' => 0,
-        'MediaWiki::API' => 0
+        'MediaWiki::API' => 0,
+        'XML::Writer' => 0
     },
     add_to_cleanup      => [ 'WWW-Wikisource-*' ],
     create_makefile_pl => 'traditional',

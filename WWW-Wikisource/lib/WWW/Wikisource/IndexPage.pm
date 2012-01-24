@@ -2,12 +2,14 @@ package WWW::Wikisource::IndexPage;
 
 use warnings;
 use strict;
-use feature 'state';
+use feature 'state'; 
+    # To be able to use static-to-method variables.
 
 use Carp;
 use Try::Tiny;
 
 use MediaWiki::API;
+use XML::Writer;
 
 =head1 NAME
 
@@ -26,8 +28,8 @@ our $VERSION = '0.01';
 
 This module lets you access Index pages on Wikisource. Index
 pages are special pages provided by the Proofread Page extension
-(see http://www.mediawiki.org/wiki/Extension:Proofread_Page).
-This module makes these pages accessible to Perl scripts.
+(see http://www.mediawiki.org/wiki/Extension:Proofread_Page)
+which provide an index to page scans.
 
 While it is recommended that this module be created by 
 L<WWW::Wikisource/get_index>, it can also be created 
@@ -43,11 +45,11 @@ independently if necessary.
 
     my $index = WWW::Wikisource::IndexPage->new('Index:Wind in the Willows (1913).djvu')
 
-Creates a new IndexPage object. Calling new() will initiate HTTP
+Creates a new IndexPage object. Calling new() will initiate an HTTP
 connection with Wikipedia to load some basic information; individual
-transcribed pages will not, however, be loaded.
+transcribed pages will not be loaded at this point.
 
-Certain properties can also be provided as a hashref as the second value.
+Certain properties can also be provided in a hashref as the second value.
 Valid values include:
 
 =over 4
@@ -77,12 +79,14 @@ sub new {
     if (exists $props->{'MediaWikiAPI'}) {
         $self->{'mwa'} = $props->{'MediaWikiAPI'};
     } else {
+        # If MediaWikiAPI is not set, create a
+        # MediaWiki::API object of our own.
         $self->{'mwa'} = MediaWiki::API->new({
             api_url => 'http://en.wikisource.org/w/api.php'
         });
     }
 
-    # Load the basic information.
+    # Load basic information.
     $self->load();
 
     return $self;
@@ -93,10 +97,10 @@ sub new {
   $index->load();
 
 Loads basic information about this index page from Wikisource
-and the Wikimedia Commons. You should not need to use this: it
-is called automatically by L</new>.
+and the Wikimedia Commons. You should not use this yourself: it
+is called automatically by L</new> during instantiation.
 
-This method will die() if unable to connect to Wikipedia, or
+This method will die() if it is unable to connect to Wikipedia, or
 if the title does not appear to be valid.
 
 =cut
@@ -110,7 +114,7 @@ sub load {
     # Load the index page.
     my $page = WWW::Wikisource::Page->new($title, {MediaWikiAPI => $mwa});
 
-    # Return 'undef' if no such page found.
+    # die() if no such page could be found.
     die "Index page '$title' could not be found." if $page->is_missing();
 
     # Load the corresponding image.
@@ -118,9 +122,11 @@ sub load {
     $image_name =~ s/^Index/File/;
 
     my $image_page = WWW::Wikisource::Page->new($image_name, {MediaWikiAPI => $mwa}); 
-    # if(exists $image_page->{'missing'}) {
-    #    die "Could not find an image file at '$image_name' (to correspond to index page at '$title').";
-    # }
+    # Note that if the image is hosted on the Commons, Mediawiki
+    # will return all the appropriate data, *but* will also set
+    # $image_page->{'missing'}. So we just assume the query was
+    # successful but throw an error later if we don't have a
+    # valid number of pages.
 
     my $image = $mwa->api({
         action =>   'query',
@@ -128,12 +134,11 @@ sub load {
         prop =>     'imageinfo',
         iiprop =>   'size'
     });
-    if (exists $image->{'query'}->{'pages'}) {
-        my $results = $image->{'query'}->{'pages'};
-        $image = $results->{(keys %$results)[0]}->{'imageinfo'}[0];
-    } else {
-        $image = undef;
-    }
+    die "Unable to retrieve image information: check that title '$image_name' corresponds to an actual image on Wikisource."
+        unless exists $image->{'query'}->{'pages'};
+
+    my $results = $image->{'query'}->{'pages'};
+    $image = $results->{(keys %$results)[0]}->{'imageinfo'}[0];
 
     # Store everything.
     $self->{'page'} =       $page;
@@ -142,6 +147,34 @@ sub load {
     $self->{'imagesize'} =  $image;
     $self->{'page_count'} = $image->{'pagecount'};
 }
+
+=head2 page_count
+
+    my $page_count = $index->page_count;
+
+Returns the number of pages associated with this index page.
+
+=cut
+
+sub page_count {
+    my $self = shift;
+
+    return $self->{'page_count'};
+}
+
+=head2 get_page
+
+    my $page = $index->get_page(3);
+
+Returns a page by its page number (a number between
+C<1> and L</page_count> page count).
+
+The 'get_' is supposed to serve as a
+reminder that this will retrieve the
+page from Wikisource. This may take
+a while!
+
+=cut
 
 sub get_page {
     state $last_upload_time = time;
@@ -212,12 +245,6 @@ sub get_all_editors_with_revisions {
     return \%editors;
 }
 
-sub page_count {
-    my $self = shift;
-
-    return $self->{'page_count'};
-}
-
 sub dump {
     my $self = shift;
 
@@ -237,7 +264,6 @@ sub title {
     return $self->{'title'};
 }
 
-use XML::Writer;
 sub as_xml {
     my $self = shift;
 
