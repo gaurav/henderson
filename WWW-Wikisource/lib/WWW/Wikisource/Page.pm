@@ -155,7 +155,7 @@ sub revisions {
         rvprop => "user|comment|timestamp|size|flags|tags"
     });
 
-    die "No results returned (response: " . $mwa->{'response'} . ")"
+    die "No results returned (response: " . Dumper($mwa->{'response'}) . ")"
         if not defined $result;
     
     use Data::Dumper;

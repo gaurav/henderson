@@ -42,3 +42,8 @@ diag $index_page->dump();
 
 diag "Editorial stats for $index_page: " . Dumper($index_page->get_all_editors_with_revisions());
 
+# my @pages = $index_page->get_all_pages();
+# foreach my $page (@pages) {
+#    diag "Page $page.\n" . $page->content();
+#    diag "\n\n";
+#}
