@@ -18,6 +18,7 @@ my $xml = $index_page->as_xml();
 my $filename = '/tmp/output.xml';
 
 open(OUTPUT, '>', $filename) or die ("Could not open 'output.xml' for output.");
+binmode(OUTPUT, ":utf8");
 print OUTPUT $xml;
 close(OUTPUT);
 
