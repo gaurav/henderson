@@ -282,7 +282,8 @@ sub as_xml {
     my @pages = $self->get_all_pages();
     foreach my $page (@pages) {
         $xml->startTag("page",
-            'title' =>  $page->title
+            'title' =>  $page->title,
+            'uri' => $page->permanent_url
         );
 
         $xml->startTag("content");
