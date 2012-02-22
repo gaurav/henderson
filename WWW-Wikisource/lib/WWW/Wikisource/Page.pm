@@ -121,6 +121,35 @@ sub title {
     return $self->{'page'}->{'title'};
 }
 
+sub fullurl {
+    my $self = shift;
+
+    my $mwa = $self->{'mwa'};
+
+    # Get the 'fullurl'.
+    my $results = $mwa->api({
+        action => 'query',
+        prop => 'info',
+        inprop => 'url',
+        titles => $self->title()
+    });
+
+    my $fullurl = $results->{'query'}->{'pages'}->{$self->pageid}->{'fullurl'};
+    return $fullurl;
+}
+
+sub permanent_url {
+    my $self = shift;
+
+    my $fullurl = $self->fullurl();
+    my $revid = $self->revid;
+
+    my $uri = URI->new($fullurl);
+    $uri->query_form(oldid => $revid);
+
+    return $uri;
+}
+
 sub ns {
     my $self = shift;
 

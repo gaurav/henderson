@@ -2,7 +2,7 @@
 
 use strict;
 use warnings;
-use Test::More tests => 5;
+use Test::More tests => 6;
 
 use Data::Dumper;
 use Try::Tiny;
@@ -46,6 +46,13 @@ $page = $index_page->get_page(3);
 diag "Annotations for dated: " . join(", ", @{$page->get_annotations("dated")});
 diag "Annotations for taxa: " . join(", ", @{$page->get_annotations("taxon")});
 diag "Annotations for place: " . join(", ", @{$page->get_annotations("place")});
+
+# Test permanent URL.
+diag "Permanent URL: " . $page->permanent_url();
+TODO: {
+    local $TODO = "Need to develop a permanent URL test.";
+    fail("No permanent URL test yet.");
+}
 
 # my @pages = $index_page->get_all_pages();
 # foreach my $page (@pages) {
