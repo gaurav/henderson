@@ -20,7 +20,10 @@ for my $node (@{$nodeset}) {
     die "No content node present" unless defined $content;
 
     $str .= "\n\n{{#from|title=$title|uri=$uri}}\n\n";
-    $str .= $content->string_value();
+
+    my $string_value = $content->string_value();
+    $string_value =~ s/\s*<br\s*\/?>\s*<br\s*\/?>\s*/\n\n{{new-entry}}\n\n/mg;
+    $str .= $string_value;
 }
 
 $str =~ s/<noinclude>.*?<\/noinclude>//gs;

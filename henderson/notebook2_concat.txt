@@ -24,8 +24,8 @@ No. 2
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/4|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/4?oldid=3614620}}
 
 Ft. Collins Trip
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1907-05-24|May 24, 1907}}
 
@@ -33,8 +33,10 @@ Ft. Collins Trip
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/5|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/5?oldid=3614622}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Ft. Collins, Colo., May 25/07
 
 	Rained last night. Cool and somewhat cloudy this morning. Had breakfast at 6:30 a.m. Started at 7;10 with O. G. Babcock. A cold rain and fierce wind was blowing chilling us to the bone despites “slickers” and heavy lap robe. We drove through La Porte, thence to the Forks, where we took the right hand road, leaving Livermore to the left, and went about four miles further. It is quite evident that the foothill geology will be much more difficult to work out than further south, as there is much folding, which gives to the formations outcropping very irregular outlines and the folds and general flatness  of the dip spreads the formations out over a wide and decidedly variable zone, extending them into the foothills long distances in several places. We fed the team at noon at a point about 9 or 10 miles south of the Wyoming line, then turned back at 2 p.m. Drove by 
@@ -42,8 +44,8 @@ Ft. Collins, Colo., May 25/07
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/6|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/6?oldid=3614623}}
 
 way of {{place|Bellvue, Colorado|Bellevue}} where we found a beautiful anticlinal fold which can be nicely photographed in the Lyons formation. Reached the hotel about 5:30, chilled through and very tired. Retired at 8:15. ((pencil))
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins}},  {{dated|1907-05-26|May 25 (sic) 1907}}
 
@@ -52,8 +54,8 @@ way of {{place|Bellvue, Colorado|Bellevue}} where we found a beautiful anticlina
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/7|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/7?oldid=3614624}}
 
 Trip to Northern Colorado
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1907-06-06|Thursday June 6, 1907}}
 
@@ -62,8 +64,8 @@ Trip to Northern Colorado
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/8|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/8?oldid=3614625}}
 
 {{taxon|Sturnella|meadowlark}}, {{taxon|Athene cunicularia|burrowing owl}}, {{taxon|Carduelis tristis|goldfinch}}, {{taxon|Euphagus cyanocephalus|Brewer’s blackbirds}}. Several birds singing about camp whose songs I do not recognize. Retired at 9 p.m.
-<br />
-<br />
+
+{{new-entry}}
 
 Friday {{dated|1907-06-07|June 7, 1907}}
 
@@ -77,8 +79,8 @@ about 15˚ nearly E. strike about N strongly crossbedded thus ((drawing in field
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/10|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/10?oldid=3614626}}
 
 the {{place|US Rt. 287|Laramie road}} we crossed Fountain formation, but soon got to granite, which continued across {{place|South Boxelder Creek, Colorado|South Box Elder}} to {{place|North Boxelder Creek, Colorado|North Box Elder}}. We camped below Box Elder P.O. a mile or two. The granite weathers into “toadstools” at Box Elder, owing to horizontal resistant zones.
-<br />
-<br />
+
+{{new-entry}}
 
 North Box Elder, Saturday {{dated|1907-06-08|June 8, 1907}}
 
@@ -92,9 +94,9 @@ and igneous boulders up to a foot in diameter with a calcareous cement as shown 
 
 white with hail. The sun then came out, but it clouded again at 4:30. Among the most common birds at this camp is the {{taxon|Euphagus cyanocephalus|Brewer blackbird}}. List is as follows: {{taxon|Petrochelidon pyrrhonota|Cliff swallow}}, {{taxon|Tachycineta thalassina|violet green swallow}}, {{taxon|Sialia currucoides|Mt bluebird}}, {{taxon|Buteo|buzzard}}, {{taxon|Buteo jamaicensis|red tailed hawk}}, {{taxon|Euphagus cyanocephalus|Brewer blackbird}}, {{taxon|catbird}}, {{taxon|Carduelis tristis|goldfinch}}, {{taxon|Melanerpes erythrocephalus|red head (sic) woodpecker}}, {{taxon|Molothrus|cowbird}}, {{taxon|Aeronautes saxatalis|white throated swift}}, {{taxon|Dendroica aestiva|yellow warbler}}, {{taxon|Colaptes|flicker}}, {{taxon|Turdus migratorius|robins}}, {{taxon|Agelaius phoeniceus|red wing blackbird}}, {{taxon|Dendroica townsendi,|Townsend warbler}}, {{taxon|Sturnella|meadowlark}}, {{taxon|Salpinctes obsoletus|rock wren}}, {{taxon|Cinchlus|dipper}}, {{taxon|Icterus bullockii|Bullock oriole}}, {{taxon|Charadrius vociferus|killdeer}}, {{taxon|Cyanocitta stelleri|long crested jay}}, {{taxon|Trochilidae|hummingbird}}, {{taxon|Melospiza lincolnii|Lincoln song sparrow}}, {{taxon|Gymnorhinus cyanocephalus|piñon jay}}, {{taxon|towhee}}. {{taxon|Sturnella|Meadowlarks}} were also common on high plains near {{place|Wyoming}} line. 
 
-In evening  Dodds + I collected {{taxon|Pisidia}} in the creek. 
-<br />
-<br />
+In evening  Dodds + I collected {{taxon|Pisidia}} in the creek.
+
+{{new-entry}}
 
 {{place|Box Elder Creek, Wyoming|Box Elder Creek}}<br />
 {{dated|1907-06-09|Sunday June 9, 1907}}
@@ -117,8 +119,10 @@ far as chemical and physical conditions. At least there are soft strata and much
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/16|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/16?oldid=3614630}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|North Box Elder Creek}}
 Monday {{dated|1907-06-10|June 10, 1907}}
 
@@ -137,9 +141,9 @@ We measured one face of 20 ft. and from that estimated the whole cliff at 100 ft
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/19|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/19?oldid=3614632}}
 
-white zone and about the same above. The white zone itself, including an intermediate reddish zone is 50 ft. or more in thickness. The upper member of the Lyons is eroded back from the edge to make a low ridge and the Lykins still further back, in each case the dip of the strata forming the surface of the hill. Erosion appears to proceed almost wholly at the edges except where drainage breaks through. Wind quieted down very much and it was warm in afternoon.  
-<br />
-<br />
+white zone and about the same above. The white zone itself, including an intermediate reddish zone is 50 ft. or more in thickness. The upper member of the Lyons is eroded back from the edge to make a low ridge and the Lykins still further back, in each case the dip of the strata forming the surface of the hill. Erosion appears to proceed almost wholly at the edges except where drainage breaks through. Wind quieted down very much and it was warm in afternoon.
+
+{{new-entry}}
 
 {{place|North Box Elder}}
 Tuesday, {{dated|1907-06-11|June 11, 1907}}
@@ -152,8 +156,10 @@ out in the valley, while up the slope very close to the granite is an outcrop of
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/21|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/21?oldid=3614634}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|North Box Elder camp}}
 Wednesday {{dated|1907-06-11|June 12, 1907}}
 
@@ -172,9 +178,9 @@ the chert at the ranch NE of camp.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/24|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/24?oldid=3614635}}
 
-crinoidal limestone to the same point, but found no brachiopods in it after leaving the {{place|Box Elder Creek, Colorado|Box Elder}}. Saw 2 {taxon|Buteo|buzzards}} and 1 {{taxon|Buteo jamaicensis|red tailed hawk}} at junction of  {{place|Box Elder Creek, Colorado|N and S Box Elder}}. 
-<br />
-<br />
+crinoidal limestone to the same point, but found no brachiopods in it after leaving the {{place|Box Elder Creek, Colorado|Box Elder}}. Saw 2 {taxon|Buteo|buzzards}} and 1 {{taxon|Buteo jamaicensis|red tailed hawk}} at junction of  {{place|Box Elder Creek, Colorado|N and S Box Elder}}.
+
+{{new-entry}}
 
 {{place|Red Mt., Colorado|Red Mt.}} Thursday {{dated|1907-06-13|June 13/07}}
 
@@ -188,8 +194,8 @@ NW is a white quartz blowout on a high hill on E side {{place|Deadman Creek, Col
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/26|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/26?oldid=3614636}}
 
 directly on an uneven eroded surface of rotten, deep red granite, contact showing for100 ft., conglomerate dipping 10˚ bearing about E. The center of the plain for some distance back is covered with a thin remnant of Fountain conglomerate thus showing approximately the ancient sea bottom. Another inlet (sic) of the Fountain, including the upper beds extends far west of {{place|Livermore, Colorado|Livermore}}. It is a syncline> At {{place|Livermore, Colorado|Livermore}} dip is only about 20 to 40 bearing NE. Camped at {{place|Owl Creek Canyon, Colorado|Owl canyon}} at 6 p.m.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Owl Creek Canyon, Colorado|Owl Canyon}}, Friday {{dated|1907-06-14|June 14/07}}
 
@@ -268,8 +274,10 @@ and hard to friable. They are not sharply divided from the Lyons beds above, but
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/34|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/34?oldid=3614639}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Owl Canyon, Colorado|Owl Canyon}}, Saturday
 {{dated|1907-06-15|June 15, 1907}}
 
@@ -277,8 +285,9 @@ and hard to friable. They are not sharply divided from the Lyons beds above, but
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/35|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/35?oldid=3614640}}
 
-<br />
-<br />
+
+
+{{new-entry}}
 
 {{place|Magnolia, Colorado|Magnolia}}-{{place|Rollinsville, Colorado|Rollinsville}}
 {{dated|1907-08-22|Aug. 22, 1907}}
@@ -304,8 +313,8 @@ and hard to friable. They are not sharply divided from the Lyons beds above, but
 {{taxon|Pupilla}} or {{taxon|Bifidaria|Bifidaria sp.}} 
 
 Reached home at 6:45
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|South Boulder Canyon}}
 Via Flagstaff road
@@ -327,8 +336,10 @@ the {{place|Longridge Mill, Colorado|Longridge Mill}} found also {{taxon|Agrioli
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/38|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/38?oldid=3614642}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Saturday {{dated|1907-09-06|Sep. 6, 1907}}
 {{place|Left Hand Creek, Colorado|Left Hand canyon}}
 
@@ -355,15 +366,17 @@ Geological Survey Account
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/43|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/43?oldid=3614645}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Ft. Collins, Colorado|Ft Collins, Colo.}}
 Wednesday Oct. 2, 1907
 
-	Left {{place|Boulder, Colorado|Boulder}} at 5:20 p.m. on time arrived {{place|Ft. Collins, Colorado|Ft Collins}} 7:30, 10 minutes late, 45 miles. Day closed cloudy and threatening, but clouds showed westerly air currents. Went to Northern Hotel, and had supper. Nellie accompanied me. 
-<br />
-<br />
-	
+	Left {{place|Boulder, Colorado|Boulder}} at 5:20 p.m. on time arrived {{place|Ft. Collins, Colorado|Ft Collins}} 7:30, 10 minutes late, 45 miles. Day closed cloudy and threatening, but clouds showed westerly air currents. Went to Northern Hotel, and had supper. Nellie accompanied me.
+
+{{new-entry}}
+
 Thursday {{dated|1907-10-03|Oct. 3, 1907}}
 
 	A cloudy gloomy morning and cool, with a north wind. We started by team for {{place|Livermore, Colorado|Livermore}} at 7:30 a.m. Stopped to examine and map the fold north of {{place|La Porte, Colorado|La Porte}} in Dakota sandstone. In this region the escarpments and dips are such that folds can be detected at great distance by changes in the strikes of ridges. The Jurassic is well up on the
@@ -375,8 +388,8 @@ Thursday {{dated|1907-10-03|Oct. 3, 1907}}
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/45|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/45?oldid=3614647}}
 
 Ramer House, C. W. Ramer, proprietor. Alt 5733, B.M. ((bench mark)) in sidewalk in front of hotel.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Livermore, Colorado|Livermore, Colo.}}
 {{dated|1907-10-04|Oct. 4, 1907}}
@@ -390,9 +403,9 @@ granite thus: ((drawing in field book)).
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/47|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/47?oldid=3614649}}
 
-{{place|Ft. Collins, Colorado|Ft. Collins}} at 5:20. After supper called for Kittle, J. L. Bartlett and Mrs. Collins by phone at {{place|Greeley, Colorado|Greeley}} and {{place|Boulder, Colorado|Boulder}} but did not reach Mrs. Collins. Saw 29 {{taxon|Corvus|crows}} in on((e)) flock near Ingleside flying SE. Bright warm day. 
-<br />
-<br />
+{{place|Ft. Collins, Colorado|Ft. Collins}} at 5:20. After supper called for Kittle, J. L. Bartlett and Mrs. Collins by phone at {{place|Greeley, Colorado|Greeley}} and {{place|Boulder, Colorado|Boulder}} but did not reach Mrs. Collins. Saw 29 {{taxon|Corvus|crows}} in on((e)) flock near Ingleside flying SE. Bright warm day.
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins, Colo.}} {{dated|1907-10-05|Oct. 5}}
 
@@ -412,13 +425,15 @@ the south bank of the {{place|Cache la Poudre River|Cache a la Poudre}} nearly t
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/51|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/51?oldid=3614652}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Ft. Collins, Colorado|Ft. Collins}}, {{dated|1907-10-06|Oct 6, 1907}}
 
-	Left {{place|Ft. Collins, Colorado|Ft. Collins}}  on the 8 a.m. train, arrived in C about on time. Hot and bright. 
-<br />
-<br />
+	Left {{place|Ft. Collins, Colorado|Ft. Collins}}  on the 8 a.m. train, arrived in C about on time. Hot and bright.
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins, Colo.}}
 Tuesday, {{dated|1907-10-08|Oct. 8, 1907}}
@@ -432,8 +447,8 @@ forms steep, much dissected, bluffs, which give to the reservoir its name. The d
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/53|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/53?oldid=3614655}}
 
 and there are some {{taxon|Halymenites major}}. I saw no {{taxon|Placenticeras}} or other fossils  except those mentioned. The formation is practically the same as at {{place|Fossil Creek}}, gray sandstone containing numerous ironstone concretions, some several feet in diameter, the formation having a tendency toward forming an escarpment on the west side of the ridge and a gentle slope on the east side.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins}}, {{dated|1907-10-09|Oct. 9, 1907}}
 
@@ -449,9 +464,9 @@ latter look very much like {{taxon|Inoceramus labiatus|I. labiatus}}. They occur
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/56|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/56?oldid=3614656}}
 
-Nearly a mile north of the road there is either a fault or fold in the Dakota, N and S, thus (( drawing in field book)). Exposures too poor to determine the exact condition. 
-<br />
-<br />
+Nearly a mile north of the road there is either a fault or fold in the Dakota, N and S, thus (( drawing in field book)). Exposures too poor to determine the exact condition.
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins}}, {{dated|1907-10-10|Oct 10, 1907}}
 
@@ -495,8 +510,10 @@ Yesterday and today there was frost in the morning. Yesterday it was cool riding
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/62|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/62?oldid=3614657}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Loveland, Colorado|Loveland, Colo.}} {{dated|1907-10-11|Oct 11, 1907}}
 
 	Left {{place|Ft. Collins, Colorado|Ft. Collins}} at 8 p.m. and reached {{place|Loveland,Colorado|Loveland}} at 8:30, put up at {{place|Bushnell Hotel}}. Got team at ---- ((left blank)) stable and drove up {{place|Big Thompson Creek, Colorado|Big Thompson}} thence up {{place|Buckthorn Creek, Colorado|Buckhorn Creek}} to plot the Arkins fold. West limb of anticline, “Dakota” sandstone and Niobrara  dips SW 70˚ to 75˚. W limb of syncline much more gentle as also E limb of anticline. The Dakota forms a high narrow dyke of the hard sandstone. The Fountain is in escarpment. The valley west of granite intrusion is covered, mostly. The upper Lyons is hard, light colored, exactly as in the quarries NW of {{place|Colorado Sanatorium}} at {{place|Boulder, Colorado|Boulder}}. I have not made copious notes on the Arkins anticline and syncline, because they are normal en echelon folds and the map gives about all the data. At the northern end of
@@ -518,8 +535,8 @@ Following birds were overlooked in {{place|Ft. Collins, Colorado|Ft. Collins}} l
 {{taxon|Towhees}}- spurred or arctic, do not know which, abundant along foothills in brushy places
 A large hawk- probably {{taxon|Buteo swainsonii|Swainson’s}} or {{taxon|Buteo jamaicensis|red tailed (western)}}
 {{taxon|Colaptes|Flicker}}- common
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Loveland, Colorado|Loveland Colo.}}, {{dated|1907-10-12|Oct 12/07}}
 
@@ -533,8 +550,8 @@ The western escarpment here is crowned by the Lykins, the Lyons forming a bench 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/67|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/67?oldid=3614841}}
 
 of the medial line of the valley – is not at all calcareous, but some horizons in the upper half are slightly , others highly, calcareous, almost limestone. Reached hotel at 6:30 after a hard days work . Mapped a number of folds, including those around {{place|Loveland, Colorado|Loveland}}filter bed  and two S of {{place|Dry Creek, Colorado|Dry Creek}}.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Bertoud, Colorado|Berthoud, Colo.}} {{dated|1907-10-15|Oct 15, 1907}}
 
@@ -542,8 +559,10 @@ of the medial line of the valley – is not at all calcareous, but some horizons
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/68|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/68?oldid=3614842}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Bertoud, Colorado|Berthoud}} {{dated|1907-10-16|Oct 16, 1907}}
 
 	Started with team at 7:30 a.m. West of {{place|Stever Reservoir}} found {{place|Tepee Buttes}} with {{taxon|Baculites  compressus}}, {{taxon|Ostrea inornata}} and {{taxon|Lucina occidentalis}} in quantities but in poor condition.  There were many fossil fragments. Did not stop to collect any. Found also {{taxon|Inoceramus barabini}}, fragments of a large {{taxon|Heteroceras}} and probably a medium sized {{taxon|Ptychoceras}}. 150 yards W of the buttes The Hygiene sandstone is found dipping east about 15˚, not at all calcareous. To the west the basal Pierre shales and Niobrara dip E 42˚, the Benton shales are somewhat crushed and the boulder mesa cap over the Benton is well consolidated. Just within the canyon the Dakota is badly tangled. A section of the medial shales is thus: 
@@ -559,8 +578,8 @@ of the medial line of the valley – is not at all calcareous, but some horizons
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/71|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/71?oldid=3614843}}
 
 hotel at 5:30. It has been very warm in the sun today.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Bertoud, Colorado|Berthoud}}, {{dated|1907-10-17|Oct 17, 1907}}
 
@@ -568,9 +587,9 @@ hotel at 5:30. It has been very warm in the sun today.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/72|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/72?oldid=3614844}}
 
-decidedly lime concretions. Contained a few {{taxon|Inoceramus sagensis}} and probably {{taxon|Inoceramus barabini|I. barabini}}. Collected {{taxon|Vallonia cyclophorella}}, {{taxon|Oreohelix strigosa}}, {{taxon|Zonitoides arboreus}} and {{taxon|Pupilla|Pupilla sp.}} where {{place|Little Thompson Creek, Colorado|little Thompson}} breaks through the “Dakota” ridge. Went south nearly to {{place|St. Vrain Creek, Colorado|St. Vrain}}. Reached Hotel at 5:30. Cloudy, with raw wind early forenoon, warm and bright afternoon. 
-<br />
-<br />
+decidedly lime concretions. Contained a few {{taxon|Inoceramus sagensis}} and probably {{taxon|Inoceramus barabini|I. barabini}}. Collected {{taxon|Vallonia cyclophorella}}, {{taxon|Oreohelix strigosa}}, {{taxon|Zonitoides arboreus}} and {{taxon|Pupilla|Pupilla sp.}} where {{place|Little Thompson Creek, Colorado|little Thompson}} breaks through the “Dakota” ridge. Went south nearly to {{place|St. Vrain Creek, Colorado|St. Vrain}}. Reached Hotel at 5:30. Cloudy, with raw wind early forenoon, warm and bright afternoon.
+
+{{new-entry}}
 
 Berthoud, Oct 18, 1907
 
@@ -578,9 +597,9 @@ Berthoud, Oct 18, 1907
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/73|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/73?oldid=3614845}}
 
-Returned to the hotel for dinner at noon, and packed the fossils from W and SW for shipment. In the afternoon started north at 2 p.m., then east to E line of Loveland Quadrangle around {{place|Twin Mounds|twin Mounds}}, thence S of {{place|Little Thompson Creek, Colorado|Little Thompson}} , where I found Fox Hills strata containing {{taxon|Cardium speciosum}}  etc. E of road and S of creek. Reached hotel at 5 p.m. Took 6:25 train for {{place|Loveland, Colorado|Loveland}} arriving practically on time and after engaging the little black team I used last week I went to the {{place|Bushnell Hotel}}. Nearly in collision with runaway car as we pulled into {{place|Loveland, Colorado|Loveland}}. 
-<br />
-<br />
+Returned to the hotel for dinner at noon, and packed the fossils from W and SW for shipment. In the afternoon started north at 2 p.m., then east to E line of Loveland Quadrangle around {{place|Twin Mounds|twin Mounds}}, thence S of {{place|Little Thompson Creek, Colorado|Little Thompson}} , where I found Fox Hills strata containing {{taxon|Cardium speciosum}}  etc. E of road and S of creek. Reached hotel at 5 p.m. Took 6:25 train for {{place|Loveland, Colorado|Loveland}} arriving practically on time and after engaging the little black team I used last week I went to the {{place|Bushnell Hotel}}. Nearly in collision with runaway car as we pulled into {{place|Loveland, Colorado|Loveland}}.
+
+{{new-entry}}
 
 {{place|Loveland, Colorado|Loveland}}, {{dated|1907-10-19|Oct 19, 1907}}
 
@@ -589,8 +608,8 @@ Returned to the hotel for dinner at noon, and packed the fossils from W and SW f
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/74|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/74?oldid=3614846}}
 
 there has been some prospecting. Then crossed into {{place|Redstone Canyon, Colorado|Redstone Canyon}} and traced the Fountain, Lyons and Lykins up about 3 ½ miles to where they ended. Fed the horses here at just noon. Reached the hotel at 3:15 p.m. having driven about 45 miles with a fine team. Reached {{place|Boulder, Colorado|Boulder}} at 5:55 p.m.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Boulder, Colorado|Boulder}}, {{dated|1907-10-22|Oct. 22, 1907}}
 
@@ -602,9 +621,9 @@ there has been some prospecting. Then crossed into {{place|Redstone Canyon, Colo
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/76|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/76?oldid=3614847}}
 
-Dodds with horse and buggy. We reached {{place|Hotel Northern}} at {{place|Ft. Collins, Colorado|Ft. Collins}} at 6 p.m. There seems now no possible doubt about the Fossil Ridge sandstone being continuous with the Hygiene. 
-<br />
-<br />
+Dodds with horse and buggy. We reached {{place|Hotel Northern}} at {{place|Ft. Collins, Colorado|Ft. Collins}} at 6 p.m. There seems now no possible doubt about the Fossil Ridge sandstone being continuous with the Hygiene.
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins, Colo.}}, {{dated|1907-10-23|Oct 23, 1907}}
 
@@ -612,9 +631,9 @@ Dodds with horse and buggy. We reached {{place|Hotel Northern}} at {{place|Ft. C
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/77|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/77?oldid=3614848}}
 
-small specimens, and Dodds found {{taxon|Halymenites major}}. The concretions are just as at {{place|Fossil Ridge}}. It is possible that it is a fold. N of {{place|Trilby schoolhouse|Trilby schoolhouse}} we found a good exposure just S of Brickyard and E of RR track. At base there is a transition zone from shale to sandstone . Above this are about 40 feet  of rather soft, irregularly bedded sandstone, then a covered zone of  a few feet, above which is he hard, massive, concretionary, fossiliferous sandstone about 50 feet, the whole dipping easterly 9˚. Reached Hotel at 6 p.m. I have been ill all afternoon having sever intestinal pains. Got a shave and haircut in evening and at 8 p.m. Chas. A Lory called on us. 
-<br />
-<br />
+small specimens, and Dodds found {{taxon|Halymenites major}}. The concretions are just as at {{place|Fossil Ridge}}. It is possible that it is a fold. N of {{place|Trilby schoolhouse|Trilby schoolhouse}} we found a good exposure just S of Brickyard and E of RR track. At base there is a transition zone from shale to sandstone . Above this are about 40 feet  of rather soft, irregularly bedded sandstone, then a covered zone of  a few feet, above which is he hard, massive, concretionary, fossiliferous sandstone about 50 feet, the whole dipping easterly 9˚. Reached Hotel at 6 p.m. I have been ill all afternoon having sever intestinal pains. Got a shave and haircut in evening and at 8 p.m. Chas. A Lory called on us.
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins}}, {{dated|1907-10-24|Oct 24, 1907}}
 
@@ -627,8 +646,8 @@ friable, impure sandstone, irregularly bedding, dipping E 12˚ and in passing N 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/79|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/79?oldid=3614849}}
 
 a few fossils at {{place|Rocky Ridge Reservoir No----}} and reached livery bar at 4 :15. It was cloudy at daylight, but not cold. Temperature fell during the day. At noon it began to sprinkle and at 4 p.m. developed into light rain. Prepared a box of fossils for shipment before supper. Still drizzling at bedtime.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Ft. Collins, Colorado|Ft. Collins}}, {{dated|1907-10-25|Oct. 25, 1907}}
 
@@ -640,8 +659,10 @@ at our 1906 camp 2 miles further east. Massive greenish, yellowish sandstones  a
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/81|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/81?oldid=3614883}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Windsor, Colorado|Windsor, Colo.}}, {{dated|1907-10-26|Oct. 26, 1907}}
 
 	A cold frosty morning. My eye is somewhat better but by no means well. Quite warm soon after reaching the bluffs where we worked yesterday. The base of the bluffs at water’s edge and for some distance (perhaps 50 ft. or more)is of black shales much like the Pierre at {{place|Boulder, Colorado|Boulder}}. Saw no fossils in it. Above it passes gradually into yellow sandy shales and sandstones (very friable). In the black shales  25  ft below the yellow we found {{taxon|Veniella humilis}} but none above. In the yellow sandstone found {{taxon|Nucula|Nucula sp.}}, but not in the black shale except at the very top. {{taxon|Cardium speciosum}}, {{taxon|Mactra}} and {{taxon|Tellina}} common to both horizons. Have not seen what Dodds has. Started up stream at 11 a.m. After lunching and 
@@ -652,10 +673,9 @@ feeding the horse we drove to a gulch 2  miles SW of {{place|Windsor, Colorado|W
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/83|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/83?oldid=3614884}}
 
-like a sewer, in spite of its volume, but it is clear west of town. It is probably the waste drain from the sugar factory. Reached {{place|Windsor, Colorado|Windsor}} at 4 p.m., packed our material and shipped it. Dodds left on 5:30 train for {{place|Ft. Collins, Colorado|Ft. Collins}} and I took the 8:00 o’clock train for {{place|Greeley, Colorado|Greeley}}, where J. L. Bartlett met me at the depot. Nellie had gone up from {{place|Boulder, Colorado|Boulder}} on the morning train. 
+like a sewer, in spite of its volume, but it is clear west of town. It is probably the waste drain from the sugar factory. Reached {{place|Windsor, Colorado|Windsor}} at 4 p.m., packed our material and shipped it. Dodds left on 5:30 train for {{place|Ft. Collins, Colorado|Ft. Collins}} and I took the 8:00 o’clock train for {{place|Greeley, Colorado|Greeley}}, where J. L. Bartlett met me at the depot. Nellie had gone up from {{place|Boulder, Colorado|Boulder}} on the morning train.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Greeley, Colorado|Greeley}}, {{dated|1907-10-27|Oct 27, 1907}}
 
@@ -664,8 +684,8 @@ like a sewer, in spite of its volume, but it is clear west of town. It is probab
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/84|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/84?oldid=3614885}}
 
 tomorrow. It has been a beautiful day.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Bertoud, Colorado|Berthoud, Colo.}}, {{dated|1908-05-28|May 28, 1908}}
 
@@ -673,9 +693,9 @@ tomorrow. It has been a beautiful day.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/85|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/85?oldid=3614886}}
 
-by sandy shales, then black shales, with very hard, massive sandstones and conglomerates below. Found no conglomerate in the easternmost ridge of the basal sandstone which would represent the off shore deposit. Reached hotel at 6:05 p.m. Retired early, very tired. Cloudy all day, sprinkling more or less. 
-<br />
-<br />
+by sandy shales, then black shales, with very hard, massive sandstones and conglomerates below. Found no conglomerate in the easternmost ridge of the basal sandstone which would represent the off shore deposit. Reached hotel at 6:05 p.m. Retired early, very tired. Cloudy all day, sprinkling more or less.
+
+{{new-entry}}
 
 {{place|Bertoud, Colorado|Berthoud}}, {{dated|1908-05-29|May 29, 1908}}
 
@@ -689,8 +709,8 @@ contains very little limestone and none in upper part. Well up west slope of ant
 
 this extends nearly to crest of the Lyons escarpment. Fountain west of Lyons escarpment practically same as in the anticline first visited. Collected a number of {{taxon|cephalopods}} , including two large ones, in the Benton on way back. Reached hotel at 5 p.m., very tired, back aching. Clear and quite warm out of the wind.
 	{{place|Mt. Mahogany}} does not constitute a compact formation on the sandstone slopes ending abruptly at the grass line below as it does at {{place|Boxelder Creek, Colorado|Box Elder}}. It is more scattered.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Berthoud, Colorado|Berthoud, Colo.}}, {{dated|1908-05-30|May 30, 1908}}
 
@@ -732,8 +752,10 @@ Left {{place|Berthoud, Colorado|Berthoud}} on the 3:56 p.m. train reaching {{pla
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/91|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/91?oldid=3614888}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Boulder, Colorado|Boulder}}, {{dated|1908-06-03|June 3, 1908}}
 
 	Instead of attending commencement and taking my B. A. degree I started north on foot, up the Lykins lateral valley NW of {{place|Colorado Sanitarium}}. There the Lykins extends up well on the flanks of the Lyons, with Fountain at top of second hogback. Morrison sandstones, limestones and clays (latter partly calcareous) pretty well exposed. In middle of Dakota shales 2 miles N found a stratum filled with plant fragments and a few poorly preserved fish scales and vertebra. Here medial sandy shales are 90 ft. thick between the well defined walls, dip E 80˚. 
@@ -748,16 +770,20 @@ Reached home at 5:30 p.m., very tired. An almost cloudless day, which would have
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/93|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/93?oldid=3614889}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Boulder, Colorado|Boulder, Colo.}}, {{dated|1908-06-04|June 4, 1908}}
 
 	Bright morning with quite a cool breeze. Started north via {{place|Red Hill, Colorado|Red Hill}} road at 8:50 a.m., horseback. At {{place|Four Mile, Colorado|4-Mile}} and northwardLyons has a tendency to separate into two or more ridges, but with no intervening Lykins. Just north of {{place|Left Hand Creek, Colorado|Left Hand}} a porphyry dyke occurs in the lower Lykins, 50 ft. or more below the Crinkled sandstone, its lower limit is near the Lykind-Lyons contact. Estimated its thickness at 200 feet. The Crinkled forms a low ridge from here to the {{place|St. Vrain Creek, Colorado|St. Vrain}}. In {{place|Lykins Gulch, Longmont, Colorado|Lykins gulch}} is an almost complete exposure of Lykins and Morrison. Here there are about 50 or 60 feet of deep red sandy shales below the Crinkled and 300 or 400 feet of same above. The Lyons is widely spread here. Reached home at 6 p.m.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/94|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/94?oldid=3614890}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Boulder,Colorado|Boulder, Colo.}} {{dated|1908-06-05}}June 5, 1908
 
 	Started south over {{place|Chataqua Mesa, Colorado|Chatauqua mesa}} on foot. Lyons here flanks the Fountain with tendency to form a low ridge. Collected Quaternary fossils in {{place|Bear Canyon, Colorado|Bear Canyon}}. On S side of canyon found upper Morrison shales well exposed. “Dakota” basal sandstone here about 75 ft thick, medial shales 50 ft.  and upper sandstone with intercalated clay bands 60 ft. No fossils. Shales look as at {{place|Owl Canyon, Colorado|Owl Canyon}}, lower part covered. No conglomerate at base of the “Dakota”. Went S nearly to {{place|South Boulder Creek, Colorado|S. Boulder Creek}}, but found no exposures of anything later than Fountain except a little Lyons on flanks of {{place|Green Mountain, Colorado|Flatirons}} of {{place|South Boulder Creek, Colorado|S. Boulder Creek}}, and Dakota where gulches expose it. Mesa debris almost tops the Dakota ridge on divides between E-W gulches. On return found 150 ft. of 
@@ -765,8 +791,8 @@ Reached home at 5:30 p.m., very tired. An almost cloudless day, which would have
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/95|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/95?oldid=3614891}}
 
 Hygiene sandstone exposed on east side of isolated hill in mouth of {{place|Bear Canyon, Colorado|Bear Canyon}}, dip practically vertical, strike N 33˚ W, containing {{taxon|Inoceramus|Inoceramus spp.}} and {{taxon|Baculites compressus}}.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Boulder, Colorado|Boulder, Colo.}}, {{dated|1908-06-20|June 20, 1908}}
 
@@ -778,10 +804,9 @@ many places, though there is but little on the higher mesas. Following up creek 
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/97|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/97?oldid=3614892}}
 
-exposed but saw no limestone. 
-<br />
-<br />
+exposed but saw no limestone.
 
+{{new-entry}}
 
 {{place|Boulder,Colorado|Boulder, Colo.}}, {{dated|1908-07-22|July 22, 1908}}
 
@@ -790,8 +815,8 @@ exposed but saw no limestone.
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/98|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/98?oldid=3614893}}
 
 folds. Then we travelled north to {{place|Bear Creek Canyon, Colorado|Bear Creek Canyon}}, at Col. E. E. Hughes’ country place. There we found lower Carboniferous fossils in a sandstone at about the same horizon as at {{place|Boxelder Creek, Colorado|Box Elder}}, just at top of a red sandstone very dark red at very top and overlaid by a very coarse pure white sandstone or conglomerate. A few feet of shales intervene, the weathering of which has tumbled the white sandstone into blocks tilted in all directions, so that we could not tell whether they were conformable. Reached {{place|Dakan Ranch, Colorado|Dakan ranch}}at 7:15.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Perry Park, Colorado|Perry Park}}, {{dated|1908-07-23|July 23, 1908}}
 
@@ -842,8 +867,8 @@ Niobrara l.s. ridge, about------------------------------------------------------
 
 ((drawing in field book))
 S of road found Dakota in place and reached {{place|Dakan Ranch|Dakan ranch}} at 4 p.m., very tired and spent balance of day resting. Rained again.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Perry Park, Colorado|Perry Park, Colo.}}, {{dated|1908-07-25|July 25, 1908}}
 	Up at 5 a.m. breakfast at 6 a.m. Another bright, hot morning. Dakan and I worked S from ranch, next to foothills. Formations badly broken, faulted and folded. At {{place|Bear Creek Canyon, Colorado|Bear Creek canyon}}  (Col. Hughes Country Pl.) measured a section as follows:
@@ -862,20 +887,22 @@ Just below latter we found thin band 1-2 ft very rich red, hard, fine grained cl
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/103|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/103?oldid=3614895}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Perry Park, Colorado|Perry Park, Colo.}}, {{dated|1908-07-26|July 26, 1908}}
 
-	Up at 6 a.m., breakfast at 6:45. Started at 9:55 in 2-seated carriage, with Frank Dakan for driver. Very bright, hot morning, Reached {{place|Sedalia, Colorado|Sedalia}} at 11:40. Dined at hotel and got train at 1 p.m. Left {{place|Denver, Colorado|Denver}} at 4 p.m. and reached {{place|Boulder, Colorado|Boulder}} on time. 
+	Up at 6 a.m., breakfast at 6:45. Started at 9:55 in 2-seated carriage, with Frank Dakan for driver. Very bright, hot morning, Reached {{place|Sedalia, Colorado|Sedalia}} at 11:40. Dined at hotel and got train at 1 p.m. Left {{place|Denver, Colorado|Denver}} at 4 p.m. and reached {{place|Boulder, Colorado|Boulder}} on time.
 
-<br />
-<br />
+{{new-entry}}
+
 {{place|Boulder, Colorado|Boulder, Colo.}} {{dated|1908-08-10|Aug.10, 1908}}
 
 	Cloudy, cool evening. Left for {{place|Ft. Collins, Colorado|Ft. Collins}} on 7:50 train, taking Sievert Rohwer with me, late, starting at 8 p. m. Fare, two round trips, 5.00. Arrived in {{place|Ft. Collins, Colorado|Ft. Collins}}9:45, went to {{place|Tedman House}}. Has rained here.
 
-<br />
-<br />
+{{new-entry}}
+
 {{place|Ft. Collins, Colorado|Ft. Collins, Colo.}}, {{dated|1908-08-11|Aug 11, 1908}}
 
 	Up at 5:45, breakfast at 6:10. Started with team from {{place|Tate and Walker's Stable|Tate and Walker’s stable}} at 6:50, misty and cold. Stopped at
@@ -886,10 +913,9 @@ Just below latter we found thin band 1-2 ft very rich red, hard, fine grained cl
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/105|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/105?oldid=3614896}}
 
-in Lykins s.s. but found none. The Carboniferous limestones contain many crinoid fragments, mostly small, but we found nothing else. Continued misting and raining, so at 4 p.m. we drove to {{place|Ramer's Hotel|Ramer’s hotel}} at {{place|Livermore, Colorado|Livermore}}, arriving much chilled. Roads very muddy. After supper talked with Prof. George and got better directions  as to where he and Crawford found fossils in the Lyons. 
+in Lykins s.s. but found none. The Carboniferous limestones contain many crinoid fragments, mostly small, but we found nothing else. Continued misting and raining, so at 4 p.m. we drove to {{place|Ramer's Hotel|Ramer’s hotel}} at {{place|Livermore, Colorado|Livermore}}, arriving much chilled. Roads very muddy. After supper talked with Prof. George and got better directions  as to where he and Crawford found fossils in the Lyons.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Livermore, Colorado|Livermore, Colo.}}, {{dated|1908-08-12|Aug. 12, 1908}}
 
@@ -930,8 +956,7 @@ The bluff to the SE is about 250 or 300 ft high, alternating red s.s. and congl.
 
 more of a red. Found {{taxon|Productus cora}} and fine calcite crystals in next to top limestone in {{place|Owl Creek Canyon, Colorado|Owl Canyon}}. Loaded plate holders and went to bed early.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Livermore, Colorado|Livermore, Colo.}}, {{dated|1908-08-13|Aug. 13, 1908}}
 	
@@ -969,8 +994,7 @@ Niobrara
 
 region in the Tertiary formations further east.”)). It cleared in afternoon. We found no fossils. Reached {{place|Livermore, Colorado|Livermore}} at 5:10 p.m.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Livermore, Colorado|Livermore, Colo.}}, {{dated|1908-08-14|Aug 14, 1908}}
 
@@ -984,8 +1008,10 @@ pinkish and whitish s.s. of the Lyons as further S.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/112|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/112?oldid=3614899}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Loveland, Colorado|Loveland}}, {{dated|1908-08-15|Aug. 15,1908}}
 	Started west at 7 a.m. with team from {{place|Branson and Charlton's Stable|Branson and Charlton’s stable}}. Roads quite muddy. Reach gulch where home supply and Handy ditches leave foothills at 8:15. 
 	At top of Lykins red beds are of massive pink sandstone, overlaid by slightly pinkish but nearly gray massive transition (in color) beds, all weathering roundly, above which is a gray slabby sandstone weathering  in low angular blocks and benches, some layers pitted by dissolution of greenish clay or lime nodules ¼ to ½ inch in diameter. Yellowish sandstone and one foot angular limestone found above this at {{place|Boxelder Creek, Colorado|Box Elder}} is missing here. Above this is a hard, bluish, thick bedded limestone, outer surface with calcite streaks probably 20 ft. thick showing in several ledges in talus slope, overlaid by 
@@ -1001,14 +1027,14 @@ that at  {{place|Boxelder Creek, Colorado|Box Elder}}, but no thin nodular one. 
 gradually into the much weathered upper sandstone containing plant stems, perhaps seaweeds.
 	{{taxon|Cercocarpus|Mountain mahogany}} about as abundant on sandstone ridges here as at {{place|Owl Creek Canyon, Colorado|Owl Canyon}}.
 	Left {{place|Ft. Collins, Colorado|Ft. Collins}} on 2:39 train, reaching {{place|Boulder, Colorado|Boulder}} at 4 p.m. has been clear, roads drying rapidly.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Longmont, Colorado|Longmont, Colo.}}, {{dated|1908-09-30|Sept. 30, 1908}}
 
 Left {{place|Boulder, Colorado|Boulder}} at 7:55 p.m. reached here on time. Went to {{place|Imperial Hotel}} and was in bed before 9 pm. Kerosene lamps in rooms, but good room and fine bed.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Lyons, Colorado|Lyons, Colo.}}, {{dated|1908-10-01|Oct 1 1908}}.
 
@@ -1017,8 +1043,8 @@ Left {{place|Boulder, Colorado|Boulder}} at 7:55 p.m. reached here on time. Went
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/115|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/115?oldid=3614903}}
 
 Left for {{place|Lyons, Colorado|Lyons}} on 10:05 train, went to {{place|Burlington Hotel}}, changed clothes and worked north on foot along a syncline , then to the east over an anticline. Many {{taxon|Gymnorhinus cyanocephalus|piñon jays}} along syncline. After dinner started up S. fork of  {{place|St. Vrain Creek, Colorado|St. Vrain}} on horseback, horse from {{place|Cantwell’s}}. On contact of Fountain with granite several {{taxon|Sialia mexicana anabelae|chestnut backed bluebirds}}. Very hard work on high, steep ridges. Mapped about 12 square miles today. Reached hotel at 6 p.m., very tired. Several {{taxon|Buteo|buzzards}} and {{taxon|Accipiter|sparrow hawks}} seen.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Lyons, Colorado|Lyons}}, {{dated|1908-10-02|Oct. 2, 1908}}
 
@@ -1030,10 +1056,9 @@ ward the Fountain rests on red granite. Along road just before leaving the creek
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/117|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/117?oldid=3614904}}
 
-some limestone bands. 
+some limestone bands.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Lyons, Colorado|Lyons, Colo.}}, {{dated|1908-10-03|Oct 3, 1908}}
 	
@@ -1042,20 +1067,20 @@ some limestone bands.
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/118|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/118?oldid=3614905}}
 
 to the hotel at 4:15 expecting to take the train and learned that there is not train until Monday. Saw {{taxon|Sialia currucoides|mt. Bluebirds}} east of {{place|Rabbit Mountain, Colorado|Rabbit Mt.}} {{taxon|Sturnella|Meadowlarks}} singing.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Lyons, Colorado|Lyons, Colo.}}, {{dated|1908-10-04|Oct. 4, 1908}}
 
 	Drove from {{place|Lyons, Colorado|Lyons}} to {{place|Longmont, Colorado|Longmont}} in cold east wind and caught train to {{place|Boulder, Colorado|Boulder}}.
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1908-10-06|October 6, 1908}}
 
 	Left {{place|Boulder, Colorado|Boulder}} on interurban car at 2:30 p.m. Left {{place|Denver, Colorado|Denver}} at 5 p.m., dined on train, reached {{place|Carr, Colorado|Carr}} at 8:55, half an hour late. Got a room at the new {{place|Depot Cafe|“Depot Café”}}.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Carr, Colorado|Carr, Colo.}}, {{dated|1908-10-07|Oct.7, 1908}}
 
@@ -1071,10 +1096,9 @@ crops, overlaid by granite and gneiss debris, with s.s fragments more common to 
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 2.pdf/121|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_2.pdf/121?oldid=3614907}}
 
-miles I had to lie down several times for a moment or two. 
+miles I had to lie down several times for a moment or two.
 
-<br />
-<br />
+{{new-entry}}
 
 {{place|Carr, Colorado|Carr, Colo.}}, {{dated|1908-10-08|Oct 8, 1908}}
 

@@ -5,8 +5,10 @@
 [[Author:Junius Henderson|Junius Henderson]]<br>
 Field Notebook<br>
 No. 1<br>
-1905 - April 7, 1907<br>
-<br>
+1905 - April 7, 1907
+
+{{new-entry}}
+
 Archival<br>
 Products<br>
 A division of Library Binding Service<br>
@@ -32,8 +34,10 @@ No. 1<br>
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/3|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/3?oldid=3614104}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Boulder, Colorado|Boulder, Colo}}.
 
 {{dated|1905-07-28|July 28, 1905}}. Saw {{taxon|Sayornis saya|Say Phoebe}} and {{taxon|Carduelis pinus|siskin}}, {{taxon|Turdus migratorius|America Robin}}, {{taxon|Colaptes auratus|Northern Flicker}}.
@@ -46,8 +50,10 @@ No. 1<br>
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/4|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/4?oldid=3614103}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{Dated|1905-08-01|August 1, 1905}}.
 Special rate, Denver to Florissant, $4.50, pd $9.00 for Ramaley and I. Left Denver at 9:40 (40 min. late) on Colo. Midland (via C & S) for Florissant. A few miles before {{place|Castle Rock, Colorado|Castle Rock}} appeared scrub oaks on hills and long leafed pines in valleys. In valleys we saw perfectly stratified horizontal formations, with hills capped by hard horizontal rocks. Further north recognized Niobrara Ridge, Dakota Ridge and Triassic Ridge to the west of the RR. In one place, rocks like Boulder Red Rocks – possibly a short resistant zone in the Jura. Apparently the oaks are southern species pushing northward from {{place|New Mexico}}, hence occupying dry positions, while the {{taxon|Pinus|pine}}s,
 
@@ -85,8 +91,10 @@ Up first gulch W and N of Station 1.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/9|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/9?oldid=3614101}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Florissant, Colorado}}
 {{dated|1905-08-02|Aug. 2}}
 
@@ -97,8 +105,9 @@ Up first gulch W and N of Station 1.
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/10|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/10?oldid=3614105}}
 
 Station 4 ((5)) next cut above Station 3 ((4))  being through a sort of breccia or conglomerate  of (apparently) an igneous rock containing quartz pebbles. Do not exactly understand it. Further up the RR and consequently a little higher appears a 25 foot exposure of coarse, rudely stratified rather angular gravel including at least  one continuous bed of water worn  boulders. The strata are nearly horizontal and are truncated by the slope of the hill at the west. Next cut up the hill is in granite, the gravels resting upon the granite. Collected about 275 specimens at station 4 ((5)) today. Hot a.m., cool, cloudy p.m. ((in text for Aug 3rd Henderson corrects 3 to 4 and 4 to 5))
-<br />
-<br />
+
+{{new-entry}}
+
 {{dated|1905-08-03|Aug. 3}}.
 Hot, bright morning. Went up creek after breakfast, found another lava breccia on banks of creek  west of  stations 4 and 5. Packed the
 
@@ -129,8 +138,8 @@ timbers left therein. It is more probable that he found one of the holes left by
 Saw a {{taxon|kingfisher}}. Daniel Nevitt, the hotel keeper says the shaft above mentioned was sunk in search of coal because the shales got blacker as depth increased. He also says the Platte is generally not so muddy. 
 
 Saw a {{taxon|bat}} last night and another this evening.
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1905-08-04|Aug. 4}}<br>
 Yesterday and the day before the sun was intensely hot and dazzling in the
@@ -154,9 +163,9 @@ Lunch 10<sup>¢</sup>, cotton 10<sup>¢</sup>, twine 5<sup>¢</sup>.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/17|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/17?oldid=3614107}}
 
-The fossil stump above referred to is on a hill left by the erosion of the Lake Beds in the southern portion of the Basin and tradition has it that his measurements of the strata were made at the northwest corner of the hill. <br />
-<br />
+The fossil stump above referred to is on a hill left by the erosion of the Lake Beds in the southern portion of the Basin and tradition has it that his measurements of the strata were made at the northwest corner of the hill.
 
+{{new-entry}}
 
 {{dated|1905-08-05|Aug 5}}. Another bright, hot morning. The RR people keep 3 or 4 engines steamed up here all the time to help trains up the steep grade to Divide. They must waste much coal, as the escape valves hiss by the hour.
 
@@ -172,9 +181,9 @@ Went to the S end of the Park and over into the Arkansas drainage. If it be true
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/19|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/19?oldid=3614108}}
 
-Arkansas and South Platte drainage. On the Arkansas side of the divide we found a park which may have originally included the lake, but we saw no sedimentary deposits there, while in all portions of what we know to have been included we find numerous outcrops. The topography there is also somewhat different, particularly in respect to the lack of steep slopes and mountain walls. It may be that there are lake beds there, but unexposed on account of gentle slopes not favoring erosion. 
-<br />
-<br />
+Arkansas and South Platte drainage. On the Arkansas side of the divide we found a park which may have originally included the lake, but we saw no sedimentary deposits there, while in all portions of what we know to have been included we find numerous outcrops. The topography there is also somewhat different, particularly in respect to the lack of steep slopes and mountain walls. It may be that there are lake beds there, but unexposed on account of gentle slopes not favoring erosion.
+
+{{new-entry}}
 
 {{dated|1905-08-06|Aug 6}}. Fine, bright, Sunday morning, but threatens a hot forenoon. Haven’t slept at all well this trip. Am tired and sore from the hard rock work of Friday and Saturday and my [[:w:catarrh|catarrh]] has been very bad for several days on account of getting heated in the forenoon, then chilled by the sudden cooling of the atmosphere in the afternoon, accompanied by wind and sprinkles of rain, this occurring every day. 
 
@@ -183,9 +192,9 @@ Arkansas and South Platte drainage. On the Arkansas side of the divide we found 
 
 Mr. Nevitt, the hotel keeper, gave us some specimens of quartz and amazon stone  crystals this morning from Topaz Peak, sometimes called {{place|Crystal Peak, Teller, CO|Crystal Mt.}}, due north of Florissant. He also accompanied me to some fossil beds SW of the hotel, about a mile, this morning, where we did a little exploring, preparatory to tomorrow’s work. 
 
-	In walking past Station 1 this evening I noticed that the dip is NW which conforms to the idea of an uplift from the SE. Have not noticed any dip before. 2 {{taxon|nighthawk|night hawks}} very tame, apparently nesting, as they circled over one spot  and soon alighted after we looked away. 
-<br />
-<br />
+	In walking past Station 1 this evening I noticed that the dip is NW which conforms to the idea of an uplift from the SE. Have not noticed any dip before. 2 {{taxon|nighthawk|night hawks}} very tame, apparently nesting, as they circled over one spot  and soon alighted after we looked away.
+
+{{new-entry}}
 
 {{dated|1905-08-07|Aug 7}}. Bright warm morning. Started for the fossil beds at 8:15 a.m. Did not succeed very well at the place 1 mile SW of town, but got nearly 100 leaves and a few {{taxon|insect}}s. We closed our collecting at 1:30 p.m. and brought our outfit to the hotel where we began 
 
@@ -195,9 +204,9 @@ packing. The fossils are all first wrapped in paper and packed in pasteboard box
 
 	Discovered strong dip to the NW at our morning station, while nearby it was strong  to the SW. Saw {{taxon|Zenaida macroura|mourning doves}} and {{taxon|Troglodytes aedon|house wrens}}. Got specimens packed in 4 wooden boxes. 
 
-	Went to spring  in evening and were caught in hard rain. The afternoon was clearer than usual. Am completely used up by the heavy digging for the last week and am heartily glad we are through.<br />
-<br />
+	Went to spring  in evening and were caught in hard rain. The afternoon was clearer than usual. Am completely used up by the heavy digging for the last week and am heartily glad we are through.
 
+{{new-entry}}
 
 {{dated|1905-08-08|Aug 8}}. Bright morning but soon clouded. Am spending the day chiefly in resting from the fatiguing work recently done. 
 
@@ -211,8 +220,10 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/23|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/23?oldid=3614535}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{dated|1905-08-09|Aug. 9}}
 
 	Cool morning but got warm. Breakfasted at Depot restaurant, caught train to {{place|Denver, Colorado|Denver}} at 7:30 a.m., half hour late. Lunched at {{place|Oxford, Colorado|Oxford}} and caught 1 p.m. train for {{place|Boulder, Colorado|Boulder}}. 
@@ -369,8 +380,8 @@ Shy (?) of sugar, cocoa, cream, bacon
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/27|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/27?oldid=3614536}}
 
 Silver Lake- Arapahoe Trip
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1905-08-29|'''Aug. 29, 1905'''}}
 
@@ -383,9 +394,9 @@ and at bed time was warm and sprinkling with no wind. Watts and I reached {{plac
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/29|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/29?oldid=3614537}}
 
-boys had built a leanto, thinking perhaps we might not reach them. We got everything dry, put up two tents, Watts putting his cot and most of the outfit in one tent while we spread pine boughs in the other and laid very comfortable beds of blankets, quilts and canvass (sic). Markman is now putting up a {{taxon|Spizella breweri|Brewer Sparrow}} as I write these notes by a campfire preparatory to going to bed. Only birds seen were a {{taxon|Cyanocitta stelleri|long crested jay}}, {{taxon|Nucifraga columbiana|Clark Crows}}, {{taxon|Perisoreus canadensis|Rocky Mt. jays}}, {{taxon|Poecile|chickadees}}, {{taxon|Junco|juncos}}, {{taxon|Sialia currucoides|Mt. Bluebirds}}. Sievert saw a {{taxon|Colaptes|flicker}}. Watts is to sleep on his cot in the supply tent while the rest of us sleep in the other tent. 
-<br />
-<br />
+boys had built a leanto, thinking perhaps we might not reach them. We got everything dry, put up two tents, Watts putting his cot and most of the outfit in one tent while we spread pine boughs in the other and laid very comfortable beds of blankets, quilts and canvass (sic). Markman is now putting up a {{taxon|Spizella breweri|Brewer Sparrow}} as I write these notes by a campfire preparatory to going to bed. Only birds seen were a {{taxon|Cyanocitta stelleri|long crested jay}}, {{taxon|Nucifraga columbiana|Clark Crows}}, {{taxon|Perisoreus canadensis|Rocky Mt. jays}}, {{taxon|Poecile|chickadees}}, {{taxon|Junco|juncos}}, {{taxon|Sialia currucoides|Mt. Bluebirds}}. Sievert saw a {{taxon|Colaptes|flicker}}. Watts is to sleep on his cot in the supply tent while the rest of us sleep in the other tent.
+
+{{new-entry}}
 
 '''{{dated|1905-08-30|Aug. 30 –05}}'''
 
@@ -406,9 +417,9 @@ have seen except in 1902, while there is more snow in many other places  than la
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/33|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/33?oldid=3614539}}
 
 overtaken. Watts and I were on our “last legs” but the others were not so tired. I felt the trip more than I ever have before, though kept up well on the way up. Carrying the heavy load  without pack  harness used me up and Watts probably felt the altitude, as usual the first day out. Had fried eggs for supper and they were good. Watts ate no supper. Ed Housel and another man from the sawmill called in the evening. It rained again as we were going to bed. 
-	Birds seen today {{taxon|Nucifraga columbiana|Clark’s Crow}} and {{taxon|Cyanocitta stelleri|Rocky Mt jay}}, {{taxon|chickadee|chickadees}} and {{taxon|junco|juncos}} common up to {{place|High Fall, Colorado|High Fall}}. Above there {{taxon|Anthus|pipits}} common, especially on  glacier. At {{place|The Saddle, Colorado|Saddle}}, {{taxon|Leucostictes}} (brown capped). Several undetermined {{taxon|hawk|hawks}} in the gulch. {{taxon|Ochotona princeps|Pikas}} abundant from {{place|Goose Lake, Colorado|Goose Lake}} to {{place|Arapaho Glacier|Glacier}}. 
-<br />
-<br />
+	Birds seen today {{taxon|Nucifraga columbiana|Clark’s Crow}} and {{taxon|Cyanocitta stelleri|Rocky Mt jay}}, {{taxon|chickadee|chickadees}} and {{taxon|junco|juncos}} common up to {{place|High Fall, Colorado|High Fall}}. Above there {{taxon|Anthus|pipits}} common, especially on  glacier. At {{place|The Saddle, Colorado|Saddle}}, {{taxon|Leucostictes}} (brown capped). Several undetermined {{taxon|hawk|hawks}} in the gulch. {{taxon|Ochotona princeps|Pikas}} abundant from {{place|Goose Lake, Colorado|Goose Lake}} to {{place|Arapaho Glacier|Glacier}}.
+
+{{new-entry}}
 
 '''{{dated|1905-08-31|Aug. 31 –05}}'''
 
@@ -420,9 +431,9 @@ followed by the others and we spread out our wet clothes and shoes to dry. Markm
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/35|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/35?oldid=3614541}}
 
-{{taxon|Gaylussacia|huckleberry}}, and fungus on {{taxon|Betula|birch}}. At camp there are 6 ridges, parallel, within 100 yards running N 50˚ E, a characteristic of this entire country from {{place|Silver Lake}} to {{place|High Fall}}, as well as the {{place|Camp Albion Gulch}}. The whole valley topography is glacial, but the direction of these ridges was undoubtedly predetermined by the lithology, probably hard and soft zones. Rained for a few moments in afternoon, but sun set nearly clear just as Sievert returned without fish. The sun’s rays have been very hot all day but quite cool after sundown. 
-<br />
-<br />
+{{taxon|Gaylussacia|huckleberry}}, and fungus on {{taxon|Betula|birch}}. At camp there are 6 ridges, parallel, within 100 yards running N 50˚ E, a characteristic of this entire country from {{place|Silver Lake}} to {{place|High Fall}}, as well as the {{place|Camp Albion Gulch}}. The whole valley topography is glacial, but the direction of these ridges was undoubtedly predetermined by the lithology, probably hard and soft zones. Rained for a few moments in afternoon, but sun set nearly clear just as Sievert returned without fish. The sun’s rays have been very hot all day but quite cool after sundown.
+
+{{new-entry}}
 
 '''{{dated|1905-09-01|September 1, 1905}}
 '''
@@ -435,9 +446,9 @@ and I started up the canyon just after breakfast. He took the shotgun and auxili
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/37|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/37?oldid=3614543}}
 
-glacier. Found one fair sized empty {{taxon|Pisidium}} shell and at the same place an empty land snail shell in a small stream near high fall. Markman saw a flicker up gulch and we both saw {{taxon|junco|juncos}}, ({{taxon|warbler|warblers}} unidentified) and a {{taxon|sandpiper}} (spotted?). Markman returned at 4 p.m. having collected only a {{taxon|junco}}. A few clouds appeared at 5 p.m. Wind has been quite variable today but for the most part easterly. Perfectly clear at bedtime and not cold. 
-<br />
-<br />
+glacier. Found one fair sized empty {{taxon|Pisidium}} shell and at the same place an empty land snail shell in a small stream near high fall. Markman saw a flicker up gulch and we both saw {{taxon|junco|juncos}}, ({{taxon|warbler|warblers}} unidentified) and a {{taxon|sandpiper}} (spotted?). Markman returned at 4 p.m. having collected only a {{taxon|junco}}. A few clouds appeared at 5 p.m. Wind has been quite variable today but for the most part easterly. Perfectly clear at bedtime and not cold.
+
+{{new-entry}}
 
 '''{{dated|1905-09-02|Sep. 2 – 05}}'''
 
@@ -449,9 +460,9 @@ cream, bottles, a package for Sievert and 4 cantaloupes. We ate two cantaloupes 
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/39|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/39?oldid=3614544}}
 
-of {{taxon|Sphagnum}}. The dead {{taxon|Sphagnum}} made a vertical wall 1 ½ to 2 ft high all around the lagoons. 
-<br />
-<br />
+of {{taxon|Sphagnum}}. The dead {{taxon|Sphagnum}} made a vertical wall 1 ½ to 2 ft high all around the lagoons.
+
+{{new-entry}}
 
 {{dated|1905-09-03|Sep 3 – 05}}
 
@@ -459,9 +470,9 @@ of {{taxon|Sphagnum}}. The dead {{taxon|Sphagnum}} made a vertical wall 1 ½ to 
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/40|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/40?oldid=3614545}}
 
-carried the telescope containing pies etc. to the cabin spring , where we ate the melon sandwiches eggs etc. and started on at 2 p.m. Reached the creek at 3 p.m. rested 10 minutes and started on, John, Frank and I taking turns with the pack, arriving at camp at 4 p.m. Markman was here with {{taxon|Phyllopods}}, worms, larva, leaches [sic], {{taxon|Pisidium}} etc. from polls above {{place|Goose Lake, Colorado|Goose lake}} (No. 11). I have labelled some larva from {{place|Island Lake, Colorado|Island Lake}} No. 12. The clouds mostly cleared off by sundown and it got cool as usual. West half of sky clouded all over at bedtime. 
-<br />
-<br />
+carried the telescope containing pies etc. to the cabin spring , where we ate the melon sandwiches eggs etc. and started on at 2 p.m. Reached the creek at 3 p.m. rested 10 minutes and started on, John, Frank and I taking turns with the pack, arriving at camp at 4 p.m. Markman was here with {{taxon|Phyllopods}}, worms, larva, leaches [sic], {{taxon|Pisidium}} etc. from polls above {{place|Goose Lake, Colorado|Goose lake}} (No. 11). I have labelled some larva from {{place|Island Lake, Colorado|Island Lake}} No. 12. The clouds mostly cleared off by sundown and it got cool as usual. West half of sky clouded all over at bedtime.
+
+{{new-entry}}
 
 {{dated|1905-09-04|Sep. 4, 1905}}
 
@@ -469,9 +480,9 @@ At daylight sky overcast with even, gray clouds. Soon after it began raining, co
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/41|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/41?oldid=3614546}}
 
-until noon. Sun at times tried to break through. Violent wind on range from west and fog low on Mts. , but not cold. At 1:20 it looked like clearing, so Sievert and I started for ridge N of camp with camera and pick, Gale gun and insect net. From timber line could see clouds hanging over valley and foothills as well as mts. Collected a fern new to me. Brought back a heavy camp pack load of rocks and several birds. Nearly clear at dark. We returned at 6:15 very tired and had supper at 7. Wind has been west the greater part of the day, but at times easterly. 
-<br />
-<br />
+until noon. Sun at times tried to break through. Violent wind on range from west and fog low on Mts. , but not cold. At 1:20 it looked like clearing, so Sievert and I started for ridge N of camp with camera and pick, Gale gun and insect net. From timber line could see clouds hanging over valley and foothills as well as mts. Collected a fern new to me. Brought back a heavy camp pack load of rocks and several birds. Nearly clear at dark. We returned at 6:15 very tired and had supper at 7. Wind has been west the greater part of the day, but at times easterly.
+
+{{new-entry}}
 
 {{dated|1905-09-05|Sep. 5, 1905}}
 
@@ -483,9 +494,9 @@ cloudy weather in the very greatly diminished flow of water. Clouds have hung  o
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/43|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/43?oldid=3614547}}
 
-morning, so began packing rocks, plants, insects etc. 
-<br />
-<br />
+morning, so began packing rocks, plants, insects etc.
+
+{{new-entry}}
 
 {{dated|1905-09-06|Sept. 6, 1905}}
 
@@ -518,21 +529,22 @@ Arose at 6 a.m. and some began packing while others got breakfast. Got wagon loa
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/47|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/47?oldid=3614549}}
 
 {{place|Pawnee Butte}} Trip
-<br />
-<br />
+
+{{new-entry}}
 
 Wednesday {{dated|1906-06-06|June 6, 1906}} {{place|Boulder, Colorado|Boulder, Colo.}}
 
-Spent the afternoon sorting camping outfit and began packing wagon at Hale Bldg., University campus, at 8:45 p.m.  Got through, took a hasty bath and retired at a little after 11 p.m. Very windy last night and again tonight. 
-<br />
-<br />
+Spent the afternoon sorting camping outfit and began packing wagon at Hale Bldg., University campus, at 8:45 p.m.  Got through, took a hasty bath and retired at a little after 11 p.m. Very windy last night and again tonight.
+
+{{new-entry}}
+
 Thursday {{dated|1906-06-07|June 7, 1906}} Gideon S. Dodds, Harvey C. Markman, Harry Clatworthy and I left {{place|Boulder, Colorado|Boulder}} in a camp wagon at 8:50, two riding in front and two behind. Broke a spring when about two miles north of town. Cut a block, blocked it up and went on, stopping to collect but little except a species of flax which I had not seen before, and some {{taxon|Pupa}}, {{taxon|Vallonia}} etc. at {{place|Six Mile Creek}}. Some of us walked considerable of the time. Reached {{place|Left Hand Creek}} at 12:10 and dined at 1:30, and were on the road again at 2:07.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/48|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/48?oldid=3614550}}
 
 Went into camp at 4:30 p.m., on the {{place|St. Vrain Creek|St. Vrain}} in a place partially sheltered from the wind by timber. Has been a cold, windy, disagreeable day. Has snowed on the range in the neighborhood of {{place|Arapahoe Peak}} for two or three days. Saw {{place|Pike’s Peak}} and it was white with fresh snow. Saw {{taxon|redwinged blackbird|redwinged blackbirds}}, saw numerous young; {{taxon|Turdus migratorius|robins}} very common, {{taxon|Calamospiza melanocorys|lark buntings}} abundant, young out; {{taxon|Chondestes grammacus|lark sparrows}}, {{taxon|Charadrius vociferus|killdeer}} 12 or 15, {{taxon|Zenaida macroura|mourning doves}} common, {{taxon|Petrochelidon pyrrhonota|cliff swallows}} common, {{taxon|Dendroica aestiva|yellow warbler}}, {{taxon|magpie|magpies}} a few, {{taxon|meadowlark|meadowlarks}} abundant, {{taxon|Pooecetes gramineus|vesper sparrows}}, {{taxon|wren|wren sp.}}, {{taxon|kingfisher}} at {{place|St. Vrain Creek|St. Vrain}}, {{taxon|Hirundo rustica|barn swallows}} common, {{taxon|kingbird}} 1.
-<br />
-<br />
+
+{{new-entry}}
 
 Friday {{dated|1906-06-08|June 8}}
 
@@ -549,8 +561,8 @@ in {{place|St. Vrain Creek|St. Vrain creek}} bottom just below {{place|Lyons, Co
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/51|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/51?oldid=3614553}}
 
 and told us the folks would surely reach the creek at the very ranch where we got such bad advice, and that he saw the wagon travelling in that direction. We wearily cached our load and turned back , but soon saw the wagon coming. Reached a camping place in time to set up tents, make beds etc. before dark and ate supper by firelight, or rather lantern light. Then we sat around the campfire until 10 p.m. and then retired.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Little Thompson Creek}} Saturday {{dated|1906-06-09|June 9, 1906}}
 
@@ -571,8 +583,8 @@ This causes an escarpment for a long ways along the foothills, most of the way f
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/55|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/55?oldid=3614554}}
 
 showing the sutures very plainly, possibly young {{taxon|Baculites ovatus|B. ovatus}}, and a few bivalves, with a fragment of some species of {{taxon|Scaphites}} and a couple of gastropods. We reached camp at 4:15, hastily broke camp and reached {{place|Big Thompson Creek, Colorado|Big Thompson} just below {place|Loveland, Colorado|Loveland}} in time to set the tent before dark. Markman and Dodds went to town for provisions while Harry and I prepared the cots etc. At 9 p.m. Dodds returned and we had a good beefsteak supper, leaving some in the oven of the camp stove to keep warm for Markman, who returned at 10 p.m. just as I was ready to extinguish the light. It has been a hot, clear day. We are getting lots of alkali in the water now.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Big Thompson Creek, Colorado|Big Thompson Creek}}, near {{place|Loveland, Colorado|Loveland}}. Sunday, {{dated|1906-06-10|June 10}}
 
@@ -584,8 +596,10 @@ Starting in for a warm day, but at times cloudy. A slight breeze. We are camped 
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/57|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/57?oldid=3614555}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 {{place|Big Thompson Creek, Colorado|Big Thompson Creek}}, near {{place|Loveland, Colorado|Loveland}}. Monday {{dated|1906-06-11|June 11, 1906}}.
 
 Markman collected a {{taxon|garter snake}} before the rest of us were up this morning. Nothing in his traps. After breakfast, Markman went at his traps again, Dodds looked after camp affairs, while Harry and I took the big dip net and began dipping for {{taxon|mollusk|mollusks}}, but the creek was high and quite roilly, so we could see nothing, hence worked at a disadvantage. We collected quite a number of {{taxon|Ancylus}}, however, clinging to the rocks which we fished out with the net, and a few insect larva. The creek was rising so rapidly that we concluded to pack up and get off the island before the water got too deep for fording. This warm weather means water too high for stream collecting. We got off the island at 10 p.m. (sic). Then Dodds 
@@ -597,8 +611,8 @@ drove into town to make some purchases, while the rest of us continued work, but
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/59|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/59?oldid=3614557}}
 
 an outcrop of the Fossil Ridge sandstone, and found it was so. The wagon went on to {{place|Trilby Schoolhouse|Trilby school house}} and camped in a pasture between the school house and Fossil Ridge. Just as we turned into the pasture, in crossing a furrow, the right hind wheel dished and is a complete wreck. We unloaded, got a pole under the axle, and dragged the wagon to a camping place. Also broke another spring, the front one. All hands take it philosophically and are thankful that there are still three wheels on. Finished labelling specimens at 10 p.m. and retired.
-<br />
-<br />
+
+{{new-entry}}
 
 Fossil Ridge, {{place|Trilby Schoolhouse}} {{dated|1906-06-12|June 12, 1906}}, Tuesday Arose at 6:15; got breakfast and had the wagon taken apart and ready to load on a lumber wagon to take to town at 9 p.m. (sic). Then I went 
 
@@ -608,16 +622,20 @@ Fossil Ridge, {{place|Trilby Schoolhouse}} {{dated|1906-06-12|June 12, 1906}}, T
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/61|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/61?oldid=3614558}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Wednesday {{dated|1906-06-13|June 13}}
 
 Markman and Harry both complain of sour stomachs this morning. Took some soda and went without their breakfasts. Refreshing breeze this morning, from the northeast. I peeled potatoes, then chiseled out and wrapped fossils until breakfast. Started for fossil beds at 9:30 a.m. Collected fossils until about 4 p.m., without food or drink, then brought a sackful of smaller ones to camp and wrapped and packed about 150 of them. Collected about 200 specimens today, mostly small bivalves – {{taxon|Callista}}, {{taxon|Volsella}} and {{taxon|Pteria}}, selecting only the best {{taxon|Inoceramus}} to show variation- also a few {{taxon|Pinna}} and {{taxon|Scaphites nodosus}}. Hot all day when sheltered from the breeze.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/62|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/62?oldid=3614559}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Thursday {{dated|1906-06-14|June 14, 1906}}
 
 Up at 6 a.m., got to fossil beds at 9:15; Harry going with me. We took a canteen of water and a little lunch this time. Not quite so hot as yesterday. L. C. Bragg came out from the Agricultural College and spent an hour or so. While he was with us it rained hard and we got soaked. Fossil Ridge appears to extend for at least a mile below (south) camp (or perhaps two) and a mile northeast, so far as we have observed it. The formation much resembles the Hygiene sandstone at {{place|Left Hand Creek, Colorado|Left Hand Creek}}, but is full of great concretions of sandstone with an outer coating of iron oxide. It dips to the eastward at a very low angle. This in weathering makes a sloping
@@ -625,12 +643,12 @@ Up at 6 a.m., got to fossil beds at 9:15; Harry going with me. We took a canteen
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/63|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/63?oldid=3614562}}
 
 escarpment to the west, with a rise, followed by a gentle slope to the east. Facing the westward escarpment is the upper Niobrara escarpment skirting the foothills as at {{place|Little Thompson Creek, Colorado|Little Thompson Creek}}. The concretions are filled with fossils, Inoceramus oblongus predominately, {{taxon|Callista|Callista sp.}} abundant, many {{taxon|Pinna lakesi}} and {{taxon|Baculites compressus}}, besides other species. A very similar sandstone ridge outcrops to the east half a mile or so.
-<br />
-<br />
+
+{{new-entry}}
 
 Friday, {{dated|1906-06-15|June 15, 1906}} Harry and I took a big load of fossils and some recent mollusca, fungi and bird and mammal skins to {{place|Ft. Collins, Colorado|Ft. Collins}}, packed and shipped them. Had great difficulty finding suitable boxes. Sent four big boxes by freight and one by express. Then got running gear of wagon and reached camp at 5 p.m., very tired. Has been a very hot day.
-<br />
-<br />
+
+{{new-entry}}
 
 Saturday {{dated|1906-06-16|June 16, 1906}}
 
@@ -647,8 +665,8 @@ of the lakelet. It was a great breeding place for water fowl and {{taxon|Xanthoc
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/66|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/66?oldid=3614563}}
 
 some bluffs about 4 miles down the river and camped. Had a little rain in afternoon accompanied by wind and lightning. For a mile or two E and W of {{place|Windsor, Colorado|Windsor}} it appeared to have rained hard.
-<br />
-<br />
+
+{{new-entry}}
 
 Below {{place|Windsor, Colorado|Windsor}}, Sunday, {{dated|1906-06-17|June 17, 1906}}
 
@@ -661,8 +679,8 @@ about 125 {{taxon|Veniella humilis}}, some {{taxon|Cardium speciosum}}, {{taxon|
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/68|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/68?oldid=3614564}}
 
 stone concretions from 3 to 6 feet in diameter. The {{taxon|Veniella}} broke out readily in large numbers from some of the weathered concretions, and more confined to concretions to concretions in a somewhat definite zone and to a narrow zone in each concretion. The whole formation looks horizontal when viewed from the north, but an east or west view of a north and south section shows a strong southerly dip.
-<br />
-<br />
+
+{{new-entry}}
 
 Monday, {{dated|1906-06-18|June 18, 1906}}
 
@@ -671,16 +689,16 @@ Harry and I worked on the Paleontology of the Fox Hills sandstone, getting some 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/69|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/69?oldid=3614566}}
 
 our mail and went into camp on the {{place|Cache la Poudre}}, at what is said to be City Park. It looks more like a private driving park, the only improvements being a race track, pavilion and stables. The other men printed and developed velox postal cards in the evening. County Attorney Carpenter and another attorney (cousin of Harry, name forgotten) called on us and promised us a map and letters to ranchers north and northeast of here. Has been clear and hot today.
-<br />
-<br />
+
+{{new-entry}}
 
 Tuesday, {{dated|1906-06-19|June 19, 1906}} The other three went to town to get supplies and have the wagon repaired. As the load is evidently too heavy for the wagon, they took the 10 gauge gun and ammunition, the cots, two suit cases and some other things to leave with Max Clark until our return, in order to lighten. I have cleared up all the dishes, compacted our load dredged the stream, which is very muddy here (finding
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/70|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/70?oldid=3614568}}
 
 a single dead {{taxon|Planorbis bicarinatus}} and one poor valve of a {{taxon|Pisidium}}) and now (11:30) have everything ready to load on the wagon as soon as it arrives. We will probably feed the horses, eat a hasty lunch, and start. I find we have lost my box containing fine dissecting, egg blowing and other instruments, fossils and mollusk catalogue, mollusk boxes etc. a serious loss. (Found later). We left {{place|Greeley, Colorado|Greeley}} at 2:30, changing our route for a longer trip. Drove through {{place|Eaton, Colorado|Eaton}} to {{place|Ault, Colorado|Ault}} , arriving at latter place at 7 p.m.. Had a cold piercing gale all afternoon and were chilled with our slickers on. Camped at edge of town.
-<br />
-<br />
+
+{{new-entry}}
 
 Wednesday {{dated|1906-06-20|June 20, 1906}}
 
@@ -692,8 +710,10 @@ much better than from {{place|Boulder, Colorado|Boulder}} to {{place|Greeley, Co
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/72|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/72?oldid=3614569}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Thursday {{dated|1906-06-21|June 21, 1906}}
 
 Harry and Markman obtained a team and light wagon from Slayton and started back for {{place|Eastman's Reservoir, Colorado|Eastman’s Reservoir}} this morning and Dodds and I took our wagon and started for {{place|Chalk Bluffs, Colorado|Chalk Bluffs}} ((underline added later)). Had to drive over rough prairie for three miles, with no road, but fortunately found wire fence down and thus arrived some distance. We both walked several miles, Dodds went ahead and found the spring in a ravine in the bluffs. Camped, got dinner at 1:30 and started East on foot to examine formation at 2:15. First visited the isolated conglomerate butte a couple of miles east of camp. Conglomerate consists of pebbles of granite and other igneous rocks, limestone, sandstone, quartz, agate etc., very similar to those we have found lying on the prairie all day yesterday, but here cemented with a highly calcareous cement. This suggests the former extension of the forma
@@ -709,8 +729,8 @@ leaving only beds of pebbles etc. In the bluffs east of camp where our informant
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/75|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/75?oldid=3614570}}
 
 at 4:30 and busied ourselves about camp. Harry and Markman came in just before dark on foot and very tired. We saw them crossing the prairie and had a hot supper of fried ham and potatoes ready for them and us. After dark we loaded plateholders and got to bed at 10:30. Harry and Markman got nothing except some fossil wood and cannonball concretions.
-<br />
-<br />
+
+{{new-entry}}
 
 Friday, {{dated|1906-06-22|June 22, 1906}}
 
@@ -727,8 +747,8 @@ of faulting. Beds are approximately horizontal, but in one place on escarpment t
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/78|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/78?oldid=3614571}}
 
 well as the marl are concretionary. Went down to the conglomerate butte east of camp about 11 a.m. and photographed it and the concretions north of it. Broke camp at 2 p.m. and arrived at deserted ranch west of {{place|Gault, Colorado|Gault P.O.}} at 6 p.m. where we went into camp. After supper several neighboring ranchers called at camp, including A. B. Hilton, to whom I had letters of introduction from Herbert Baker and Chas. E Southard. Wind blew all night last night and for a while this morning, shaking the wagon in which I slept. About noon it rained at intervals and on the road to {{place|Gault, Colorado|Gault}} it rained and hailed hard several times, with a cold, disagreeable northeast wind. Harry and I went home with Mr. Hilton to see his specimens, and at 9 p.m. it was raining hard and very dark so we remained all night.
-<br />
-<br />
+
+{{new-entry}}
 
 Saturday, {{dated|1906-06-23|June 23, 1906}}
 
@@ -737,8 +757,8 @@ Arose at 5:30 a.m. and Harry and I started for camp with fresh milk and eggs whi
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/79|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/79?oldid=3614572}}
 
 Hilton gave us. Very cold northeast wind. Cloudy. Broke camp at 8:35 a.m. and started east Reaching {{place|Grover, Colorado|Grover}} on the B and M RR at 3 p.m. a distance of 16 miles in 6 hours and 25 minutes. We had a cold head wind and rain all the way and poor roads. Camped in the lee of the school house barn at {{place|Grover, Colorado|Grover}} and turned horses into school yard. We were all wet and thoroughly chilled. Had a good dinner of salmon loaf covered with peas, then went to store, then built a fire in the camp stove at entrance of tent and sat somewhat comfortably in the tent. All retired at 8 p.m.
-<br />
-<br />
+
+{{new-entry}}
 
 Sunday {{dated|1906-06-24|June 24, 1906}}
 
@@ -751,8 +771,8 @@ Very heavy roads. Had occasion to reprove Harry for his impatience and loss of t
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/81|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/81?oldid=3614573}}
 
 All slopes of marked grade, however, are terraced, the terraces being a few inches in height, making the best travelling along the beds of the swales below the terrace line. The bluffs here have a decided tendency to weather into circular towers with nearly vertical walls. The ravines leading out through the debris slope generally have flat bottoms, but in one or two there was a secondary ravine perhaps caused by the washing out of cattle trail along the center. We reached camp at {{place|Davis ranch}} at 5:30, much sooner than we expected. Are camped in one of the ravines which extends back into the bluffs. Loaded plateholders after dark
-<br />
-<br />
+
+{{new-entry}}
 
 Monday {{dated|1906-06-25|June 25, 1906}}
 
@@ -761,8 +781,8 @@ Got up early and went to work. I worked all day in the hot sun and found nothing
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/82|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/82?oldid=3614574}}
 
 conglomerates are composed more largely of waste of underlying rocks with less debris from the mountains. Am terribly fatigued with so much hard climbing and being on my feet since 6 a.m., so gave up at 5:30. Dodds came in at 6 p.m. with nothing more. Harry arrived at 8 p.m. with part of a jaw and Markman came later. It rained after Markman arrived, wind north. Had mush and milk for supper.
-<br />
-<br />
+
+{{new-entry}}
 
 Tuesday, {{dated|1906-06-26|June 26, 1906}}
 
@@ -775,8 +795,8 @@ too badly shattered. Further east in the base of the conglomerate I found anothe
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/84|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/84?oldid=3614575}}
 
 Has been a very hot day with a few fleecy clouds.
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1906-06-27|Wednesday, June 27, 1906}}
 
@@ -784,8 +804,10 @@ Arose at 6 a.m. Hot morning. Dodds and I went work on the fossil turtle, while H
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/85|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/85?oldid=3614576}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 Thursday {{dated|1906-06-28|June 28, 1906}}
 
 Not quite so hot this morning on account of cool easterly breeze. Sun very bright. Yesterday morning with a very heavy load, including 1 gallon of water, camp bottle of paste, bolt of cheese cloth in camp pack, big pick, heavy hammer, light picks, chisels boards etc. It took Dodds and me 1 ¬ hours to walk over here. This morning with 1 two quart canteen of water and a few crackers I walked it in 45 minutes. The {{taxon|turtle}} is near the base of concretionary stratum at top of cliff. The others soon joined me and we padded beneath the fossil all around with a moss like {{taxon|Cerastium|chickweed}} and the tender young shoots of {{taxon|Cercocarpus|mountain mahogany}}. Then while the three steadied the fossil I chipped away the supporting pinnacle. It dropped easily onto the cushion just as we had planned. We easily turned it over. Then Dodds started to {{place|Grover, Colorado|Grover}} to order lumber
@@ -796,9 +818,9 @@ and sawdust, Harry started to look at his mammal traps and Markman and I finishe
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/87|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/87?oldid=3614577}}
 
-fossil. 
-<br />
-<br />
+fossil.
+
+{{new-entry}}
 
 Friday, {{dated|1906-06-29|June 29, 1906}}
 
@@ -807,8 +829,8 @@ Dodds and Markman took the wagon around to the fossil turtle this morning, while
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/88|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/88?oldid=3614578}}
 
 camp. At camp I took a bath and changed my underwear and shirt, then labelled and pinned about 75 insects finishing at 8:45 p. m., while Dodds was getting supper ready to go into the stove. The boys came with the wagon at 9 p.m., and a few moments afterwards we had a good supper- salmon loaf covered with peas and crackers, cake and cocoa. The last few days have been altogether too strenuous. We are all sore and tired and very thankful the big {{taxon|turtle}} is off our hands.
-<br />
-<br />
+
+{{new-entry}}
 
 Saturday {{dated|1906-06-30|June 30, 1906}}
 
@@ -817,8 +839,8 @@ Left camp without load in wagon at 9 a.m.. Reached {{place|Pawnee Buttes, Colora
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/89|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/89?oldid=3614579}}
 
 and as Hilton had urged, we made a very hasty search for fossil teeth but found none. Then went to {{place|Fitche's Ranch, Colorado|Fitche’s}} where we arrived at 4:40 and did no work. Started back by a more southerly route. The formation around Martha Sebosky’s has a decided tendency to change from yellowish to whitish, passing rather abruptly from one to the other and the upper part is emphatically a sandstone. (By the way, the formation where we dug out the {{taxon|turtle}} put an abrupt point on the picks in digging.)
-<br />
-<br />
+
+{{new-entry}}
 
 Sunday, {{dated|1906-07-01|July 1, 1906}}
 
@@ -831,8 +853,8 @@ quartz sandstone. Here we collected some {{taxon|Oenothera|red evening primroses
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/91|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/91?oldid=3614580}}
 
 frequent waterholes, separated by a few feet of moist ground, inhabited by {{taxon|Sphaerium}}, {{taxon|Physa}}, {{taxon|Planorbis}}, {{taxon|crayfish}}, {{taxon|frogs}}, fish {{taxon|Fundulus|(Fundulus)}} etc., banks lined with fine {{taxon|Salix|willows}} and a few {{taxon|Populus|cottonwoods}}. Reached here at 4:30. Find {{taxon|magpies}} here and mocking big (sic). Before supper we found a place where {{taxon|Sphaerium}} are very abundant, and in addition collected two species of {{taxon|Physa}} and {{taxon|Planorbis trivolvis}}, {{taxon|Planorbis bicarinatus|P. bicarinatus}}, and {{taxon|Planorbis parvus|P. parvus}}. Also found {{taxon|turtles}}, {{taxon|green water beetles}} and {{taxon|leeches}}. Rained at dark and continued for some time after we retired.
-<br />
-<br />
+
+{{new-entry}}
 
 Monday, {{dated|1906-07-02|July 2, 1906}}
 
@@ -845,8 +867,8 @@ on its weathered surfaces. Strong north wind makes work disagreeable. I found an
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/93|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/93?oldid=3614581}}
 
 The fossils collected today have been fine. Pleasant this evening.
-<br />
-<br />
+
+{{new-entry}}
 
 Tuesday, {{dated|1906-07-03|July 3, 1906}}
 
@@ -855,8 +877,8 @@ Arose at 5:30, had breakfast and Harry and I started for the fossil beds at 7:20
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/94|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/94?oldid=3614582}}
 
 broken from iron concretions and “cone-in-cone”. In one place large numbers of {{taxon|gasteropods}} were broken from iron concretions. Down the hill some distance is a perfect mass of {{taxon|bivalves}} of several species, including a few {{taxon|gasteropods}} which I take for {{taxon|Viviparus}}. A short distance to the south a gulch has exposed what appears to be typical Laramie white sandstone containing “cannonball” concretions. As we found no other exposures except recent I am compelled suspect that this locality, though said to be 18 miles from {{place|Greeley, Colorado|Greeley}}, is the place called 15 NE of {{place|Greeley, Colorado|Greeley}} in the reports, from which ten or more Laramie species have been described. Has been a fine day but the air feels decidedly frosty tonight.
-<br />
-<br />
+
+{{new-entry}}
 
 Wednesday {{dated|1906-07-04|July 4, 1906}}
 
@@ -869,8 +891,8 @@ trains for {{place|Boulder, Colorado|Boulder}} and {{place|Eaton, Colorado|Eaton
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/96|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/96?oldid=3614583}}
 
 and above it found numbers of {{taxon|Ostrea glabra}}, but a thorough search brought to light a single specimen of {{taxon|Cardium speciosum}} in the upper stratum so that settled its Fox Hills age. Reached camp at 6:30 and had pea soup, canned salmon and bread and butter, with peaches.
-<br />
-<br />
+
+{{new-entry}}
 
 Thursday, {{dated|1906-07-05|July 5, 1906}}
 
@@ -879,8 +901,8 @@ At 6 a.m. I went to the stream with the big net looking for {{taxon|mollusks}}, 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/97|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/97?oldid=3614584}}
 
 of the beds are typical Fox Hills sandstone, with long concretions such as those at {{place|White Rocks}}, and other more tabular and extensive one which cause the formation to weather into broad-capped pinnacles. Found a few fish vertebra and some fine {{taxon|fucoids}}. Lower down, Markman and Harry found a number of species. At the base of the river cliffs are intercalated strata of shales which may be Pierre. Left there at 1:45 p.m. Reached {{place|Longmont, Colorado|Longmont}} 18 or 20 miles away at 6:30 p.m. Two livery men refused us hay and W. H. Diebens refused to allow us to camp in an unoccupied pasture, the first such refusal we have met. Camped in another pasture across on the S side of creek and W side of road. Finished supper at 9 oclock (sic).
-<br />
-<br />
+
+{{new-entry}}
 
 Thursday (sic) {{dated|1906-07-06|July 6, 1906}}
 
@@ -889,8 +911,8 @@ Left {{place|Longmont, Colorado|Longmont}} at 7:35 – reached {{place|Boulder, 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/98|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/98?oldid=3614585}}
 
 Arapahoe Glacier Trip 1906
-<br />
-<br />
+
+{{new-entry}}
 
 {{dated|1906-08-31|Aug 31, 1906}} Friday
 
@@ -899,8 +921,8 @@ Left {{Place|Boulder, Colorado|Boulder}} at 9:30 a.m. on narrow guage (sic) acco
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/99|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/99?oldid=3614586}}
 
 early afternoon, but cleared toward evening. Called up Mrs. Rohwer after supper and found Nellie was no better, threatened with tonsillitis.
-<br />
-<br />
+
+{{new-entry}}
 
 Saturday {{dated|1906-09-01|Sept 1, 1906}}
 
@@ -912,8 +934,9 @@ ound considerable shrinkage on the north side, the ice being 20 feet from the bi
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/101|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/101?oldid=3614587}}
 
-<br />
-<br />
+
+
+{{new-entry}}
 
 {{place|Marshall, Colorado|Marshall, Colo.}} {{dated|1907-02-09|Feby 9, 1907}}
 
@@ -921,8 +944,9 @@ Drove out at 9:30 with Dr. Ramaley, G. S. Dodds and Sievert Rohwer. On the bluff
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/102|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/102?oldid=3614588}}
 
-<br />
-<br />
+
+
+{{new-entry}}
 
 Four miles N of {{place|Boulder, Colorado|Boulder, Colo.}} {{dated|1907-02-12|Feby 12, 1907}}
 
@@ -934,9 +958,9 @@ numerous {{taxon|Baculites}}, perhaps both {{taxon|Baculites ovatus|ovatus}} and
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/104|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/104?oldid=3614589}}
 
-I cannot place at all, even as to family. The two last mentioned horizons remind me of those bearing similar relations about a mile SW of there. In a higher horizon, just E of the W line of sec 5 we found a fine lot of {{taxon|Inoceramus barabini}}, many with the sulcus upon which Whitfield founded the genus {{taxon|Eudoceras}}, with a few {{taxon|Inoceramus sagensis|I. sagensis}} and {{taxon|Inoceramus vanuxemi|I. vanuxemi}} and numbers of {{taxon|Ostrea inornata}}. 
-<br />
-<br />
+I cannot place at all, even as to family. The two last mentioned horizons remind me of those bearing similar relations about a mile SW of there. In a higher horizon, just E of the W line of sec 5 we found a fine lot of {{taxon|Inoceramus barabini}}, many with the sulcus upon which Whitfield founded the genus {{taxon|Eudoceras}}, with a few {{taxon|Inoceramus sagensis|I. sagensis}} and {{taxon|Inoceramus vanuxemi|I. vanuxemi}} and numbers of {{taxon|Ostrea inornata}}.
+
+{{new-entry}}
 
 {{dated|1907-02-17|Feby 17, 1907}}
 
@@ -948,14 +972,15 @@ upon Pierre shales. East of there, in about the NW cor of NW ¬ NE ¬ Sec 8, Tp.
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/106|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/106?oldid=3614590}}
 
-<br />
-<br />
+
+
+{{new-entry}}
 
 N of {{place|Boulder, Colorado|Boulder}}, {{dated|1907-02-22|Feby 22, 1907}}
 
 Sievert Rohwer and I went out on horseback to sketch in the map E of W line sec. 7 Tp. 1 N., R. 70 W., E of little house in adjoining sec. Found Hygiene sandstone very steep, but it flattens as it passes over {{place|Four Mile Mesa, Colorado|Four Mile Mesa}} to the north, this accounting for widening of outcrop. In SE ¬ sec. 6 we collected {{taxon|Heteroceras|Heteroceras sp.}}, {{taxon|Ancycloceras tricostatus}}, {{taxon|Lucina occidentalis}}, {{taxon|Inoceramus barabini}}, and {{taxon|Inoceramus sagensis|sagensis}} etc. in gulch at station 7 in sec. 6 Tp 1N R 71W.
-<br />
-<br />
+
+{{new-entry}}
 
 N of {{place|Boulder, Colorado|Boulder}} {{dated|1907-02-23|Feby 23, 1907}}
 
@@ -964,8 +989,8 @@ Sievert Rohwer, Frank Rohwer and I went north today, collected fossils. In sands
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/107|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/107?oldid=3614591}}
 
 tion with E and W « of section line. Bluff E of there station 3 sec 8 contained {{taxon|Inoceramus sagensis|I. sagensis}} in limestone concretions. Bluff is sandy in black shale. In lateral gulch at station 4 SE cor NE ¬ SW ¬ Sec 8 we found {{taxon|Inoceramus barabini|I. barabini}} and {{taxon|Inoceramus sagensis|sagensis}}. Dip all SE gentle. Found sandstone again at station 6 NE cor NW ¬ SE ¬ Sec. 8. E of there clay is yellow. On S front of {{place|Four Mile Mesa, Colorado|Four Mile Mesa}} Hygiene sandstone reaches W line sec. 6 Tp 1 N R 70 W. On N slope of mesa it trends rapidly to the northeast. In the NE ¬ SE ¬ sec. 6 Tp 1 N R 70 W the upper part of the Pierre exposure on N slope of mesa weathers yellowish.
-<br />
-<br />
+
+{{new-entry}}
 
 {{place|Denver, Colorado|Denver, Colo.}}, {{dated|1907-03-02|Mch 2. 1907}}
 
@@ -993,8 +1018,10 @@ had sent Quaternary fossils and collected {{taxon|Pupilla muscorum}}, which were
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/113|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/113?oldid=3614593}}
 
-<br />
-<br />
+
+
+{{new-entry}}
+
 N of {{place|Boulder, Colorado|Boulder, Colo.}}, {{dated|1907-04-07|Apl 5/07}}
 
 Drove north in morning, taking Frank Rohwer and Clinton Fullen with me. Visited station 2, sec 12 Tp 1 N R 70 W and found some poorly preserved {{taxon|Inoceramus|Inoceramus sp.}} and fragments of {{taxon|Baculites|Baculites sp.}} This station is some distance above the base of the Pierre group, instead of being at the base as I had supposed. W of this station I found the boulder cap of the mesa cemented into a conglomerate by a calcareous cement, as at station 3, sec 5 tp 1 N, R 70 W. Of course this being W of the Hygiene sandstone there are no Hygiene fragments, as at sta. 3 in sec. 5. We then went N to the “paper” shales, collected some {{taxon|Inoceramus labiatus|I. labiatus}}, a shark tooth and 2 specimens of the undescribed cephalopod which I
