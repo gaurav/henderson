@@ -22,7 +22,7 @@ for my $node (@{$nodeset}) {
     $str .= "\n\n{{#from|title=$title|uri=$uri}}\n\n";
 
     my $string_value = $content->string_value();
-    $string_value =~ s/\s*<br\s*\/?>\s*<br\s*\/?>\s*/\n\n{{new-entry}}\n\n/mg;
+    $string_value =~ s/\s*<br\s*\/?>\s*<br\s*\/?>\s*/\n\n{{new-entry}}\n\n/mgi;
     $str .= $string_value;
 }
 
