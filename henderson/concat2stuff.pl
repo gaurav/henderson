@@ -31,7 +31,7 @@ while(<STDIN>) {
         push @entries, $current_entry;
 
         # Set up the next current entry with the rest of the last line.
-        $current_entry .= $2;
+        $current_entry = $2;
     } else {
         $current_entry .= $_;
     }
@@ -48,7 +48,7 @@ $method = \&trail if $method eq 'trail';
 die "Invalid method: $method"
     unless ref($method) eq 'CODE';
 
-my $csv = Text::CSV->new({eol => "\n"});
+my $csv = Text::CSV->new({eol => "\n", binary => 1});
 my $header = $method->();
 $csv->print(\*STDOUT, $header);
 
@@ -78,7 +78,7 @@ sub dwc {
 sub trail { 
     my ($tag, $entry, $entry_count) = @_;
 
-    return ["Date", "Place", "URI"]
+    return ["EntryNo", "Date", "Place", "URI", "Entry"]
         if not defined $tag;
 
     state $current_place;
@@ -101,7 +101,7 @@ sub trail {
     }
 
     if($new_tag and defined($current_date) and defined($current_place)) {
-        return [$current_date, $current_place, $current_page_uri];
+        return [$entry_count, $current_date, $current_place, $current_page_uri, "entry"];
     }
 
     return undef;
