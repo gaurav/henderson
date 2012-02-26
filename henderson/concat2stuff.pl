@@ -72,7 +72,41 @@ foreach my $entry (@entries) {
 sub dwc {
     my ($tag, $entry, $entry_count) = @_;
 
-    say "TAG $tag ($entry_count)";
+    return ["EntryNo", "Taxon name", "Date", "Place", "URI", "Entry"]
+        if not defined $tag;
+
+    state $current_place;
+    state $current_date;
+    state $current_page_uri;
+
+    my $new_tag = 0;
+    if($tag =~ /^place\|(.*?)\|.*/i) {
+        $current_place = $1;
+        $new_tag = 1;
+    }
+
+    if($tag =~ /^dated\|(\d+)-(\d+)-(\d+).*/i) {
+        $current_date = "$1-$2-$3";
+        $new_tag = 1;
+    }
+
+    if($tag =~ /^#from.*\|uri=(.*)\|?/i) {
+        $current_page_uri = $1;
+    }
+
+    if($tag =~ /^taxon\|(.*)$/i) {
+        my $taxon_name = $1;
+        my $taxon_str = $1;
+
+        if($taxon_name =~ /(.*)\|(.*)/) {
+            $taxon_name = $1;
+            $taxon_str = $2;
+        }
+
+        return [$entry_count, $taxon_name, $current_date, $current_place, $current_page_uri, $entry];
+    }
+
+    return undef;
 }
 
 sub trail { 
