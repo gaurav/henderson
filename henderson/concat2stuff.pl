@@ -17,6 +17,7 @@ use warnings;
 use 5.0100;
 
 use Text::CSV;
+use POSIX;
 
 binmode(STDOUT, ":utf8");
 
@@ -72,22 +73,67 @@ foreach my $entry (@entries) {
 sub dwc {
     my ($tag, $entry, $entry_count) = @_;
 
-    return ["EntryNo", "Taxon name", "Date", "Place", "URI", "Entry"]
+    # From https://docs.google.com/spreadsheet/ccc?key=0AvsrI9Pi83gYdGpnLUZadG56ejJuQmZMSHFiX1hFTkE#gid=0
+    return [
+        "catalogNumber", 
+        "dc:modified",
+        "basisOfRecord",
+        "institutionCode",
+        "collectionCode",
+        "associatedMedia",
+        "fieldNotes",
+        "scientificName",
+        "vernacularName",
+        "VerbatimDate",
+        "identifiedBy",
+        "dateIdentified",
+        "associatedReferences",
+        "dataGeneralizations",
+        "identificationRemarks",
+        "occurenceRemarks",
+        "country",
+        "countryCode",
+        "stateProvince",
+        "verbatimLocality",
+        "ScrapeGoatField",
+        "decimal latitude",
+        "decimal longitude",
+        "geodeticDatum",
+        "coordinateUncertaintyInMeters",
+        "georeferencedBy",
+        "georeferencedDate",
+        "Kingdom",
+        "Phylum",
+        "Class",
+        "Order",
+        "Family",
+        "Genus",
+        "Species",
+        "EventDate",
+        "Day",
+        "Month",
+        "Year"
+        ]
         if not defined $tag;
 
     state $current_place;
+    state $current_place_str;
     state $current_date;
     state $current_page_uri;
+    state %page_count;
 
-    my $new_tag = 0;
-    if($tag =~ /^place\|(.*?)\|.*/i) {
+    if($tag =~ /^place\|(.*)/i) {
         $current_place = $1;
-        $new_tag = 1;
+        $current_place_str = $1;
+
+        if($current_place =~ /(.*)\|(.*)/) {
+            $current_place = $1;
+            $current_place_str = $2;
+        }
     }
 
     if($tag =~ /^dated\|(\d+)-(\d+)-(\d+).*/i) {
         $current_date = "$1-$2-$3";
-        $new_tag = 1;
     }
 
     if($tag =~ /^#from.*\|uri=(.*)\|?/i) {
@@ -103,7 +149,134 @@ sub dwc {
             $taxon_str = $2;
         }
 
-        return [$entry_count, $taxon_name, $current_date, $current_place, $current_page_uri, $entry];
+        # What we got: return [$entry_count, $taxon_name, $current_date, $current_place, $current_page_uri, $entry];
+        my ($notebook_number) =     ($current_page_uri =~ /Page:Field_Notes_of_Junius_Henderson,_Notebook_(\d+)\..{1,4}\//);
+        die "No notebook number discernable in URI '$current_page_uri'" unless defined $notebook_number;
+
+        my ($page_number) =         ($current_page_uri =~ /Page:Field_Notes_of_Junius_Henderson,_Notebook_\d+\..{1,4}\/(\d+)\?/);
+        die "No page number discernable in URI '$current_page_uri'" unless defined $page_number;
+
+        if(not exists $page_count{$page_number}) {
+            $page_count{$page_number} = "A";
+        } else {
+            $page_count{$page_number}++;
+        }
+
+        return [
+            # "catalogNumber", 
+            "JHFN$notebook_number-$page_number-" . $page_count{$page_number}, 
+
+            # "dc:modified",
+            POSIX::strftime('%Y-%m-%d', localtime),
+
+            # "basisOfRecord",
+            "HumanObservation",
+
+            # "institutionCode",
+            "UCM",
+
+            # "collectionCode",
+            "HendersonNotes",
+
+            # "associatedMedia",
+            $current_page_uri,
+
+            # "fieldNotes",
+            "http://en.wikisource.org/wiki/Field_Notes_of_Junius_Henderson",
+    
+            # "scientificName",
+            $taxon_name,
+
+            # "vernacularName",
+            $taxon_str,
+
+            # "VerbatimDate",
+            $current_date,
+
+            # "identifiedBy",
+            "Junius Henderson",
+
+            # "dateIdentified",
+            $current_date,
+
+            # "associatedReferences",
+            "",
+
+            # "dataGeneralizations",
+            $entry,
+
+            # "identificationRemarks",
+            "",
+
+            # "occurenceRemarks",
+            $entry,
+
+            # "country",
+            "",
+
+            # "countryCode",
+            "",
+
+            # "stateProvince",
+            "", 
+
+            # "verbatimLocality",
+            $current_place_str,
+
+            # "ScrapeGoatField",
+            "",
+            
+            # "decimal latitude",
+            "",
+
+            # "decimal longitude",
+            "",
+
+            # "geodeticDatum",
+            "",
+
+            # "coordinateUncertaintyInMeters",
+            "",
+
+            # "georeferencedBy",
+            "",
+
+            # "georeferencedDate",
+            "",
+
+            # "Kingdom",
+            "",
+
+            # "Phylum",
+            "",
+
+            # "Class",
+            "",
+
+            # "Order",
+            "",
+
+            # "Family",
+            "",
+
+            # "Genus",
+            "",
+
+            # "Species",
+            "",
+
+            # "EventDate",
+            "",
+
+            # "Day",
+            "",
+
+            # "Month",
+            "",
+
+            # "Year"
+            ""
+        ];
     }
 
     return undef;
