@@ -22,8 +22,10 @@ my $nodeset = $xp->find('/transcription/page');
 
 binmode(STDOUT, ":utf8");
 
-my $annotations = Statistics::Descriptive::Full->new();
-my $annotation_dateds = Statistics::Descriptive::Full->new();
+my $count_annotations = Statistics::Descriptive::Full->new();
+my $count_dateds = Statistics::Descriptive::Full->new();
+
+my $dateds = Statistics::Descriptive::Full->new();
 
 my $str = "";
 my @nodes = @{$nodeset};
@@ -37,24 +39,91 @@ for my $node (@nodes) {
 
     my $annotation_entries = $xp->find('annotations/attribute', $node);
     my $num_annotations = scalar @$annotation_entries;
-    $annotations->add_data($num_annotations);
+    my $num_dateds = 0;
 
     for my $annotation (@$annotation_entries) {
         my $key = $annotation->getAttribute('key');
-        my $value = $annotation->getAttribute('value')
+        my $value = $annotation->getAttribute('value');
 
-        $value = mktime(
+        if($key eq 'dated') {
+            $value = POSIX::mktime(0, 0, 0, $3, ($2 - 1), ($1-1900))
+                if($value =~ /^(\d+)-(\d+)-(\d+)$/);
+            $dateds->add_data($value);
+            $num_dateds++;
+        }
     }
 
     my $content = $node->getChildNode(2);
     die "No content node present" unless defined $content;
 
-    say STDERR "$page_no, $num_annotations";
+    $count_annotations->add_data($num_annotations);
+    $count_dateds->add_data($num_dateds);
+
+    say "$page_no, $num_annotations, $num_dateds";
 }
 
-say "Summary for " . $root->getAttribute('title');
+say STDERR "Summary for " . $root->getAttribute('title');
 
-say "\tNumber of pages: " . (scalar @nodes);
-say "\tNumber of annotations: " . $annotations->sum() . 
-    (sprintf(" (%g/page with sd=%g)", $annotations->mean(), $annotations->standard_deviation()));
-say "\tNumber of date annotations: " . $annotation_dateds->count();
+sub spread_as_string($) {
+    my $data = shift;
+
+    return sprintf("%g/page (sd=%g, range=%g-%g, median=%g, IQR=%g-%g, n=%d)",
+        $data->mean,
+        $data->standard_deviation,
+        $data->min,
+        $data->max,
+        $data->median,
+        scalar($data->percentile(25)),
+        scalar($data->percentile(75)),
+        $data->count
+    );
+}
+
+sub localtime_short($) {
+    my $time = shift;
+
+    return POSIX::strftime("%A, %B %d, %G", localtime($time));
+}
+
+my @dateds = $dateds->get_data();
+my %unique_dates;
+my $count_unique_dates = 0;
+my %duplicate_dates;
+foreach my $date (@dateds) {
+    if (exists $unique_dates{$date}) {
+        $unique_dates{$date}++;
+        if (exists $duplicate_dates{$date}) {
+            $duplicate_dates{$date}++;
+        } else {
+            $duplicate_dates{$date} = 2;
+        }
+    } else {
+        $unique_dates{$date} = 1;
+        $count_unique_dates++;
+    }
+}
+
+my $duplicate_dates = "";
+if(scalar(keys %duplicate_dates) == 0) {
+    $duplicate_dates = "none";
+} else {
+    my @sorted_dates = 
+        sort {$duplicate_dates{$a} <=> $duplicate_dates{$b}} 
+        keys %duplicate_dates;
+    my @duplicate_dates;
+    foreach my $date (@sorted_dates) {
+        push(@duplicate_dates, localtime_short($date) . ": " . $duplicate_dates{$date}) . " time(s)";
+    }
+    $duplicate_dates = join(", ", @duplicate_dates);
+}
+
+say STDERR "\tNumber of pages: " . (scalar @nodes);
+say STDERR "\tNumber of annotations: " . $count_annotations->sum() . 
+    "\n\t  Spread: " . spread_as_string($count_annotations);
+say STDERR "\tNumber of date annotations: " . $count_dateds->sum() .
+    "\n\t  Spread: " . spread_as_string($count_dateds);
+say STDERR "\t  Date range:";
+say STDERR "\t    Unique dates: $count_unique_dates (duplicated: $duplicate_dates)";
+say STDERR "\t    Min: " . localtime_short($dateds->min);
+say STDERR "\t    Max: " . localtime_short($dateds->max);
+say STDERR "\t    Median: " . localtime_short($dateds->median);
