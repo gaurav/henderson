@@ -99,6 +99,7 @@ sub dwc {
         "county",
         "locality",
         "verbatimLocality",
+        "AnnotatorLocality",
         "ScrapeGoatField",
         "decimal latitude",
         "decimal longitude",
