@@ -120,6 +120,7 @@ sub dwc {
     state $current_place_str;
     state $current_date;
     state $current_page_uri;
+    state $current_state;
     state %page_count;
 
     if($tag =~ /^place\|(.*)/i) {
@@ -129,6 +130,10 @@ sub dwc {
         if($current_place =~ /(.*)\|(.*)/) {
             $current_place = $1;
             $current_place_str = $2;
+        }
+
+        if($current_place =~ /^(\w+), (\w+)$/) {
+            $current_state = $2;
         }
     }
 
@@ -218,7 +223,7 @@ sub dwc {
             "",
 
             # "stateProvince",
-            "", 
+            $current_state, 
 
             # "verbatimLocality",
             $current_place_str,

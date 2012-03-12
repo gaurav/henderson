@@ -24,8 +24,16 @@ binmode(STDOUT, ":utf8");
 
 my $count_annotations = Statistics::Descriptive::Full->new();
 my $count_dateds = Statistics::Descriptive::Full->new();
+my $count_taxa = Statistics::Descriptive::Full->new();
+my $count_places = Statistics::Descriptive::Full->new();
+my $count_editors = Statistics::Descriptive::Full->new();
 
 my $dateds = Statistics::Descriptive::Full->new();
+my $taxa = Statistics::Descriptive::Full->new();
+my $places = Statistics::Descriptive::Full->new();
+
+my %editors_pages_edited;
+my %editors_contributions;
 
 my $str = "";
 my @nodes = @{$nodeset};
@@ -38,8 +46,11 @@ for my $node (@nodes) {
     my $uri = $node->getAttribute('uri');
 
     my $annotation_entries = $xp->find('annotations/attribute', $node);
+
     my $num_annotations = scalar @$annotation_entries;
     my $num_dateds = 0;
+    my $num_places = 0;
+    my $num_taxa = 0;
 
     for my $annotation (@$annotation_entries) {
         my $key = $annotation->getAttribute('key');
@@ -51,6 +62,23 @@ for my $node (@nodes) {
             $dateds->add_data($value);
             $num_dateds++;
         }
+
+        if($key eq 'place') {
+            # $places->add_data($value);
+            $num_places++;
+        }
+
+        if($key eq 'taxon') {
+            # $taxa->add_data($key);
+            $num_taxa++;
+        }
+    }
+
+    $editor_entries = $xp->find('editors/attribute', $node);
+
+    my $num_editors = scalar @$editor_entries;
+    for my $editor (@$editor_entries) {
+        
     }
 
     my $content = $node->getChildNode(2);
@@ -58,8 +86,11 @@ for my $node (@nodes) {
 
     $count_annotations->add_data($num_annotations);
     $count_dateds->add_data($num_dateds);
+    $count_taxa->add_data($num_taxa);
+    $count_places->add_data($num_places);
+    $count_editors->add_data($num_editors);
 
-    say "$page_no, $num_annotations, $num_dateds";
+    say "$page_no, $num_annotations, $num_dateds, $num_places, $num_taxa, $num_editors";
 }
 
 say STDERR "Summary for " . $root->getAttribute('title');
@@ -120,6 +151,13 @@ if(scalar(keys %duplicate_dates) == 0) {
 say STDERR "\tNumber of pages: " . (scalar @nodes);
 say STDERR "\tNumber of annotations: " . $count_annotations->sum() . 
     "\n\t  Spread: " . spread_as_string($count_annotations);
+
+say STDERR "\tNumber of places: " . $count_places->sum() . 
+    "\n\t  Spread: " . spread_as_string($count_places);
+
+say STDERR "\tNumber of taxa: " . $count_taxa->sum() . 
+    "\n\t  Spread: " . spread_as_string($count_taxa);
+
 say STDERR "\tNumber of date annotations: " . $count_dateds->sum() .
     "\n\t  Spread: " . spread_as_string($count_dateds);
 say STDERR "\t  Date range:";
@@ -127,3 +165,10 @@ say STDERR "\t    Unique dates: $count_unique_dates (duplicated: $duplicate_date
 say STDERR "\t    Min: " . localtime_short($dateds->min);
 say STDERR "\t    Max: " . localtime_short($dateds->max);
 say STDERR "\t    Median: " . localtime_short($dateds->median);
+
+say STDERR "\n";
+
+my $no_of_editors = (scalar keys %editors_contributions);
+say STDERR "\tNumber of editors: $no_of_editors" .
+    "\n\t  Spread: " . spread_as_string($count_editors);
+    "\n\t  Total contributions: " . (values %editors_contributions) .
