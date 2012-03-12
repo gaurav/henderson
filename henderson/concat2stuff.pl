@@ -124,6 +124,7 @@ sub dwc {
     state $current_place;
     state $current_place_str;
     state $current_date;
+    state $current_date_str;
     state $current_page_uri;
     state $current_state;
     state %page_count;
@@ -142,8 +143,16 @@ sub dwc {
         }
     }
 
-    if($tag =~ /^dated\|(\d+)-(\d+)-(\d+).*/i) {
-        $current_date = "$1-$2-$3";
+    if($tag =~ /^dated\|(.*)$/) {
+        if($tag =~ /^dated\|(\d+)-(\d+)-(\d+)$/i) {
+            $current_date = "$1-$2-$3";
+            $current_date_str = "$1-$2-$3";
+        } elsif($tag =~ /^dated\|(\d+)-(\d+)-(\d+)\|(.*)$/i) {
+            $current_date = "$1-$2-$3";
+            $current_date_str = $4;
+        } else {
+            die "Could not process date: $tag";
+        }
     }
 
     if($tag =~ /^#from.*\|uri=(.*)\|?/i) {
@@ -207,7 +216,7 @@ sub dwc {
             $taxon_name,
 
             # "VerbatimDate",
-            $current_date,
+            $current_date_str,
 
             # "identifiedBy",
             "Junius Henderson",
