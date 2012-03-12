@@ -84,6 +84,8 @@ sub dwc {
         "fieldNotes",
         "scientificName",
         "vernacularName",
+        "ScrapedName",
+        "AnnotatorName",
         "VerbatimDate",
         "identifiedBy",
         "dateIdentified",
@@ -94,6 +96,8 @@ sub dwc {
         "country",
         "countryCode",
         "stateProvince",
+        "county",
+        "locality",
         "verbatimLocality",
         "ScrapeGoatField",
         "decimal latitude",
@@ -190,10 +194,16 @@ sub dwc {
             "http://en.wikisource.org/wiki/Field_Notes_of_Junius_Henderson",
     
             # "scientificName",
-            $taxon_name,
+            "", #$taxon_name,
 
             # "vernacularName",
+            "", #$taxon_str,
+
+            # ScrapedName
             $taxon_str,
+
+            # AnnotatorName
+            $taxon_name,
 
             # "VerbatimDate",
             $current_date,
@@ -208,22 +218,28 @@ sub dwc {
             "",
 
             # "dataGeneralizations",
-            $entry,
+            "", # $entry,
 
             # "identificationRemarks",
             "",
 
             # "occurenceRemarks",
-            $entry,
+            "", #$entry,
 
             # "country",
-            "",
+            "United States of America",
 
             # "countryCode",
-            "",
+            "US",
 
             # "stateProvince",
             $current_state, 
+        
+            # "county",
+            "",
+            
+            # "locality",
+            "",
 
             # "verbatimLocality",
             $current_place_str,
