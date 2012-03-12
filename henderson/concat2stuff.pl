@@ -136,7 +136,7 @@ sub dwc {
             $current_place_str = $2;
         }
 
-        if($current_place =~ /^(\w+), (\w+)$/) {
+        if($current_place_str =~ /^(\w+), (\w+)$/) {
             $current_state = $2;
         }
     }
@@ -243,6 +243,9 @@ sub dwc {
 
             # "verbatimLocality",
             $current_place_str,
+
+            # "AnnotatorLocality",
+            $current_place,
 
             # "ScrapeGoatField",
             "",
