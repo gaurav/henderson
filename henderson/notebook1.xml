@@ -1,4 +1,4 @@
-<transcription title="Index:Field Notes of Junius Henderson, Notebook 1.djvu" created="Wed Mar 14 02:22:49 2012">
+<transcription title="Index:Field Notes of Junius Henderson, Notebook 1.djvu" created="Wed Mar 14 08:56:56 2012">
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/1" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/1?oldid=3528392">
         <content><![CDATA[<noinclude><pagequality level="3" user="Gaurav2" /><div class="pagetext">
 
@@ -107,6 +107,7 @@ Special rate, Denver to Florissant, $4.50, pd $9.00 for Ramaley and I. Left Denv
             <attribute key="Gaurav" value="4" />
         </editors>
         <annotations>
+            <attribute key="dated" value="1905-08-01" />
             <attribute key="place" value="Castle Rock, Colorado" />
             <attribute key="place" value="New Mexico" />
             <attribute key="taxon" value="Pinus" />
@@ -2330,6 +2331,7 @@ Left {{Place|Boulder, Colorado|Boulder}} at 9:30 a.m. on narrow guage (sic) acco
         <annotations>
             <attribute key="dated" value="1906-08-31" />
             <attribute key="place" value="Bluebird Mine, Colorado" />
+            <attribute key="place" value="Boulder, Colorado" />
             <attribute key="place" value="Eldora, Colorado" />
             <attribute key="place" value="Gold Miner Hotel, Colorado" />
             <attribute key="place" value="Hessie, Colorado" />

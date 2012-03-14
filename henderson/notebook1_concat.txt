@@ -32,7 +32,7 @@ No. 1<br>
 1905 - {{dated|1907-04-07|Apr 7, 1907}}
 </center>
 
-{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/3|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/3?oldid=3614104}}
+{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/3|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/3?oldid=3636719}}
 
 
 
@@ -42,9 +42,15 @@ No. 1<br>
 
 {{dated|1905-07-28|July 28, 1905}}. Saw {{taxon|Sayornis saya|Say Phoebe}} and {{taxon|Carduelis pinus|siskin}}, {{taxon|Turdus migratorius|America Robin}}, {{taxon|Colaptes auratus|Northern Flicker}}.
 
+{{new-entry}}
+
 {{dated|1905-07-29|July 29}}, Saw {{taxon|Sayornis saya|Say Phoebe}}, Heard a {{taxon|Turdus migratorius|America Robin}} at 11:30 last night.
 
+{{new-entry}}
+
 {{dated|1905-07-30|July 30}}, Saw {{taxon|Sayornis saya|Say Phoebe}}
+
+{{new-entry}}
 
 {{dated|1905-07-31|July 31}}, heard {{taxon|Carduelis pinus|Pine Siskin}} at noon at Court House, have seen none for a week. Expense University {{place|Florissant, Colorado|Florissant}} trip, 2 tickets to {{place|Denver, Colorado|Denver}}  Dr. Ramaley and I ----$2.00. Saw a {{taxon|Tyrannus |Kingbird}} and {{taxon|Turdus migratorius|America Robin}} on way to depot. Left Boulder with Dr. Ramaley at 5:15 p.m., reached Denver about on time. Stayed at {{place|Oxford Hotel (Denver, Colorado)| Oxford Hotel}} to be near depot in the morning. Went to {{place|City Park, Denver | City Park}} and heard band and saw moving pictures including “Stage Robbery” which, to say the least, was not an elevating spectacle, nor helpful to venturesome boys, apt to be carried away with the wildness of such a life.
 
@@ -230,7 +236,7 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
 
 <u>End of Florissant Trip</u>
 
-{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/24|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/24?oldid=3581811}}
+{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/24|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/24?oldid=3656717}}
 
 <center><u>{{place|Silver Lake}} Arapahoe Trip</u><br />
 {{dated|1905-08-29|Aug. 29}} to Sept.</center>
@@ -266,11 +272,11 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
 |-
 |Hunting & bird licenses || 1.50 (?)
 |-
-|Bark boxes (?) 4 || ---
+|Cork boxes (?) 4 || ---
 |-
-|Bassarets 1 box (?) || ---
+|Cascarets 1 box || ---
 |-
-|{{illegible}} || ---
+|Glycothymoline & {illegible text} ||
 |-
 |Coffee 2 lb (?) || .80
 |-
@@ -986,7 +992,7 @@ N of {{place|Boulder, Colorado|Boulder}} {{dated|1907-02-23|Feby 23, 1907}}
 
 Sievert Rohwer, Frank Rohwer and I went north today, collected fossils. In sandstone at Station 8, sec 7 Tp 1 N R 70 W found {{taxon|Inoceramus venuxemi|I. vanuxemi}}, {{taxon|Inoceramus barabini|I barabini}} and {{taxon|Inoceramus sagensis|I. sagensis}} in poor condition and 1 {{taxon|Baculites cf. compressus|B. cf. compressus}} just at W line of section and about intersec-
 
-{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/107|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/107?oldid=3614591}}
+{{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/107|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/107?oldid=3632338}}
 
 tion with E and W « of section line. Bluff E of there station 3 sec 8 contained {{taxon|Inoceramus sagensis|I. sagensis}} in limestone concretions. Bluff is sandy in black shale. In lateral gulch at station 4 SE cor NE ¬ SW ¬ Sec 8 we found {{taxon|Inoceramus barabini|I. barabini}} and {{taxon|Inoceramus sagensis|sagensis}}. Dip all SE gentle. Found sandstone again at station 6 NE cor NW ¬ SE ¬ Sec. 8. E of there clay is yellow. On S front of {{place|Four Mile Mesa, Colorado|Four Mile Mesa}} Hygiene sandstone reaches W line sec. 6 Tp 1 N R 70 W. On N slope of mesa it trends rapidly to the northeast. In the NE ¬ SE ¬ sec. 6 Tp 1 N R 70 W the upper part of the Pierre exposure on N slope of mesa weathers yellowish.
 
@@ -994,7 +1000,7 @@ tion with E and W « of section line. Bluff E of there station 3 sec 8 contained
 
 {{place|Denver, Colorado|Denver, Colo.}}, {{dated|1907-03-02|Mch 2. 1907}}
 
-Prof. Geo. L. Cannon and I went out to the creek S of }}place|Cheltenham Schoolhouse}} in {{place|West Denver, Colorado|West Denver}}. The creek is locally known as {{place|Dry Creek}}, but to distinguish it from a dozen other “dry Creeks” Cannon proposes the name {{place|Green Mountain Creek, Colorado|Green Mountain Creek}}
+Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolhouse}} in {{place|West Denver, Colorado|West Denver}}. The creek is locally known as {{place|Dry Creek}}, but to distinguish it from a dozen other “dry Creeks” Cannon proposes the name {{place|Green Mountain Creek, Colorado|Green Mountain Creek}}
 
 {{#from|title=Page:Field Notes of Junius Henderson, Notebook 1.djvu/108|uri=http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/108?oldid=3581914}}
 

@@ -48,6 +48,7 @@ my @nodes = @{$nodeset};
 
 my $pages_processed = 0;
 
+my $first_entry = 0;
 my $page_no = 0;
 for my $node (@nodes) {
     $page_no++;
@@ -55,6 +56,11 @@ for my $node (@nodes) {
     if($page_no <= $skip_pages) {
         say STDERR "Skipping page $page_no.";
         next;
+    }
+
+    if(not $first_entry) {
+        say STDERR "First page: <<" . $node->string_value . ">>";
+        $first_entry = 1;
     }
 
     my $title = $node->getAttribute('title');
@@ -68,7 +74,7 @@ for my $node (@nodes) {
     my $num_taxa = 0;
 
     for my $annotation (@$annotation_entries) {
-        my $key = $annotation->getAttribute('key');
+        my $key = lc($annotation->getAttribute('key'));
         my $value = $annotation->getAttribute('value');
 
         if($key eq 'dated') {
