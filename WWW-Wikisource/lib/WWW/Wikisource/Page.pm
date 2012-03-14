@@ -228,7 +228,7 @@ sub get_annotations {
 
     $type = 'dated' unless defined $type;
 
-    my @annotations = ($self->content =~ /\{\{$type\|\s*(.*?)\s*(?:\||\}\})/g);
+    my @annotations = ($self->content =~ /\{\{$type\|\s*(.*?)\s*(?:\||\}\})/gi);
 
     # Remove duplicates.
     @annotations = sort keys %{{ map { $_ => 1 } @annotations }};
