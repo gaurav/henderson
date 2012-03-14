@@ -4,7 +4,7 @@
       "Gaurav Vaidya <gaurav@ggvaidya.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.38, CPAN::Meta::Converter version 2.113640",
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120530",
    "license" : [
       "perl_5"
    ],
@@ -16,11 +16,11 @@
    "prereqs" : {
       "build" : {
          "requires" : {
-            "Carp" : 0,
-            "MediaWiki::API" : 0,
-            "Test::More" : 0,
-            "Try::Tiny" : 0,
-            "XML::Writer" : 0
+            "Carp" : "0",
+            "MediaWiki::API" : "0",
+            "Test::More" : "0",
+            "Try::Tiny" : "0",
+            "XML::Writer" : "0"
          }
       }
    },
