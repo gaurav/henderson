@@ -13,6 +13,13 @@ use XML::XPath;
 use XML::XPath::XMLParser;
 
 use Statistics::Descriptive;
+use URI::Escape;
+use Getopt::Long;
+
+my $skip_pages = 0;
+GetOptions(
+    'skip=o' => \$skip_pages
+);
 
 die "No argument provided: please provide the filename to process" unless exists $ARGV[0];
 my $xp = XML::XPath->new($ARGV[0]) or die "Could not open '$ARGV[0]'.";
@@ -29,8 +36,8 @@ my $count_places = Statistics::Descriptive::Full->new();
 my $count_editors = Statistics::Descriptive::Full->new();
 
 my $dateds = Statistics::Descriptive::Full->new();
-my $taxa = Statistics::Descriptive::Full->new();
-my $places = Statistics::Descriptive::Full->new();
+my @taxa = ();
+my @places = ();
 
 my %editors_pages_edited;
 my %editors_contributions;
@@ -38,9 +45,16 @@ my %editors_contributions;
 my $str = "";
 my @nodes = @{$nodeset};
 
+my $pages_processed = 0;
+
 my $page_no = 0;
 for my $node (@nodes) {
     $page_no++;
+
+    if($page_no <= $skip_pages) {
+        say STDERR "Skipping page $page_no.";
+        next;
+    }
 
     my $title = $node->getAttribute('title');
     my $uri = $node->getAttribute('uri');
@@ -64,21 +78,30 @@ for my $node (@nodes) {
         }
 
         if($key eq 'place') {
-            # $places->add_data($value);
+            push @places, $value;
             $num_places++;
         }
 
         if($key eq 'taxon') {
-            # $taxa->add_data($key);
+            push @taxa, $value;
             $num_taxa++;
         }
     }
 
-    $editor_entries = $xp->find('editors/attribute', $node);
-
+    my $editor_entries = $xp->find('editors/attribute', $node);
     my $num_editors = scalar @$editor_entries;
+
     for my $editor (@$editor_entries) {
-        
+        my $editor_username = $editor->getAttribute('key');
+        my $editor_contribs = $editor->getAttribute('value');
+
+        if (exists $editors_contributions{$editor_username}) {
+            $editors_contributions{$editor_username} += $editor_contribs;
+            $editors_pages_edited{$editor_username}++;
+        } else {
+            $editors_contributions{$editor_username} = $editor_contribs;
+            $editors_pages_edited{$editor_username} = 1;
+        }
     }
 
     my $content = $node->getChildNode(2);
@@ -91,9 +114,8 @@ for my $node (@nodes) {
     $count_editors->add_data($num_editors);
 
     say "$page_no, $num_annotations, $num_dateds, $num_places, $num_taxa, $num_editors";
+    $pages_processed++;
 }
-
-say STDERR "Summary for " . $root->getAttribute('title');
 
 sub spread_as_string($) {
     my $data = shift;
@@ -117,58 +139,93 @@ sub localtime_short($) {
 }
 
 my @dateds = $dateds->get_data();
-my %unique_dates;
-my $count_unique_dates = 0;
-my %duplicate_dates;
-foreach my $date (@dateds) {
-    if (exists $unique_dates{$date}) {
-        $unique_dates{$date}++;
-        if (exists $duplicate_dates{$date}) {
-            $duplicate_dates{$date}++;
+
+sub get_uniques($$) {
+    my ($data, $render_func) = @_;
+    my @data = @{$data};
+
+    if(not defined $render_func) {
+        $render_func = sub { return join('', @_); };
+    }
+
+    my %uniques;
+    my $count_uniques = 0;
+    my %duplicates;
+
+    foreach my $item (@data) {
+        if (exists $uniques{$item}) {
+            $uniques{$item}++;
+            if (exists $duplicates{$item}) {
+                $duplicates{$item}++;
+            } else {
+                $duplicates{$item} = 2;
+            }
         } else {
-            $duplicate_dates{$date} = 2;
+            $uniques{$item} = 1;
+            $count_uniques++;
         }
+    }
+
+    my $duplicates = "";
+    if(scalar(keys %duplicates) == 0) {
+        $duplicates = "none";
     } else {
-        $unique_dates{$date} = 1;
-        $count_unique_dates++;
+        my @sorted = 
+            sort {$duplicates{$b} <=> $duplicates{$a}} 
+            keys %duplicates;
+
+        # print STDERR "Sorted duplicates: " . join(', ', @sorted) . ".";
+        my @duplicates;
+        foreach my $item (@sorted) {
+            # print STDERR "Rendered item $item as " . $render_func->($item) . ".";
+            push(@duplicates, $render_func->($item) . ": " . $duplicates{$item} . " times");
+        }
+        $duplicates = join(", ", @duplicates);
     }
+
+    return ($count_uniques, $duplicates);
 }
 
-my $duplicate_dates = "";
-if(scalar(keys %duplicate_dates) == 0) {
-    $duplicate_dates = "none";
-} else {
-    my @sorted_dates = 
-        sort {$duplicate_dates{$a} <=> $duplicate_dates{$b}} 
-        keys %duplicate_dates;
-    my @duplicate_dates;
-    foreach my $date (@sorted_dates) {
-        push(@duplicate_dates, localtime_short($date) . ": " . $duplicate_dates{$date}) . " time(s)";
-    }
-    $duplicate_dates = join(", ", @duplicate_dates);
+sub get_uniques_str {
+    my ($data, $render_func) = @_;
+
+    my $count = scalar(@$data);
+    my($unique_count, $unique_report) = get_uniques($data, $render_func);
+
+    return "$count ($unique_count unique, duplicates: $unique_report)";
 }
 
-say STDERR "\tNumber of pages: " . (scalar @nodes);
+binmode(STDERR, ':utf8');
+say STDERR "\nSummary for " . $root->getAttribute('title');
+say STDERR "  URL: http://en.wikisource.org/wiki/" . uri_escape($root->getAttribute('title'));
+say STDERR "  Downloaded: " . $root->getAttribute('created');
+
+say STDERR "\tNumber of pages: $pages_processed";
+
 say STDERR "\tNumber of annotations: " . $count_annotations->sum() . 
     "\n\t  Spread: " . spread_as_string($count_annotations);
 
-say STDERR "\tNumber of places: " . $count_places->sum() . 
-    "\n\t  Spread: " . spread_as_string($count_places);
+say STDERR "\n\tNumber of taxa: " . $count_taxa->sum() . 
+    "\n\t  Spread: " . spread_as_string($count_taxa) .
+    "\n" .
+    "\n\t  Data: " .
+    "\n\t    Count: " . get_uniques_str(\@taxa);
 
-say STDERR "\tNumber of taxa: " . $count_taxa->sum() . 
-    "\n\t  Spread: " . spread_as_string($count_taxa);
+say STDERR "\n\tNumber of places: " . $count_places->sum() . 
+    "\n\t  Spread: " . spread_as_string($count_places) .
+    "\n" .
+    "\n\t  Data: " .
+    "\n\t    Count: " . get_uniques_str(\@places);
 
-say STDERR "\tNumber of date annotations: " . $count_dateds->sum() .
+say STDERR "\n\tNumber of date annotations: " . $count_dateds->sum() .
     "\n\t  Spread: " . spread_as_string($count_dateds);
-say STDERR "\t  Date range:";
-say STDERR "\t    Unique dates: $count_unique_dates (duplicated: $duplicate_dates)";
+say STDERR "\t  Data:";
+say STDERR "\t    Count: " . get_uniques_str([$dateds->get_data()], \&localtime_short);
 say STDERR "\t    Min: " . localtime_short($dateds->min);
 say STDERR "\t    Max: " . localtime_short($dateds->max);
 say STDERR "\t    Median: " . localtime_short($dateds->median);
 
-say STDERR "\n";
-
 my $no_of_editors = (scalar keys %editors_contributions);
-say STDERR "\tNumber of editors: $no_of_editors" .
-    "\n\t  Spread: " . spread_as_string($count_editors);
-    "\n\t  Total contributions: " . (values %editors_contributions) .
+say STDERR "\n\tNumber of editors: $no_of_editors" .
+    "\n\t  Spread: " . spread_as_string($count_editors) .
+    "\n\t  Total contributions: TBD";
