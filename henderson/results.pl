@@ -33,6 +33,7 @@ my $count_annotations = Statistics::Descriptive::Full->new();
 my $count_dateds = Statistics::Descriptive::Full->new();
 my $count_taxa = Statistics::Descriptive::Full->new();
 my $count_places = Statistics::Descriptive::Full->new();
+my $count_edits = Statistics::Descriptive::Full->new();
 my $count_editors = Statistics::Descriptive::Full->new();
 
 my $dateds = Statistics::Descriptive::Full->new();
@@ -91,9 +92,12 @@ for my $node (@nodes) {
     my $editor_entries = $xp->find('editors/attribute', $node);
     my $num_editors = scalar @$editor_entries;
 
+    my $num_edits = 0;
     for my $editor (@$editor_entries) {
         my $editor_username = $editor->getAttribute('key');
         my $editor_contribs = $editor->getAttribute('value');
+ 
+        $num_edits += $editor_contribs;
 
         if (exists $editors_contributions{$editor_username}) {
             $editors_contributions{$editor_username} += $editor_contribs;
@@ -112,8 +116,9 @@ for my $node (@nodes) {
     $count_taxa->add_data($num_taxa);
     $count_places->add_data($num_places);
     $count_editors->add_data($num_editors);
+    $count_edits->add_data($num_edits);
 
-    say "$page_no, $num_annotations, $num_dateds, $num_places, $num_taxa, $num_editors";
+    say "$page_no, $num_annotations, $num_dateds, $num_places, $num_taxa, $num_editors, $num_edits";
     $pages_processed++;
 }
 
@@ -225,7 +230,10 @@ say STDERR "\t    Min: " . localtime_short($dateds->min);
 say STDERR "\t    Max: " . localtime_short($dateds->max);
 say STDERR "\t    Median: " . localtime_short($dateds->median);
 
-my $no_of_editors = (scalar keys %editors_contributions);
-say STDERR "\n\tNumber of editors: $no_of_editors" .
-    "\n\t  Spread: " . spread_as_string($count_editors) .
-    "\n\t  Total contributions: TBD";
+say "\n\tNumber of edits: " . $count_edits->sum() .
+    "\n\t  Spread: " . spread_as_string($count_edits);
+
+say STDERR "\n\tNumber of editors: " . (scalar keys %editors_contributions) .
+    "\n\t  Spread: " . spread_as_string($count_editors);
+
+say STDERR "";
