@@ -41,7 +41,7 @@ my @taxa = ();
 my @places = ();
 
 my %editors_pages_edited;
-my %editors_contributions;
+my %editors_edits_made;
 
 my $str = "";
 my @nodes = @{$nodeset};
@@ -99,11 +99,11 @@ for my $node (@nodes) {
  
         $num_edits += $editor_contribs;
 
-        if (exists $editors_contributions{$editor_username}) {
-            $editors_contributions{$editor_username} += $editor_contribs;
+        if (exists $editors_edits_made{$editor_username}) {
+            $editors_edits_made{$editor_username} += $editor_contribs;
             $editors_pages_edited{$editor_username}++;
         } else {
-            $editors_contributions{$editor_username} = $editor_contribs;
+            $editors_edits_made{$editor_username} = $editor_contribs;
             $editors_pages_edited{$editor_username} = 1;
         }
     }
@@ -125,7 +125,7 @@ for my $node (@nodes) {
 sub spread_as_string($) {
     my $data = shift;
 
-    return sprintf("%g/page (sd=%g, range=%g-%g, median=%g, IQR=%g-%g, n=%d)",
+    return sprintf("%g (sd=%g, range=%g-%g, median=%g, IQR=%g-%g, n=%d)",
         $data->mean,
         $data->standard_deviation,
         $data->min,
@@ -233,7 +233,19 @@ say STDERR "\t    Median: " . localtime_short($dateds->median);
 say "\n\tNumber of edits: " . $count_edits->sum() .
     "\n\t  Spread: " . spread_as_string($count_edits);
 
-say STDERR "\n\tNumber of editors: " . (scalar keys %editors_contributions) .
+say STDERR "\n\tNumber of editors: " . (scalar keys %editors_edits_made) .
     "\n\t  Spread: " . spread_as_string($count_editors);
+
+my $count_pages_per_editor = Statistics::Descriptive::Full->new();
+$count_pages_per_editor->add_data(values %editors_pages_edited);
+
+say STDERR "\n\tPages per editor: " . 
+    "\n\t  Spread: " . spread_as_string($count_pages_per_editor);
+
+my $count_edits_per_editor = Statistics::Descriptive::Full->new();
+$count_edits_per_editor->add_data(values %editors_edits_made);
+
+say STDERR "\n\tEdits per editor: " . 
+    "\n\t  Spread: " . spread_as_string($count_edits_per_editor);
 
 say STDERR "";
