@@ -20,6 +20,7 @@ use Text::CSV;
 use POSIX;
 
 binmode(STDOUT, ":utf8");
+binmode(STDIN, ":utf8");
 
 my @entries;
 
@@ -186,7 +187,7 @@ sub dwc {
             "JHFN$notebook_number-$page_number-" . $page_count{$page_number}, 
 
             # "dc:modified",
-            POSIX::strftime('%Y-%m-%d', localtime),
+            "'" . POSIX::strftime('%Y-%m-%d', localtime),
 
             # "basisOfRecord",
             "HumanObservation",
@@ -216,13 +217,13 @@ sub dwc {
             $taxon_name,
 
             # "VerbatimDate",
-            $current_date_str,
+            "'" . $current_date_str,
 
             # "identifiedBy",
             "Junius Henderson",
 
             # "dateIdentified",
-            $current_date,
+            "'" . $current_date,
 
             # "associatedReferences",
             "",
