@@ -115,7 +115,7 @@ sub spread_as_string($) {
 say STDERR "\tEntries: " . (scalar @entries) . "\n";
 
 say STDERR "\tAnnotations: " . $count_annotations->sum() .
-    "\n\t  Annotations/page: " . spread_as_string($count_annotations);
+    "\n\t  Annotations/entry: " . spread_as_string($count_annotations);
 
 say STDERR 
     "\n\t  Taxon annotations: " . $count_taxa->sum() .

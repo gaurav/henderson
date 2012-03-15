@@ -83,17 +83,17 @@ for my $node (@nodes) {
         if($key eq 'dated') {
             $value = POSIX::mktime(0, 0, 0, $3, ($2 - 1), ($1-1900))
                 if($value =~ /^(\d+)-(\d+)-(\d+)$/);
-            $dateds->add_data($value);
+            $dateds->add_data($value) for(1..$count);
             $num_dateds += $count;
         }
 
         if($key eq 'place') {
-            push @places, $value;
+            push @places, $value for(1..$count);
             $num_places += $count;
         }
 
         if($key eq 'taxon') {
-            push @taxa, $value;
+            push @taxa, $value for(1..$count);
             $num_taxa += $count;
         }
     }
