@@ -100,13 +100,13 @@ foreach my $entry (@entries) {
 sub spread_as_string($) {
     my $data = shift;
 
-    return sprintf("%g (sd=%g, range=%g-%g, median=%g, IQR=%g-%g, n=%d)",
+    return sprintf("%g (sd=%g, range: %g-%g, quartile: %g:%g:%g, n=%d)",
         $data->mean,
         $data->standard_deviation,
         $data->min,
         $data->max,
-        $data->median,
         scalar($data->percentile(25)),
+        $data->median,
         scalar($data->percentile(75)),
         $data->count
     );
