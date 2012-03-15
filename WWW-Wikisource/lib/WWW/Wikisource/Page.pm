@@ -231,9 +231,16 @@ sub get_annotations {
     my @annotations = ($self->content =~ /\{\{$type\|\s*(.*?)\s*(?:\||\}\})/gi);
 
     # Remove duplicates.
-    @annotations = sort keys %{{ map { $_ => 1 } @annotations }};
+    my %annotations;
+    foreach my $key (@annotations) {
+        if(exists $annotations{$key}) {
+            $annotations{$key}++;
+        } else {
+            $annotations{$key} = 1;
+        }
+    }
 
-    return \@annotations;
+    return \%annotations;
 }
 
 sub annotations {

@@ -291,6 +291,7 @@ sub as_xml {
         $xml->endTag("content");
 
         sub add_attributes {
+            # This method is recursive.
             my ($xml, $hashref) = @_;
 
             foreach my $key (keys %{$hashref}) {
@@ -299,7 +300,11 @@ sub as_xml {
                 my $value = $hashref->{$key};
                 next unless defined $value;
 
-                if(ref($value) eq 'HASH') {
+                if($key eq 'dated' || $key eq 'place' || $key eq 'taxon') {
+                    foreach my $val (keys %{$value}) {
+                        $xml->emptyTag("attribute", 'key' => $key, 'value' => $val, 'count' => $value->{$val});
+                    }
+                } elsif(ref($value) eq 'HASH') {
                     $xml->startTag($key);
                     add_attributes($xml, $value);
                     $xml->endTag($key);
