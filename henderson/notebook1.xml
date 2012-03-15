@@ -1,4 +1,4 @@
-<transcription title="Index:Field Notes of Junius Henderson, Notebook 1.djvu" created="Wed Mar 14 08:56:56 2012">
+<transcription title="Index:Field Notes of Junius Henderson, Notebook 1.djvu" created="Thu Mar 15 07:49:38 2012">
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/1" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/1?oldid=3528392">
         <content><![CDATA[<noinclude><pagequality level="3" user="Gaurav2" /><div class="pagetext">
 
@@ -44,9 +44,9 @@ No. 1<br>
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-04-07" />
-            <attribute key="place" value="Boulder" />
-            <attribute key="place" value="Colorado" />
+            <attribute key="dated" value="1907-04-07" count="1" />
+            <attribute key="place" value="Colorado" count="1" />
+            <attribute key="place" value="Boulder" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/3" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/3?oldid=3636719">
@@ -75,20 +75,20 @@ No. 1<br>
             <attribute key="Gaurav" value="4" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-07-28" />
-            <attribute key="dated" value="1905-07-29" />
-            <attribute key="dated" value="1905-07-30" />
-            <attribute key="dated" value="1905-07-31" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="City Park, Denver" />
-            <attribute key="place" value="Denver, Colorado" />
-            <attribute key="place" value="Florissant, Colorado" />
-            <attribute key="place" value="Oxford Hotel (Denver, Colorado)" />
-            <attribute key="taxon" value="Carduelis pinus" />
-            <attribute key="taxon" value="Colaptes auratus" />
-            <attribute key="taxon" value="Sayornis saya" />
-            <attribute key="taxon" value="Turdus migratorius" />
-            <attribute key="taxon" value="Tyrannus" />
+            <attribute key="dated" value="1905-07-31" count="1" />
+            <attribute key="dated" value="1905-07-30" count="1" />
+            <attribute key="dated" value="1905-07-28" count="1" />
+            <attribute key="dated" value="1905-07-29" count="1" />
+            <attribute key="place" value="Denver, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Florissant, Colorado" count="1" />
+            <attribute key="place" value="Oxford Hotel (Denver, Colorado)" count="1" />
+            <attribute key="place" value="City Park, Denver" count="1" />
+            <attribute key="taxon" value="Tyrannus" count="1" />
+            <attribute key="taxon" value="Colaptes auratus" count="1" />
+            <attribute key="taxon" value="Turdus migratorius" count="3" />
+            <attribute key="taxon" value="Carduelis pinus" count="2" />
+            <attribute key="taxon" value="Sayornis saya" count="3" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/4" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/4?oldid=3614103">
@@ -107,10 +107,10 @@ Special rate, Denver to Florissant, $4.50, pd $9.00 for Ramaley and I. Left Denv
             <attribute key="Gaurav" value="4" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-01" />
-            <attribute key="place" value="Castle Rock, Colorado" />
-            <attribute key="place" value="New Mexico" />
-            <attribute key="taxon" value="Pinus" />
+            <attribute key="dated" value="1905-08-01" count="1" />
+            <attribute key="place" value="New Mexico" count="1" />
+            <attribute key="place" value="Castle Rock, Colorado" count="1" />
+            <attribute key="taxon" value="Pinus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/5" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/5?oldid=3581173">
@@ -125,11 +125,11 @@ Special rate, Denver to Florissant, $4.50, pd $9.00 for Ramaley and I. Left Denv
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Colorado Springs, Colorado" />
-            <attribute key="place" value="Palmer Lake, Colorado" />
-            <attribute key="taxon" value="Pinus" />
-            <attribute key="taxon" value="Quercus" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Colorado Springs, Colorado" count="1" />
+            <attribute key="place" value="Palmer Lake, Colorado" count="1" />
+            <attribute key="taxon" value="Pinus" count="1" />
+            <attribute key="taxon" value="Quercus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/6" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/6?oldid=3575072">
@@ -147,19 +147,19 @@ Saw {{taxon|Dipper|Dippers}} soon after entering the granite gorge. More open ab
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Cascade, Colorado" />
-            <attribute key="place" value="Colorado Springs, Colorado" />
-            <attribute key="place" value="Estes Park, Colorado" />
-            <attribute key="place" value="Green Mountain Falls, Colorado" />
-            <attribute key="place" value="Manitou Springs, Colorado" />
-            <attribute key="place" value="Woodland Park, Colorado" />
-            <attribute key="taxon" value="Dipper" />
-            <attribute key="taxon" value="Magpies" />
-            <attribute key="taxon" value="Populus tremuloides" />
-            <attribute key="taxon" value="Prairie Dog" />
-            <attribute key="taxon" value="Red-winged Blackbird" />
-            <attribute key="taxon" value="Zenaida macroura" />
+            <attribute key="place" value="Cascade, Colorado" count="1" />
+            <attribute key="place" value="Manitou Springs, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Estes Park, Colorado" count="1" />
+            <attribute key="place" value="Colorado Springs, Colorado" count="1" />
+            <attribute key="place" value="Woodland Park, Colorado" count="1" />
+            <attribute key="place" value="Green Mountain Falls, Colorado" count="2" />
+            <attribute key="taxon" value="Red-winged Blackbird" count="1" />
+            <attribute key="taxon" value="Populus tremuloides" count="1" />
+            <attribute key="taxon" value="Magpies" count="1" />
+            <attribute key="taxon" value="Zenaida macroura" count="1" />
+            <attribute key="taxon" value="Dipper" count="1" />
+            <attribute key="taxon" value="Prairie Dog" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/7" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/7?oldid=3616326">
@@ -191,21 +191,21 @@ Up first gulch W and N of Station 1.<noinclude><references/></div></noinclude>]]
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Florissant, Colorado" />
-            <attribute key="taxon" value="Calamospiza melanocorys" />
-            <attribute key="taxon" value="Chondestes grammacus" />
-            <attribute key="taxon" value="Cleome serrulata" />
-            <attribute key="taxon" value="Colaptes auratus" />
-            <attribute key="taxon" value="Euphagus cyanocephalus" />
-            <attribute key="taxon" value="Hirundo rustica" />
-            <attribute key="taxon" value="Ipomopsis_aggregata" />
-            <attribute key="taxon" value="Magpies" />
-            <attribute key="taxon" value="Passer domesticus" />
-            <attribute key="taxon" value="Petrochelidon pyrrhonota" />
-            <attribute key="taxon" value="Picea" />
-            <attribute key="taxon" value="Potentilla fruticosa" />
-            <attribute key="taxon" value="Prairie Dog" />
-            <attribute key="taxon" value="Sialia currucoides" />
+            <attribute key="place" value="Florissant, Colorado" count="2" />
+            <attribute key="taxon" value="Picea" count="1" />
+            <attribute key="taxon" value="Chondestes grammacus" count="1" />
+            <attribute key="taxon" value="Calamospiza melanocorys" count="1" />
+            <attribute key="taxon" value="Magpies" count="1" />
+            <attribute key="taxon" value="Colaptes auratus" count="1" />
+            <attribute key="taxon" value="Sialia currucoides" count="1" />
+            <attribute key="taxon" value="Passer domesticus" count="1" />
+            <attribute key="taxon" value="Petrochelidon pyrrhonota" count="1" />
+            <attribute key="taxon" value="Ipomopsis_aggregata" count="1" />
+            <attribute key="taxon" value="Potentilla fruticosa" count="1" />
+            <attribute key="taxon" value="Hirundo rustica" count="1" />
+            <attribute key="taxon" value="Euphagus cyanocephalus" count="1" />
+            <attribute key="taxon" value="Cleome serrulata" count="1" />
+            <attribute key="taxon" value="Prairie Dog" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/8" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/8?oldid=3614088">
@@ -220,9 +220,9 @@ Up first gulch W and N of Station 1.<noinclude><references/></div></noinclude>]]
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Estes Park" />
-            <attribute key="place" value="Florissant" />
-            <attribute key="place" value="Florissant Lake" />
+            <attribute key="place" value="Estes Park" count="1" />
+            <attribute key="place" value="Florissant Lake" count="1" />
+            <attribute key="place" value="Florissant" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/9" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/9?oldid=3614101">
@@ -243,10 +243,10 @@ Up first gulch W and N of Station 1.<noinclude><references/></div></noinclude>]]
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-02" />
-            <attribute key="place" value="Florissant, Colorado" />
-            <attribute key="taxon" value="Colaptes auratus" />
-            <attribute key="taxon" value="Euphagus cyanocephalus" />
+            <attribute key="dated" value="1905-08-02" count="1" />
+            <attribute key="place" value="Florissant, Colorado" count="1" />
+            <attribute key="taxon" value="Colaptes auratus" count="1" />
+            <attribute key="taxon" value="Euphagus cyanocephalus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/10" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/10?oldid=3614105">
@@ -264,7 +264,7 @@ Hot, bright morning. Went up creek after breakfast, found another lava breccia o
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-03" />
+            <attribute key="dated" value="1905-08-03" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/11" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/11?oldid=3575106">
@@ -282,19 +282,19 @@ At head of Lake George, which is an artificial lake said to have been made ice p
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Lake George, Colorado" />
-            <attribute key="place" value="Twin Creek, Colorado" />
-            <attribute key="taxon" value="Circus cyaneus" />
-            <attribute key="taxon" value="Cyanocitta stelleri" />
-            <attribute key="taxon" value="Lymnaea" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Physella_acuta" />
-            <attribute key="taxon" value="Sayornis saya" />
-            <attribute key="taxon" value="Sialia currucoides" />
-            <attribute key="taxon" value="Sialia mexicana" />
-            <attribute key="taxon" value="Sialia mexicana bairdi" />
-            <attribute key="taxon" value="Tachycineta thalassina" />
-            <attribute key="taxon" value="Trichoptera" />
+            <attribute key="place" value="Twin Creek, Colorado" count="1" />
+            <attribute key="place" value="Lake George, Colorado" count="1" />
+            <attribute key="taxon" value="Cyanocitta stelleri" count="1" />
+            <attribute key="taxon" value="Sialia currucoides" count="1" />
+            <attribute key="taxon" value="Sialia mexicana" count="1" />
+            <attribute key="taxon" value="Trichoptera" count="1" />
+            <attribute key="taxon" value="Sayornis saya" count="1" />
+            <attribute key="taxon" value="Sialia mexicana bairdi" count="1" />
+            <attribute key="taxon" value="Tachycineta thalassina" count="1" />
+            <attribute key="taxon" value="Physella_acuta" count="1" />
+            <attribute key="taxon" value="Physa" count="1" />
+            <attribute key="taxon" value="Lymnaea" count="2" />
+            <attribute key="taxon" value="Circus cyaneus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/12" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/12?oldid=3575107">
@@ -309,9 +309,9 @@ At outlet of the lake, in a seepage pool just below the dam, were great numbers 
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="South Platte River" />
-            <attribute key="taxon" value="Limnaea" />
-            <attribute key="taxon" value="Physa" />
+            <attribute key="place" value="South Platte River" count="1" />
+            <attribute key="taxon" value="Limnaea" count="1" />
+            <attribute key="taxon" value="Physa" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/13" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/13?oldid=3575109">
@@ -348,9 +348,9 @@ Yesterday and the day before the sun was intensely hot and dazzling in the<noinc
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-04" />
-            <attribute key="taxon" value="bat" />
-            <attribute key="taxon" value="kingfisher" />
+            <attribute key="dated" value="1905-08-04" count="1" />
+            <attribute key="taxon" value="bat" count="1" />
+            <attribute key="taxon" value="kingfisher" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/15" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/15?oldid=3575004">
@@ -369,9 +369,9 @@ Heard a {{taxon|chickadee}}, but too far away to determine the species.
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Agelaius phoeniceus" />
-            <attribute key="taxon" value="Euphagus cyanocephalus" />
-            <attribute key="taxon" value="chickadee" />
+            <attribute key="taxon" value="chickadee" count="1" />
+            <attribute key="taxon" value="Agelaius phoeniceus" count="1" />
+            <attribute key="taxon" value="Euphagus cyanocephalus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/16" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/16?oldid=3575113">
@@ -388,7 +388,7 @@ Lunch 10<sup>¢</sup>, cotton 10<sup>¢</sup>, twine 5<sup>¢</sup>.<noinclude><
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="insect" />
+            <attribute key="taxon" value="insect" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/17" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/17?oldid=3614107">
@@ -410,8 +410,8 @@ Lunch 10<sup>¢</sup>, cotton 10<sup>¢</sup>, twine 5<sup>¢</sup>.<noinclude><
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-05" />
-            <attribute key="taxon" value="sparrow hawk" />
+            <attribute key="dated" value="1905-08-05" count="1" />
+            <attribute key="taxon" value="sparrow hawk" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/18" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/18?oldid=3528417">
@@ -442,7 +442,7 @@ Went to the S end of the Park and over into the Arkansas drainage. If it be true
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-06" />
+            <attribute key="dated" value="1905-08-06" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/20" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/20?oldid=3614109">
@@ -463,10 +463,10 @@ Mr. Nevitt, the hotel keeper, gave us some specimens of quartz and amazon stone 
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-07" />
-            <attribute key="place" value="Crystal Peak, Teller, CO" />
-            <attribute key="taxon" value="insect" />
-            <attribute key="taxon" value="nighthawk" />
+            <attribute key="dated" value="1905-08-07" count="1" />
+            <attribute key="place" value="Crystal Peak, Teller, CO" count="1" />
+            <attribute key="taxon" value="insect" count="1" />
+            <attribute key="taxon" value="nighthawk" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/21" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/21?oldid=3614110">
@@ -490,11 +490,11 @@ Saw {{taxon|Turdus migratorius|Robins}} yesterday and today and a {{taxon|meadow
             <attribute key="Gaurav" value="4" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-08" />
-            <attribute key="taxon" value="Troglodytes aedon" />
-            <attribute key="taxon" value="Turdus migratorius" />
-            <attribute key="taxon" value="Zenaida macroura" />
-            <attribute key="taxon" value="meadowlark" />
+            <attribute key="dated" value="1905-08-08" count="1" />
+            <attribute key="taxon" value="Turdus migratorius" count="1" />
+            <attribute key="taxon" value="Zenaida macroura" count="1" />
+            <attribute key="taxon" value="meadowlark" count="1" />
+            <attribute key="taxon" value="Troglodytes aedon" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/22" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/22?oldid=3604840">
@@ -511,12 +511,12 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
             <attribute key="Gaurav" value="3" />
         </editors>
         <annotations>
-            <attribute key="place" value="Alamo Hotel, Colorado Springs" />
-            <attribute key="place" value="Colorado Springs, Colorado" />
-            <attribute key="place" value="Depot Restaurant, Colorado Springs" />
-            <attribute key="place" value="Pike’s Peak" />
-            <attribute key="place" value="Stratton Park, Colorado Springs" />
-            <attribute key="taxon" value="Junco hyemalis caniceps" />
+            <attribute key="place" value="Alamo Hotel, Colorado Springs" count="1" />
+            <attribute key="place" value="Depot Restaurant, Colorado Springs" count="1" />
+            <attribute key="place" value="Pike’s Peak" count="1" />
+            <attribute key="place" value="Colorado Springs, Colorado" count="1" />
+            <attribute key="place" value="Stratton Park, Colorado Springs" count="1" />
+            <attribute key="taxon" value="Junco hyemalis caniceps" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/23" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/23?oldid=3614535">
@@ -537,10 +537,10 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-09" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Denver, Colorado" />
-            <attribute key="place" value="Oxford, Colorado" />
+            <attribute key="dated" value="1905-08-09" count="1" />
+            <attribute key="place" value="Denver, Colorado" count="1" />
+            <attribute key="place" value="Oxford, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/24" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/24?oldid=3656717">
@@ -601,8 +601,8 @@ Hotel and livery, Ramaley and I for 8 days- $17.00. Train seven hours late so Mr
             <attribute key="Gaurav" value="4" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-29" />
-            <attribute key="place" value="Silver Lake" />
+            <attribute key="dated" value="1905-08-29" count="1" />
+            <attribute key="place" value="Silver Lake" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/25" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/25?oldid=3578575">
@@ -745,9 +745,9 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="Robgur" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-29" />
-            <attribute key="taxon" value="Pisidium" />
-            <attribute key="taxon" value="Sayornis phoebe" />
+            <attribute key="dated" value="1905-08-29" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="Sayornis phoebe" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/28" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/28?oldid=3581936">
@@ -762,10 +762,10 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Camp Albion Road, Colorado" />
-            <attribute key="place" value="Goose Lake, Colorado" />
-            <attribute key="place" value="Island Lake, Colorado" />
-            <attribute key="place" value="Silver Lake, Colorado" />
+            <attribute key="place" value="Silver Lake, Colorado" count="2" />
+            <attribute key="place" value="Goose Lake, Colorado" count="1" />
+            <attribute key="place" value="Camp Albion Road, Colorado" count="1" />
+            <attribute key="place" value="Island Lake, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/29" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/29?oldid=3614537">
@@ -788,15 +788,15 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-30" />
-            <attribute key="taxon" value="Colaptes" />
-            <attribute key="taxon" value="Cyanocitta stelleri" />
-            <attribute key="taxon" value="Junco" />
-            <attribute key="taxon" value="Nucifraga columbiana" />
-            <attribute key="taxon" value="Perisoreus canadensis" />
-            <attribute key="taxon" value="Poecile" />
-            <attribute key="taxon" value="Sialia currucoides" />
-            <attribute key="taxon" value="Spizella breweri" />
+            <attribute key="dated" value="1905-08-30" count="1" />
+            <attribute key="taxon" value="Nucifraga columbiana" count="1" />
+            <attribute key="taxon" value="Poecile" count="1" />
+            <attribute key="taxon" value="Colaptes" count="1" />
+            <attribute key="taxon" value="Sialia currucoides" count="1" />
+            <attribute key="taxon" value="Cyanocitta stelleri" count="1" />
+            <attribute key="taxon" value="Perisoreus canadensis" count="1" />
+            <attribute key="taxon" value="Spizella breweri" count="1" />
+            <attribute key="taxon" value="Junco" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/30" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/30?oldid=3581949">
@@ -811,10 +811,10 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Arapaho Glacier" />
-            <attribute key="place" value="High Fall, Colorado" />
-            <attribute key="place" value="North Lake, Colorado" />
-            <attribute key="place" value="he Saddle, Colorado" />
+            <attribute key="place" value="High Fall, Colorado" count="2" />
+            <attribute key="place" value="North Lake, Colorado" count="1" />
+            <attribute key="place" value="he Saddle, Colorado" count="1" />
+            <attribute key="place" value="Arapaho Glacier" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/31" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/31?oldid=3581952">
@@ -828,7 +828,7 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="207.145.38.73" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Arapaho Glacier" />
+            <attribute key="place" value="Arapaho Glacier" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/32" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/32?oldid=3581958">
@@ -843,8 +843,8 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="The Saddle, Colorado" />
-            <attribute key="taxon" value="mountain sheep" />
+            <attribute key="place" value="The Saddle, Colorado" count="1" />
+            <attribute key="taxon" value="mountain sheep" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/33" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/33?oldid=3614539">
@@ -867,19 +867,19 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="4" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-08-31" />
-            <attribute key="place" value="Arapaho Glacier" />
-            <attribute key="place" value="Goose Lake, Colorado" />
-            <attribute key="place" value="High Fall, Colorado" />
-            <attribute key="place" value="The Saddle, Colorado" />
-            <attribute key="taxon" value="Anthus" />
-            <attribute key="taxon" value="Cyanocitta stelleri" />
-            <attribute key="taxon" value="Leucostictes" />
-            <attribute key="taxon" value="Nucifraga columbiana" />
-            <attribute key="taxon" value="Ochotona princeps" />
-            <attribute key="taxon" value="chickadee" />
-            <attribute key="taxon" value="hawk" />
-            <attribute key="taxon" value="junco" />
+            <attribute key="dated" value="1905-08-31" count="1" />
+            <attribute key="place" value="High Fall, Colorado" count="1" />
+            <attribute key="place" value="Goose Lake, Colorado" count="1" />
+            <attribute key="place" value="The Saddle, Colorado" count="1" />
+            <attribute key="place" value="Arapaho Glacier" count="1" />
+            <attribute key="taxon" value="Nucifraga columbiana" count="1" />
+            <attribute key="taxon" value="Cyanocitta stelleri" count="1" />
+            <attribute key="taxon" value="Ochotona princeps" count="1" />
+            <attribute key="taxon" value="junco" count="1" />
+            <attribute key="taxon" value="Anthus" count="1" />
+            <attribute key="taxon" value="chickadee" count="1" />
+            <attribute key="taxon" value="hawk" count="1" />
+            <attribute key="taxon" value="Leucostictes" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/34" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/34?oldid=3604716">
@@ -896,14 +896,14 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="Ack-thom" value="1" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Caddis" />
-            <attribute key="taxon" value="Picea" />
-            <attribute key="taxon" value="Salix" />
-            <attribute key="taxon" value="caddis" />
-            <attribute key="taxon" value="chickadee" />
-            <attribute key="taxon" value="mountain chickadee" />
-            <attribute key="taxon" value="myxomycete" />
-            <attribute key="taxon" value="water beetle" />
+            <attribute key="taxon" value="Picea" count="1" />
+            <attribute key="taxon" value="chickadee" count="1" />
+            <attribute key="taxon" value="water beetle" count="1" />
+            <attribute key="taxon" value="caddis" count="1" />
+            <attribute key="taxon" value="Caddis" count="2" />
+            <attribute key="taxon" value="myxomycete" count="1" />
+            <attribute key="taxon" value="Salix" count="1" />
+            <attribute key="taxon" value="mountain chickadee" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/35" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/35?oldid=3614541">
@@ -925,12 +925,12 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-01" />
-            <attribute key="place" value="Camp Albion Gulch" />
-            <attribute key="place" value="High Fall" />
-            <attribute key="place" value="Silver Lake" />
-            <attribute key="taxon" value="Betula" />
-            <attribute key="taxon" value="Gaylussacia" />
+            <attribute key="dated" value="1905-09-01" count="1" />
+            <attribute key="place" value="Silver Lake" count="1" />
+            <attribute key="place" value="High Fall" count="1" />
+            <attribute key="place" value="Camp Albion Gulch" count="1" />
+            <attribute key="taxon" value="Gaylussacia" count="1" />
+            <attribute key="taxon" value="Betula" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/36" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/36?oldid=3581012">
@@ -944,8 +944,8 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="North Lake" />
-            <attribute key="taxon" value="pipit" />
+            <attribute key="place" value="North Lake" count="2" />
+            <attribute key="taxon" value="pipit" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/37" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/37?oldid=3614543">
@@ -966,13 +966,13 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-02" />
-            <attribute key="place" value="Silver Lake" />
-            <attribute key="taxon" value="Pisidium" />
-            <attribute key="taxon" value="Rubus" />
-            <attribute key="taxon" value="junco" />
-            <attribute key="taxon" value="sandpiper" />
-            <attribute key="taxon" value="warbler" />
+            <attribute key="dated" value="1905-09-02" count="1" />
+            <attribute key="place" value="Silver Lake" count="1" />
+            <attribute key="taxon" value="Rubus" count="1" />
+            <attribute key="taxon" value="sandpiper" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="warbler" count="1" />
+            <attribute key="taxon" value="junco" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/38" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/38?oldid=3581808">
@@ -987,19 +987,19 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Island Lake Dam, Colorado" />
-            <attribute key="place" value="Island Lake, Colorado" />
-            <attribute key="place" value="North Boulder, Colorado" />
-            <attribute key="place" value="Silver Lake, Colorado" />
-            <attribute key="taxon" value="Dendroica coronata auduboni" />
-            <attribute key="taxon" value="Falco columbarius" />
-            <attribute key="taxon" value="Sciurrus" />
-            <attribute key="taxon" value="Zonotrichia leucophrys" />
-            <attribute key="taxon" value="flicker" />
-            <attribute key="taxon" value="hawk" />
-            <attribute key="taxon" value="leech" />
-            <attribute key="taxon" value="warbler" />
-            <attribute key="taxon" value="water beetle" />
+            <attribute key="place" value="Island Lake Dam, Colorado" count="1" />
+            <attribute key="place" value="Silver Lake, Colorado" count="1" />
+            <attribute key="place" value="North Boulder, Colorado" count="1" />
+            <attribute key="place" value="Island Lake, Colorado" count="1" />
+            <attribute key="taxon" value="water beetle" count="1" />
+            <attribute key="taxon" value="Dendroica coronata auduboni" count="1" />
+            <attribute key="taxon" value="Sciurrus" count="1" />
+            <attribute key="taxon" value="warbler" count="1" />
+            <attribute key="taxon" value="flicker" count="1" />
+            <attribute key="taxon" value="leech" count="1" />
+            <attribute key="taxon" value="Zonotrichia leucophrys" count="1" />
+            <attribute key="taxon" value="Falco columbarius" count="1" />
+            <attribute key="taxon" value="hawk" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/39" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/39?oldid=3614544">
@@ -1020,12 +1020,12 @@ Shy (?) of sugar, cocoa, cream, bacon
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-03" />
-            <attribute key="place" value="Denver, Colorado" />
-            <attribute key="place" value="Goose Lake Dam" />
-            <attribute key="taxon" value="Sphagnum" />
-            <attribute key="taxon" value="butterfly" />
-            <attribute key="taxon" value="moth" />
+            <attribute key="dated" value="1905-09-03" count="1" />
+            <attribute key="place" value="Denver, Colorado" count="1" />
+            <attribute key="place" value="Goose Lake Dam" count="1" />
+            <attribute key="taxon" value="Sphagnum" count="2" />
+            <attribute key="taxon" value="moth" count="1" />
+            <attribute key="taxon" value="butterfly" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/40" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/40?oldid=3614545">
@@ -1047,11 +1047,11 @@ At daylight sky overcast with even, gray clouds. Soon after it began raining, co
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-04" />
-            <attribute key="place" value="Goose Lake, Colorado" />
-            <attribute key="place" value="Island Lake, Colorado" />
-            <attribute key="taxon" value="Phyllopods" />
-            <attribute key="taxon" value="Pisidium" />
+            <attribute key="dated" value="1905-09-04" count="1" />
+            <attribute key="place" value="Goose Lake, Colorado" count="1" />
+            <attribute key="place" value="Island Lake, Colorado" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="Phyllopods" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/41" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/41?oldid=3614546">
@@ -1072,7 +1072,7 @@ Clouds hanging low over Arapahoe and most of the sky partly overcast. With stron
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-05" />
+            <attribute key="dated" value="1905-09-05" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/42" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/42?oldid=3581117">
@@ -1086,7 +1086,7 @@ Clouds hanging low over Arapahoe and most of the sky partly overcast. With stron
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Goose Lake" />
+            <attribute key="place" value="Goose Lake" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/43" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/43?oldid=3614547">
@@ -1108,14 +1108,14 @@ Arose at 6 a.m. and some began packing while others got breakfast. Got wagon loa
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1905-09-06" />
-            <attribute key="place" value="Bluebird Road" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="North Boulder Falls, Colorado" />
-            <attribute key="place" value="Silver Lake, Colorado" />
-            <attribute key="taxon" value="Dendroica coronata auduboni" />
-            <attribute key="taxon" value="Dendroica coronata coronata" />
-            <attribute key="taxon" value="Turdus migratorius" />
+            <attribute key="dated" value="1905-09-06" count="1" />
+            <attribute key="place" value="Silver Lake, Colorado" count="1" />
+            <attribute key="place" value="North Boulder Falls, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Bluebird Road" count="1" />
+            <attribute key="taxon" value="Turdus migratorius" count="1" />
+            <attribute key="taxon" value="Dendroica coronata coronata" count="1" />
+            <attribute key="taxon" value="Dendroica coronata auduboni" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/44" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/44?oldid=3581817">
@@ -1142,8 +1142,8 @@ Arose at 6 a.m. and some began packing while others got breakfast. Got wagon loa
             <attribute key="Gaurav" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-02" />
-            <attribute key="place" value="Colorado" />
+            <attribute key="dated" value="1906-06-02" count="1" />
+            <attribute key="place" value="Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/45" uri="?oldid=">
@@ -1179,14 +1179,14 @@ Thursday {{dated|1906-06-07|June 7, 1906}} Gideon S. Dodds, Harvey C. Markman, H
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-06" />
-            <attribute key="dated" value="1906-06-07" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Left Hand Creek" />
-            <attribute key="place" value="Pawnee Butte" />
-            <attribute key="place" value="Six Mile Creek" />
-            <attribute key="taxon" value="Pupa" />
-            <attribute key="taxon" value="Vallonia" />
+            <attribute key="dated" value="1906-06-06" count="1" />
+            <attribute key="dated" value="1906-06-07" count="1" />
+            <attribute key="place" value="Six Mile Creek" count="1" />
+            <attribute key="place" value="Left Hand Creek" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="2" />
+            <attribute key="place" value="Pawnee Butte" count="1" />
+            <attribute key="taxon" value="Pupa" count="1" />
+            <attribute key="taxon" value="Vallonia" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/48" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/48?oldid=3614550">
@@ -1208,25 +1208,25 @@ Too cold to sleep well last night, so got up late. Finished breakfast at 8 p.(si
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-08" />
-            <attribute key="place" value="Arapahoe Peak" />
-            <attribute key="place" value="Pike’s Peak" />
-            <attribute key="place" value="St. Vrain Creek" />
-            <attribute key="taxon" value="Calamospiza melanocorys" />
-            <attribute key="taxon" value="Charadrius vociferus" />
-            <attribute key="taxon" value="Chondestes grammacus" />
-            <attribute key="taxon" value="Dendroica aestiva" />
-            <attribute key="taxon" value="Hirundo rustica" />
-            <attribute key="taxon" value="Petrochelidon pyrrhonota" />
-            <attribute key="taxon" value="Pooecetes gramineus" />
-            <attribute key="taxon" value="Turdus migratorius" />
-            <attribute key="taxon" value="Zenaida macroura" />
-            <attribute key="taxon" value="kingbird" />
-            <attribute key="taxon" value="kingfisher" />
-            <attribute key="taxon" value="magpie" />
-            <attribute key="taxon" value="meadowlark" />
-            <attribute key="taxon" value="redwinged blackbird" />
-            <attribute key="taxon" value="wren" />
+            <attribute key="dated" value="1906-06-08" count="1" />
+            <attribute key="place" value="Pike’s Peak" count="1" />
+            <attribute key="place" value="Arapahoe Peak" count="1" />
+            <attribute key="place" value="St. Vrain Creek" count="2" />
+            <attribute key="taxon" value="Chondestes grammacus" count="1" />
+            <attribute key="taxon" value="Calamospiza melanocorys" count="1" />
+            <attribute key="taxon" value="Turdus migratorius" count="1" />
+            <attribute key="taxon" value="Zenaida macroura" count="1" />
+            <attribute key="taxon" value="magpie" count="1" />
+            <attribute key="taxon" value="Petrochelidon pyrrhonota" count="1" />
+            <attribute key="taxon" value="redwinged blackbird" count="1" />
+            <attribute key="taxon" value="meadowlark" count="1" />
+            <attribute key="taxon" value="kingfisher" count="1" />
+            <attribute key="taxon" value="Dendroica aestiva" count="1" />
+            <attribute key="taxon" value="kingbird" count="1" />
+            <attribute key="taxon" value="wren" count="1" />
+            <attribute key="taxon" value="Hirundo rustica" count="1" />
+            <attribute key="taxon" value="Charadrius vociferus" count="1" />
+            <attribute key="taxon" value="Pooecetes gramineus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/49" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/49?oldid=3581336">
@@ -1240,16 +1240,16 @@ Too cold to sleep well last night, so got up late. Finished breakfast at 8 p.(si
             <attribute key="173.69.207.29" value="3" />
         </editors>
         <annotations>
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Hygeine, Colorado" />
-            <attribute key="place" value="Little Thompson Creek" />
-            <attribute key="place" value="Lyons, Colorado" />
-            <attribute key="place" value="St. Vrain Creek" />
-            <attribute key="taxon" value="Oreohelix albofaciata" />
-            <attribute key="taxon" value="Oreohelix strigosa" />
-            <attribute key="taxon" value="Populus" />
-            <attribute key="taxon" value="Vallonia" />
-            <attribute key="taxon" value="Zonitoidea arboreans" />
+            <attribute key="place" value="Little Thompson Creek" count="2" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Hygeine, Colorado" count="1" />
+            <attribute key="place" value="Lyons, Colorado" count="1" />
+            <attribute key="place" value="St. Vrain Creek" count="1" />
+            <attribute key="taxon" value="Oreohelix strigosa" count="1" />
+            <attribute key="taxon" value="Zonitoidea arboreans" count="1" />
+            <attribute key="taxon" value="Populus" count="1" />
+            <attribute key="taxon" value="Oreohelix albofaciata" count="1" />
+            <attribute key="taxon" value="Vallonia" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/50" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/50?oldid=3581338">
@@ -1263,10 +1263,10 @@ Too cold to sleep well last night, so got up late. Finished breakfast at 8 p.(si
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Hygeine, Colorado" />
-            <attribute key="place" value="Hygeine. Colorado" />
-            <attribute key="taxon" value="Inoceramus" />
-            <attribute key="taxon" value="Inoceramus deformis" />
+            <attribute key="place" value="Hygeine. Colorado" count="1" />
+            <attribute key="place" value="Hygeine, Colorado" count="1" />
+            <attribute key="taxon" value="Inoceramus" count="1" />
+            <attribute key="taxon" value="Inoceramus deformis" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/51" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/51?oldid=3614553">
@@ -1287,8 +1287,8 @@ Slept late in morning. Got a better night’s rest than before. We were some of 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-09" />
-            <attribute key="place" value="Little Thompson Creek" />
+            <attribute key="dated" value="1906-06-09" count="1" />
+            <attribute key="place" value="Little Thompson Creek" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/52" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/52?oldid=3545227">
@@ -1314,8 +1314,8 @@ Slept late in morning. Got a better night’s rest than before. We were some of 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Big Thompson Creek , Colorado" />
-            <attribute key="place" value="Little Thompson Creek, Colorado" />
+            <attribute key="place" value="Little Thompson Creek, Colorado" count="1" />
+            <attribute key="place" value="Big Thompson Creek , Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/54" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/54?oldid=3581341">
@@ -1329,14 +1329,14 @@ Slept late in morning. Got a better night’s rest than before. We were some of 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Boulder Creek" />
-            <attribute key="place" value="Left Hand Creek" />
-            <attribute key="taxon" value="Baculites" />
-            <attribute key="taxon" value="Baculites ovatus" />
-            <attribute key="taxon" value="Inoceramus" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus deformis" />
-            <attribute key="taxon" value="Ostrea congesta" />
+            <attribute key="place" value="Boulder Creek" count="1" />
+            <attribute key="place" value="Left Hand Creek" count="1" />
+            <attribute key="taxon" value="Baculites" count="1" />
+            <attribute key="taxon" value="Inoceramus" count="2" />
+            <attribute key="taxon" value="Baculites ovatus" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="2" />
+            <attribute key="taxon" value="Inoceramus deformis" count="1" />
+            <attribute key="taxon" value="Ostrea congesta" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/55" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/55?oldid=3614554">
@@ -1358,11 +1358,11 @@ Arose late, had breakfast of hot cakes. Got milk last night for first time.<noin
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-10" />
-            <attribute key="place" value="Big Thompson Creek, Colorado" />
-            <attribute key="place" value="Loveland, Colorado" />
-            <attribute key="taxon" value="Baculites ovatus" />
-            <attribute key="taxon" value="Scaphites" />
+            <attribute key="dated" value="1906-06-10" count="1" />
+            <attribute key="place" value="Big Thompson Creek, Colorado" count="2" />
+            <attribute key="place" value="Loveland, Colorado" count="1" />
+            <attribute key="taxon" value="Baculites ovatus" count="1" />
+            <attribute key="taxon" value="Scaphites" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/56" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/56?oldid=3580915">
@@ -1376,8 +1376,8 @@ Arose late, had breakfast of hot cakes. Got milk last night for first time.<noin
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Populus" />
-            <attribute key="taxon" value="mollusca" />
+            <attribute key="taxon" value="Populus" count="1" />
+            <attribute key="taxon" value="mollusca" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/57" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/57?oldid=3614555">
@@ -1397,12 +1397,12 @@ Markman collected a {{taxon|garter snake}} before the rest of us were up this mo
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-11" />
-            <attribute key="place" value="Big Thompson Creek, Colorado" />
-            <attribute key="place" value="Loveland, Colorado" />
-            <attribute key="taxon" value="Ancylus" />
-            <attribute key="taxon" value="garter snake" />
-            <attribute key="taxon" value="mollusk" />
+            <attribute key="dated" value="1906-06-11" count="1" />
+            <attribute key="place" value="Big Thompson Creek, Colorado" count="1" />
+            <attribute key="place" value="Loveland, Colorado" count="1" />
+            <attribute key="taxon" value="mollusk" count="1" />
+            <attribute key="taxon" value="garter snake" count="1" />
+            <attribute key="taxon" value="Ancylus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/58" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/58?oldid=3581848">
@@ -1417,21 +1417,21 @@ Markman collected a {{taxon|garter snake}} before the rest of us were up this mo
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Big Thompson Creek, Colorado" />
-            <attribute key="place" value="Loveland" />
-            <attribute key="place" value="Loveland, Colorad" />
-            <attribute key="taxon" value="Anodonta" />
-            <attribute key="taxon" value="Frundulus" />
-            <attribute key="taxon" value="Icterus bullockii" />
-            <attribute key="taxon" value="Limnaea" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Physa virgata" />
-            <attribute key="taxon" value="Pisidium" />
-            <attribute key="taxon" value="Planorbis parvus" />
-            <attribute key="taxon" value="Planorbis trivolvis" />
-            <attribute key="taxon" value="Strophites" />
-            <attribute key="taxon" value="carp" />
-            <attribute key="taxon" value="catfish" />
+            <attribute key="place" value="Loveland, Colorad" count="1" />
+            <attribute key="place" value="Loveland" count="1" />
+            <attribute key="place" value="Big Thompson Creek, Colorado" count="1" />
+            <attribute key="taxon" value="Icterus bullockii" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="catfish" count="1" />
+            <attribute key="taxon" value="Limnaea" count="1" />
+            <attribute key="taxon" value="Strophites" count="1" />
+            <attribute key="taxon" value="Frundulus" count="1" />
+            <attribute key="taxon" value="carp" count="1" />
+            <attribute key="taxon" value="Planorbis trivolvis" count="1" />
+            <attribute key="taxon" value="Physa" count="3" />
+            <attribute key="taxon" value="Anodonta" count="1" />
+            <attribute key="taxon" value="Physa virgata" count="1" />
+            <attribute key="taxon" value="Planorbis parvus" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/59" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/59?oldid=3614557">
@@ -1450,8 +1450,8 @@ Fossil Ridge, {{place|Trilby Schoolhouse}} {{dated|1906-06-12|June 12, 1906}}, T
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-12" />
-            <attribute key="place" value="Trilby Schoolhouse" />
+            <attribute key="dated" value="1906-06-12" count="1" />
+            <attribute key="place" value="Trilby Schoolhouse" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/60" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/60?oldid=3545266">
@@ -1481,13 +1481,13 @@ Markman and Harry both complain of sour stomachs this morning. Took some soda an
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-13" />
-            <attribute key="taxon" value="Callista" />
-            <attribute key="taxon" value="Inoceramus" />
-            <attribute key="taxon" value="Pinna" />
-            <attribute key="taxon" value="Pteria" />
-            <attribute key="taxon" value="Scaphites nodosus" />
-            <attribute key="taxon" value="Volsella" />
+            <attribute key="dated" value="1906-06-13" count="1" />
+            <attribute key="taxon" value="Pinna" count="1" />
+            <attribute key="taxon" value="Scaphites nodosus" count="1" />
+            <attribute key="taxon" value="Inoceramus" count="1" />
+            <attribute key="taxon" value="Pteria" count="1" />
+            <attribute key="taxon" value="Volsella" count="1" />
+            <attribute key="taxon" value="Callista" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/62" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/62?oldid=3614559">
@@ -1507,8 +1507,8 @@ Up at 6 a.m., got to fossil beds at 9:15; Harry going with me. We took a canteen
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-14" />
-            <attribute key="place" value="Left Hand Creek, Colorado" />
+            <attribute key="dated" value="1906-06-14" count="1" />
+            <attribute key="place" value="Left Hand Creek, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/63" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/63?oldid=3614562">
@@ -1534,14 +1534,14 @@ Mosquitos (sic) have been very troublesome at {{place|Trilby|Trilby camp}}, part
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-15" />
-            <attribute key="dated" value="1906-06-16" />
-            <attribute key="place" value="Ft. Collins, Colorado" />
-            <attribute key="place" value="Little Thompson Creek, Colorado" />
-            <attribute key="place" value="Trilby" />
-            <attribute key="taxon" value="Baculites compressus" />
-            <attribute key="taxon" value="Callista" />
-            <attribute key="taxon" value="Pinna lakesi" />
+            <attribute key="dated" value="1906-06-15" count="1" />
+            <attribute key="dated" value="1906-06-16" count="1" />
+            <attribute key="place" value="Ft. Collins, Colorado" count="1" />
+            <attribute key="place" value="Trilby" count="1" />
+            <attribute key="place" value="Little Thompson Creek, Colorado" count="1" />
+            <attribute key="taxon" value="Pinna lakesi" count="1" />
+            <attribute key="taxon" value="Callista" count="1" />
+            <attribute key="taxon" value="Baculites compressus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/64" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/64?oldid=3581362">
@@ -1555,15 +1555,15 @@ Mosquitos (sic) have been very troublesome at {{place|Trilby|Trilby camp}}, part
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="place" value="Little Thompson Creek" />
-            <attribute key="place" value="Poudre Valley Reservoir" />
-            <attribute key="taxon" value="Inoceramus oblongus" />
-            <attribute key="taxon" value="Limnaea" />
-            <attribute key="taxon" value="Medicago sativa" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Planorbis parvus" />
-            <attribute key="taxon" value="Planorbis trivolvis" />
+            <attribute key="place" value="Little Thompson Creek" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="1" />
+            <attribute key="place" value="Poudre Valley Reservoir" count="1" />
+            <attribute key="taxon" value="Limnaea" count="1" />
+            <attribute key="taxon" value="Inoceramus oblongus" count="1" />
+            <attribute key="taxon" value="Planorbis trivolvis" count="1" />
+            <attribute key="taxon" value="Physa" count="1" />
+            <attribute key="taxon" value="Medicago sativa" count="1" />
+            <attribute key="taxon" value="Planorbis parvus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/65" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/65?oldid=3581863">
@@ -1578,18 +1578,18 @@ Mosquitos (sic) have been very troublesome at {{place|Trilby|Trilby camp}}, part
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Cache La Poudre" />
-            <attribute key="place" value="Ft. Collins, Colorado" />
-            <attribute key="place" value="Poudre Valley Reservoir" />
-            <attribute key="place" value="Poudre valley Reservoir" />
-            <attribute key="place" value="Windsor, Colorado" />
-            <attribute key="taxon" value="Ardea herodias" />
-            <attribute key="taxon" value="Ardeidae" />
-            <attribute key="taxon" value="Nycticorax nycticorax" />
-            <attribute key="taxon" value="Phalaropus tricolor" />
-            <attribute key="taxon" value="Planorbis trivolvis" />
-            <attribute key="taxon" value="Recurvirostra americana" />
-            <attribute key="taxon" value="Xanthocephalus xanthocephalus" />
+            <attribute key="place" value="Ft. Collins, Colorado" count="1" />
+            <attribute key="place" value="Cache La Poudre" count="1" />
+            <attribute key="place" value="Poudre valley Reservoir" count="1" />
+            <attribute key="place" value="Windsor, Colorado" count="2" />
+            <attribute key="place" value="Poudre Valley Reservoir" count="1" />
+            <attribute key="taxon" value="Nycticorax nycticorax" count="2" />
+            <attribute key="taxon" value="Ardea herodias" count="1" />
+            <attribute key="taxon" value="Ardeidae" count="1" />
+            <attribute key="taxon" value="Planorbis trivolvis" count="1" />
+            <attribute key="taxon" value="Xanthocephalus xanthocephalus" count="1" />
+            <attribute key="taxon" value="Phalaropus tricolor" count="1" />
+            <attribute key="taxon" value="Recurvirostra americana" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/66" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/66?oldid=3614563">
@@ -1610,10 +1610,10 @@ Had a very windy night. I slept in the wagon last night and night before, Harry 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-17" />
-            <attribute key="place" value="Ft. Collins, Colorado" />
-            <attribute key="place" value="Windsor, Colorado" />
-            <attribute key="taxon" value="mollusks" />
+            <attribute key="dated" value="1906-06-17" count="1" />
+            <attribute key="place" value="Ft. Collins, Colorado" count="1" />
+            <attribute key="place" value="Windsor, Colorado" count="2" />
+            <attribute key="taxon" value="mollusks" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/67" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/67?oldid=3580314">
@@ -1627,14 +1627,14 @@ Had a very windy night. I slept in the wagon last night and night before, Harry 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Cardium speciosum" />
-            <attribute key="taxon" value="Fucoides" />
-            <attribute key="taxon" value="Mactra" />
-            <attribute key="taxon" value="Ostrea" />
-            <attribute key="taxon" value="Pholodyma" />
-            <attribute key="taxon" value="Placenticeras" />
-            <attribute key="taxon" value="Tellina" />
-            <attribute key="taxon" value="Veniella humilis" />
+            <attribute key="taxon" value="Veniella humilis" count="1" />
+            <attribute key="taxon" value="Tellina" count="1" />
+            <attribute key="taxon" value="Ostrea" count="2" />
+            <attribute key="taxon" value="Cardium speciosum" count="2" />
+            <attribute key="taxon" value="Placenticeras" count="1" />
+            <attribute key="taxon" value="Fucoides" count="1" />
+            <attribute key="taxon" value="Pholodyma" count="1" />
+            <attribute key="taxon" value="Mactra" count="3" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/68" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/68?oldid=3614564">
@@ -1655,9 +1655,9 @@ Harry and I worked on the Paleontology of the Fox Hills sandstone, getting some 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-18" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="taxon" value="Veniella" />
+            <attribute key="dated" value="1906-06-18" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="1" />
+            <attribute key="taxon" value="Veniella" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/69" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/69?oldid=3614566">
@@ -1676,8 +1676,8 @@ Tuesday, {{dated|1906-06-19|June 19, 1906}} The other three went to town to get 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-19" />
-            <attribute key="place" value="Cache la Poudre" />
+            <attribute key="dated" value="1906-06-19" count="1" />
+            <attribute key="place" value="Cache la Poudre" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/70" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/70?oldid=3614568">
@@ -1698,14 +1698,14 @@ Left {{place|Ault, Colorado|Ault}} at 7:50 going north. Intended to drive past {
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-20" />
-            <attribute key="place" value="Ault, Colorado" />
-            <attribute key="place" value="Boyd’s Big Springs" />
-            <attribute key="place" value="Eastman’s Lake" />
-            <attribute key="place" value="Eaton, Colorado" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="taxon" value="Pisidium" />
-            <attribute key="taxon" value="Planorbis bicarinatus" />
+            <attribute key="dated" value="1906-06-20" count="1" />
+            <attribute key="place" value="Eastman’s Lake" count="1" />
+            <attribute key="place" value="Ault, Colorado" count="2" />
+            <attribute key="place" value="Boyd’s Big Springs" count="1" />
+            <attribute key="place" value="Eaton, Colorado" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="Planorbis bicarinatus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/71" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/71?oldid=3581866">
@@ -1720,20 +1720,20 @@ Left {{place|Ault, Colorado|Ault}} at 7:50 going north. Intended to drive past {
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Eastman Creek, Colorado" />
-            <attribute key="place" value="Eastman's Reservoir, Colorado" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="place" value="Owl Creek, Colorado" />
-            <attribute key="place" value="Slayton's Ranch, Colorado" />
-            <attribute key="place" value="Spee’s homestead" />
-            <attribute key="taxon" value="Athene cunicularia" />
-            <attribute key="taxon" value="Calamospiza melanocorys" />
-            <attribute key="taxon" value="Eremophila alpestris" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Sturnella" />
-            <attribute key="taxon" value="dove" />
-            <attribute key="taxon" value="plover" />
+            <attribute key="place" value="Eastman Creek, Colorado" count="1" />
+            <attribute key="place" value="Slayton's Ranch, Colorado" count="2" />
+            <attribute key="place" value="Eastman's Reservoir, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="2" />
+            <attribute key="place" value="Greeley, Colorado" count="1" />
+            <attribute key="place" value="Spee’s homestead" count="1" />
+            <attribute key="place" value="Owl Creek, Colorado" count="1" />
+            <attribute key="taxon" value="Calamospiza melanocorys" count="1" />
+            <attribute key="taxon" value="dove" count="1" />
+            <attribute key="taxon" value="plover" count="1" />
+            <attribute key="taxon" value="Physa" count="1" />
+            <attribute key="taxon" value="Athene cunicularia" count="1" />
+            <attribute key="taxon" value="Sturnella" count="1" />
+            <attribute key="taxon" value="Eremophila alpestris" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/72" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/72?oldid=3614569">
@@ -1753,9 +1753,9 @@ Harry and Markman obtained a team and light wagon from Slayton and started back 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-21" />
-            <attribute key="place" value="Chalk Bluffs, Colorado" />
-            <attribute key="place" value="Eastman's Reservoir, Colorado" />
+            <attribute key="dated" value="1906-06-21" count="1" />
+            <attribute key="place" value="Chalk Bluffs, Colorado" count="1" />
+            <attribute key="place" value="Eastman's Reservoir, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/73" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/73?oldid=3545297">
@@ -1798,7 +1798,7 @@ Got up at 6 a.m., shaved and took some pictures before the others were up. Harry
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-22" />
+            <attribute key="dated" value="1906-06-22" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/76" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/76?oldid=3545304">
@@ -1841,8 +1841,8 @@ Arose at 5:30 a.m. and Harry and I started for camp with fresh milk and eggs whi
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-23" />
-            <attribute key="place" value="Gault, Colorado" />
+            <attribute key="dated" value="1906-06-23" count="1" />
+            <attribute key="place" value="Gault, Colorado" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/79" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/79?oldid=3614572">
@@ -1863,8 +1863,8 @@ Rained nearly all night, quite hard at times. Hard wind part of the night. Sun s
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-24" />
-            <attribute key="place" value="Grover, Colorado" />
+            <attribute key="dated" value="1906-06-24" count="1" />
+            <attribute key="place" value="Grover, Colorado" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/80" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/80?oldid=3581381">
@@ -1879,8 +1879,8 @@ Rained nearly all night, quite hard at times. Hard wind part of the night. Sun s
             <attribute key="Ashleyh" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Chalk Bluffs, Colorado" />
-            <attribute key="place" value="Grover, Colorado" />
+            <attribute key="place" value="Chalk Bluffs, Colorado" count="2" />
+            <attribute key="place" value="Grover, Colorado" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/81" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/81?oldid=3614573">
@@ -1901,9 +1901,9 @@ Got up early and went to work. I worked all day in the hot sun and found nothing
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-25" />
-            <attribute key="place" value="Chalf Bluffs, Colorado" />
-            <attribute key="place" value="Davis ranch" />
+            <attribute key="dated" value="1906-06-25" count="1" />
+            <attribute key="place" value="Chalf Bluffs, Colorado" count="1" />
+            <attribute key="place" value="Davis ranch" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/82" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/82?oldid=3614574">
@@ -1924,8 +1924,8 @@ I started west with Dodds and Harry and worked along the cliffs. At last point o
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-26" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="dated" value="1906-06-26" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/83" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/83?oldid=3581869">
@@ -1940,16 +1940,16 @@ I started west with Dodds and Harry and worked along the cliffs. At last point o
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Aeronautes saxatalis" />
-            <attribute key="taxon" value="Bitis schneideri" />
-            <attribute key="taxon" value="Hirundo rustica" />
-            <attribute key="taxon" value="Petrochelidon pyrrhonota" />
-            <attribute key="taxon" value="Sayornis saya" />
-            <attribute key="taxon" value="Sturnella" />
-            <attribute key="taxon" value="Tyrannus verticalis" />
-            <attribute key="taxon" value="mockingbird" />
-            <attribute key="taxon" value="rattlesnake" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="taxon" value="Aeronautes saxatalis" count="1" />
+            <attribute key="taxon" value="Petrochelidon pyrrhonota" count="1" />
+            <attribute key="taxon" value="Sayornis saya" count="1" />
+            <attribute key="taxon" value="Tyrannus verticalis" count="1" />
+            <attribute key="taxon" value="Bitis schneideri" count="1" />
+            <attribute key="taxon" value="rattlesnake" count="1" />
+            <attribute key="taxon" value="Hirundo rustica" count="1" />
+            <attribute key="taxon" value="mockingbird" count="1" />
+            <attribute key="taxon" value="Sturnella" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/84" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/84?oldid=3614575">
@@ -1970,7 +1970,7 @@ Arose at 6 a.m. Hot morning. Dodds and I went work on the fossil turtle, while H
             <attribute key="Ashleyh" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-27" />
+            <attribute key="dated" value="1906-06-27" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/85" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/85?oldid=3614576">
@@ -1989,11 +1989,11 @@ Not quite so hot this morning on account of cool easterly breeze. Sun very brigh
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-28" />
-            <attribute key="place" value="Grover, Colorado" />
-            <attribute key="taxon" value="Cerastium" />
-            <attribute key="taxon" value="Cercocarpus" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="dated" value="1906-06-28" count="1" />
+            <attribute key="place" value="Grover, Colorado" count="1" />
+            <attribute key="taxon" value="Cercocarpus" count="1" />
+            <attribute key="taxon" value="Cerastium" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/86" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/86?oldid=3581388">
@@ -2007,12 +2007,12 @@ Not quite so hot this morning on account of cool easterly breeze. Sun very brigh
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Euphagus cyanocephalus" />
-            <attribute key="taxon" value="Rodentia" />
-            <attribute key="taxon" value="hairy tailed rat" />
-            <attribute key="taxon" value="hawks" />
-            <attribute key="taxon" value="rattlesnake" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="taxon" value="rattlesnake" count="1" />
+            <attribute key="taxon" value="hairy tailed rat" count="1" />
+            <attribute key="taxon" value="hawks" count="1" />
+            <attribute key="taxon" value="Rodentia" count="1" />
+            <attribute key="taxon" value="Euphagus cyanocephalus" count="1" />
+            <attribute key="taxon" value="turtle" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/87" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/87?oldid=3614577">
@@ -2033,9 +2033,9 @@ Dodds and Markman took the wagon around to the fossil turtle this morning, while
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-29" />
-            <attribute key="place" value="Grover, Colorado" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="dated" value="1906-06-29" count="1" />
+            <attribute key="place" value="Grover, Colorado" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/88" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/88?oldid=3614578">
@@ -2057,12 +2057,12 @@ Left camp without load in wagon at 9 a.m.. Reached {{place|Pawnee Buttes, Colora
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-06-30" />
-            <attribute key="place" value="Davis Ranch, Colorado" />
-            <attribute key="place" value="Fitche's Ranch, Colorado" />
-            <attribute key="place" value="Pawnee Buttes, Colorado" />
-            <attribute key="place" value="West Butte, Colorado" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="dated" value="1906-06-30" count="1" />
+            <attribute key="place" value="West Butte, Colorado" count="1" />
+            <attribute key="place" value="Pawnee Buttes, Colorado" count="1" />
+            <attribute key="place" value="Fitche's Ranch, Colorado" count="1" />
+            <attribute key="place" value="Davis Ranch, Colorado" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/89" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/89?oldid=3614579">
@@ -2084,14 +2084,14 @@ Sprinkled at breakfast time, then cleared with steady northerly wind. We left ca
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-01" />
-            <attribute key="place" value="Crow Creek, Colorado" />
-            <attribute key="place" value="Davis Ranch, Colorado" />
-            <attribute key="place" value="Fitche's Ranch, Colorado" />
-            <attribute key="place" value="Grover, Colorado" />
-            <attribute key="place" value="Jackson Ranch, Colorado" />
-            <attribute key="place" value="Sligo, Colorado" />
-            <attribute key="taxon" value="turtle" />
+            <attribute key="dated" value="1906-07-01" count="1" />
+            <attribute key="place" value="Crow Creek, Colorado" count="1" />
+            <attribute key="place" value="Grover, Colorado" count="1" />
+            <attribute key="place" value="Davis Ranch, Colorado" count="1" />
+            <attribute key="place" value="Fitche's Ranch, Colorado" count="1" />
+            <attribute key="place" value="Sligo, Colorado" count="1" />
+            <attribute key="place" value="Jackson Ranch, Colorado" count="1" />
+            <attribute key="taxon" value="turtle" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/90" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/90?oldid=3581877">
@@ -2106,20 +2106,20 @@ Sprinkled at breakfast time, then cleared with steady northerly wind. We left ca
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Crow Creek, Colorado" />
-            <attribute key="place" value="Grover, Colorado" />
-            <attribute key="place" value="Jackson's Ranch, Colorado" />
-            <attribute key="place" value="Slayton's Ranch, Colorado" />
-            <attribute key="taxon" value="Buteo lagopus" />
-            <attribute key="taxon" value="Calamospiza melanocorys" />
-            <attribute key="taxon" value="Eremophila alpestris" />
-            <attribute key="taxon" value="Oenothera" />
-            <attribute key="taxon" value="antelope" />
-            <attribute key="taxon" value="antelopes" />
-            <attribute key="taxon" value="batrachians" />
-            <attribute key="taxon" value="dove" />
-            <attribute key="taxon" value="meadowlarks" />
-            <attribute key="taxon" value="plover" />
+            <attribute key="place" value="Crow Creek, Colorado" count="2" />
+            <attribute key="place" value="Jackson's Ranch, Colorado" count="1" />
+            <attribute key="place" value="Slayton's Ranch, Colorado" count="1" />
+            <attribute key="place" value="Grover, Colorado" count="1" />
+            <attribute key="taxon" value="dove" count="1" />
+            <attribute key="taxon" value="Calamospiza melanocorys" count="1" />
+            <attribute key="taxon" value="plover" count="1" />
+            <attribute key="taxon" value="antelope" count="1" />
+            <attribute key="taxon" value="meadowlarks" count="1" />
+            <attribute key="taxon" value="Eremophila alpestris" count="1" />
+            <attribute key="taxon" value="batrachians" count="1" />
+            <attribute key="taxon" value="antelopes" count="1" />
+            <attribute key="taxon" value="Oenothera" count="1" />
+            <attribute key="taxon" value="Buteo lagopus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/91" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/91?oldid=3614580">
@@ -2140,22 +2140,22 @@ Examined the creek bluffs below camp. At the top is a zone several (4 or 5) ft. 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-02" />
-            <attribute key="taxon" value="Fundulus" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Planorbis" />
-            <attribute key="taxon" value="Planorbis bicarinatus" />
-            <attribute key="taxon" value="Planorbis parvus" />
-            <attribute key="taxon" value="Planorbis trivolvis" />
-            <attribute key="taxon" value="Populus" />
-            <attribute key="taxon" value="Salix" />
-            <attribute key="taxon" value="Sphaerium" />
-            <attribute key="taxon" value="crayfish" />
-            <attribute key="taxon" value="frogs" />
-            <attribute key="taxon" value="green water beetles" />
-            <attribute key="taxon" value="leeches" />
-            <attribute key="taxon" value="magpies" />
-            <attribute key="taxon" value="turtles" />
+            <attribute key="dated" value="1906-07-02" count="1" />
+            <attribute key="taxon" value="Planorbis" count="1" />
+            <attribute key="taxon" value="magpies" count="1" />
+            <attribute key="taxon" value="green water beetles" count="1" />
+            <attribute key="taxon" value="Populus" count="1" />
+            <attribute key="taxon" value="Fundulus" count="1" />
+            <attribute key="taxon" value="Salix" count="1" />
+            <attribute key="taxon" value="crayfish" count="1" />
+            <attribute key="taxon" value="turtles" count="1" />
+            <attribute key="taxon" value="Planorbis bicarinatus" count="1" />
+            <attribute key="taxon" value="Planorbis trivolvis" count="1" />
+            <attribute key="taxon" value="Physa" count="2" />
+            <attribute key="taxon" value="leeches" count="1" />
+            <attribute key="taxon" value="frogs" count="1" />
+            <attribute key="taxon" value="Planorbis parvus" count="1" />
+            <attribute key="taxon" value="Sphaerium" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/92" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/92?oldid=3580170">
@@ -2169,12 +2169,12 @@ Examined the creek bluffs below camp. At the top is a zone several (4 or 5) ft. 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Corbicula" />
-            <attribute key="taxon" value="Ostrea glabra" />
-            <attribute key="taxon" value="Vivipara" />
-            <attribute key="taxon" value="bivalves" />
-            <attribute key="taxon" value="gasteropoda" />
-            <attribute key="taxon" value="gasteropods" />
+            <attribute key="taxon" value="gasteropoda" count="1" />
+            <attribute key="taxon" value="gasteropods" count="1" />
+            <attribute key="taxon" value="Corbicula" count="2" />
+            <attribute key="taxon" value="bivalves" count="2" />
+            <attribute key="taxon" value="Ostrea glabra" count="1" />
+            <attribute key="taxon" value="Vivipara" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/93" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/93?oldid=3614581">
@@ -2196,14 +2196,14 @@ Arose at 5:30, had breakfast and Harry and I started for the fossil beds at 7:20
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-03" />
-            <attribute key="place" value="Cache La Poudre" />
-            <attribute key="place" value="Crow Creek, Colorado" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="taxon" value="Ostrea glabra" />
-            <attribute key="taxon" value="Physa" />
-            <attribute key="taxon" value="Viviparus" />
-            <attribute key="taxon" value="bivalve" />
+            <attribute key="dated" value="1906-07-03" count="1" />
+            <attribute key="place" value="Crow Creek, Colorado" count="1" />
+            <attribute key="place" value="Cache La Poudre" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="1" />
+            <attribute key="taxon" value="bivalve" count="1" />
+            <attribute key="taxon" value="Viviparus" count="1" />
+            <attribute key="taxon" value="Physa" count="1" />
+            <attribute key="taxon" value="Ostrea glabra" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/94" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/94?oldid=3614582">
@@ -2224,11 +2224,11 @@ People were passing along the road until midnight, and most of them Halloed as t
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-04" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="taxon" value="Viviparus" />
-            <attribute key="taxon" value="bivalves" />
-            <attribute key="taxon" value="gasteropods" />
+            <attribute key="dated" value="1906-07-04" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="3" />
+            <attribute key="taxon" value="Viviparus" count="1" />
+            <attribute key="taxon" value="gasteropods" count="2" />
+            <attribute key="taxon" value="bivalves" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/95" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/95?oldid=3581254">
@@ -2243,17 +2243,17 @@ People were passing along the road until midnight, and most of them Halloed as t
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Big Thompson Creek" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Eaton, Colorado" />
-            <attribute key="place" value="Evans, Colorado" />
-            <attribute key="place" value="Greeley, Colorado" />
-            <attribute key="place" value="Little Thompson Creek" />
-            <attribute key="place" value="Platte, Colorado" />
-            <attribute key="place" value="Twin Bridge" />
-            <attribute key="taxon" value="Cardium speciosum" />
-            <attribute key="taxon" value="mollusks" />
-            <attribute key="taxon" value="shark" />
+            <attribute key="place" value="Little Thompson Creek" count="1" />
+            <attribute key="place" value="Big Thompson Creek" count="1" />
+            <attribute key="place" value="Eaton, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Greeley, Colorado" count="2" />
+            <attribute key="place" value="Twin Bridge" count="1" />
+            <attribute key="place" value="Platte, Colorado" count="1" />
+            <attribute key="place" value="Evans, Colorado" count="2" />
+            <attribute key="taxon" value="shark" count="1" />
+            <attribute key="taxon" value="Cardium speciosum" count="1" />
+            <attribute key="taxon" value="mollusks" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/96" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/96?oldid=3614583">
@@ -2274,14 +2274,14 @@ At 6 a.m. I went to the stream with the big net looking for {{taxon|mollusks}}, 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-05" />
-            <attribute key="place" value="St. Vrain Creek" />
-            <attribute key="taxon" value="Cardium speciosum" />
-            <attribute key="taxon" value="Ostrea" />
-            <attribute key="taxon" value="Ostrea glabra" />
-            <attribute key="taxon" value="Physas" />
-            <attribute key="taxon" value="Planorbis parvus" />
-            <attribute key="taxon" value="mollusks" />
+            <attribute key="dated" value="1906-07-05" count="1" />
+            <attribute key="place" value="St. Vrain Creek" count="1" />
+            <attribute key="taxon" value="Ostrea" count="1" />
+            <attribute key="taxon" value="Physas" count="1" />
+            <attribute key="taxon" value="Cardium speciosum" count="1" />
+            <attribute key="taxon" value="Planorbis parvus" count="1" />
+            <attribute key="taxon" value="mollusks" count="1" />
+            <attribute key="taxon" value="Ostrea glabra" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/97" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/97?oldid=3614584">
@@ -2303,11 +2303,11 @@ Left {{place|Longmont, Colorado|Longmont}} at 7:35 – reached {{place|Boulder, 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-07-06" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Longmont, Colorado" />
-            <attribute key="place" value="White Rocks" />
-            <attribute key="taxon" value="fucoids" />
+            <attribute key="dated" value="1906-07-06" count="1" />
+            <attribute key="place" value="Longmont, Colorado" count="2" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="White Rocks" count="1" />
+            <attribute key="taxon" value="fucoids" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/98" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/98?oldid=3614585">
@@ -2329,20 +2329,20 @@ Left {{Place|Boulder, Colorado|Boulder}} at 9:30 a.m. on narrow guage (sic) acco
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-08-31" />
-            <attribute key="place" value="Bluebird Mine, Colorado" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Eldora, Colorado" />
-            <attribute key="place" value="Gold Miner Hotel, Colorado" />
-            <attribute key="place" value="Hessie, Colorado" />
-            <attribute key="taxon" value="Agriolimax" />
-            <attribute key="taxon" value="Agriolimax campestris" />
-            <attribute key="taxon" value="Pisidium" />
-            <attribute key="taxon" value="Populus tremuloides" />
-            <attribute key="taxon" value="Vallonia cyalophorella" />
-            <attribute key="taxon" value="Vitrina pfeifferi" />
-            <attribute key="taxon" value="Zonitoides arboreus" />
-            <attribute key="taxon" value="mollusca" />
+            <attribute key="dated" value="1906-08-31" count="1" />
+            <attribute key="place" value="Gold Miner Hotel, Colorado" count="1" />
+            <attribute key="place" value="Eldora, Colorado" count="1" />
+            <attribute key="place" value="Bluebird Mine, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="place" value="Hessie, Colorado" count="1" />
+            <attribute key="taxon" value="Vitrina pfeifferi" count="1" />
+            <attribute key="taxon" value="Populus tremuloides" count="1" />
+            <attribute key="taxon" value="Pisidium" count="1" />
+            <attribute key="taxon" value="mollusca" count="1" />
+            <attribute key="taxon" value="Agriolimax campestris" count="1" />
+            <attribute key="taxon" value="Agriolimax" count="1" />
+            <attribute key="taxon" value="Zonitoides arboreus" count="1" />
+            <attribute key="taxon" value="Vallonia cyalophorella" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/99" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/99?oldid=3614586">
@@ -2364,8 +2364,8 @@ It rained toward morning and blew hard all night. Mrs. Gardiner arrived on the n
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1906-09-01" />
-            <attribute key="place" value="4th of July Mine, Colorado" />
+            <attribute key="dated" value="1906-09-01" count="1" />
+            <attribute key="place" value="4th of July Mine, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/100" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/100?oldid=3546208">
@@ -2396,9 +2396,9 @@ Drove out at 9:30 with Dr. Ramaley, G. S. Dodds and Sievert Rohwer. On the bluff
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-02-09" />
-            <attribute key="place" value="Marshall, Colorado" />
-            <attribute key="taxon" value="Ficus" />
+            <attribute key="dated" value="1907-02-09" count="1" />
+            <attribute key="place" value="Marshall, Colorado" count="2" />
+            <attribute key="taxon" value="Ficus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/102" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/102?oldid=3614588">
@@ -2418,10 +2418,10 @@ Sievert and Frank Rohwer and I started at 9:45. Drove to where private road cros
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-02-12" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="taxon" value="Baculites ovatus" />
-            <attribute key="taxon" value="Inoceramus" />
+            <attribute key="dated" value="1907-02-12" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="2" />
+            <attribute key="taxon" value="Inoceramus" count="1" />
+            <attribute key="taxon" value="Baculites ovatus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/103" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/103?oldid=3581886">
@@ -2436,13 +2436,13 @@ Sievert and Frank Rohwer and I started at 9:45. Drove to where private road cros
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="taxon" value="Baculites" />
-            <attribute key="taxon" value="Baculites compressus" />
-            <attribute key="taxon" value="Baculites ovatus" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus sagensis" />
-            <attribute key="taxon" value="Inoceramus vanuxemi" />
-            <attribute key="taxon" value="Scaphites nodosus" />
+            <attribute key="taxon" value="Inoceramus vanuxemi" count="1" />
+            <attribute key="taxon" value="Scaphites nodosus" count="1" />
+            <attribute key="taxon" value="Baculites" count="1" />
+            <attribute key="taxon" value="Baculites ovatus" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="1" />
+            <attribute key="taxon" value="Inoceramus sagensis" count="1" />
+            <attribute key="taxon" value="Baculites compressus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/104" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/104?oldid=3614589">
@@ -2463,12 +2463,12 @@ Sievert Rohwer and I walked out to the same place to make sure of localities in 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-02-17" />
-            <attribute key="taxon" value="Eudoceras" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus sagensis" />
-            <attribute key="taxon" value="Inoceramus vanuxemi" />
-            <attribute key="taxon" value="Ostrea inornata" />
+            <attribute key="dated" value="1907-02-17" count="1" />
+            <attribute key="taxon" value="Inoceramus vanuxemi" count="1" />
+            <attribute key="taxon" value="Ostrea inornata" count="1" />
+            <attribute key="taxon" value="Eudoceras" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="1" />
+            <attribute key="taxon" value="Inoceramus sagensis" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/105" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/105?oldid=3581891">
@@ -2483,10 +2483,10 @@ Sievert Rohwer and I walked out to the same place to make sure of localities in 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Haystack Butte, Colorado" />
-            <attribute key="taxon" value="Inoceramus" />
-            <attribute key="taxon" value="Ostrea" />
-            <attribute key="taxon" value="Ostrea congesta" />
+            <attribute key="place" value="Haystack Butte, Colorado" count="1" />
+            <attribute key="taxon" value="Inoceramus" count="1" />
+            <attribute key="taxon" value="Ostrea" count="1" />
+            <attribute key="taxon" value="Ostrea congesta" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/106" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/106?oldid=3614590">
@@ -2513,17 +2513,17 @@ Sievert Rohwer, Frank Rohwer and I went north today, collected fossils. In sands
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-02-22" />
-            <attribute key="dated" value="1907-02-23" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="place" value="Four Mile Mesa, Colorado" />
-            <attribute key="taxon" value="Ancycloceras tricostatus" />
-            <attribute key="taxon" value="Baculites cf. compressus" />
-            <attribute key="taxon" value="Heteroceras" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus sagensis" />
-            <attribute key="taxon" value="Inoceramus venuxemi" />
-            <attribute key="taxon" value="Lucina occidentalis" />
+            <attribute key="dated" value="1907-02-22" count="1" />
+            <attribute key="dated" value="1907-02-23" count="1" />
+            <attribute key="place" value="Four Mile Mesa, Colorado" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="2" />
+            <attribute key="taxon" value="Baculites cf. compressus" count="1" />
+            <attribute key="taxon" value="Lucina occidentalis" count="1" />
+            <attribute key="taxon" value="Ancycloceras tricostatus" count="1" />
+            <attribute key="taxon" value="Inoceramus venuxemi" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="2" />
+            <attribute key="taxon" value="Inoceramus sagensis" count="2" />
+            <attribute key="taxon" value="Heteroceras" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/107" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/107?oldid=3632338">
@@ -2546,15 +2546,15 @@ Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolh
             <attribute key="Gaurav" value="1" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-03-02" />
-            <attribute key="place" value="Cheltenham Schoolhouse" />
-            <attribute key="place" value="Denver, Colorado" />
-            <attribute key="place" value="Dry Creek" />
-            <attribute key="place" value="Four Mile Mesa, Colorado" />
-            <attribute key="place" value="Green Mountain Creek, Colorado" />
-            <attribute key="place" value="West Denver, Colorado" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus sagensis" />
+            <attribute key="dated" value="1907-03-02" count="1" />
+            <attribute key="place" value="Cheltenham Schoolhouse" count="1" />
+            <attribute key="place" value="Denver, Colorado" count="1" />
+            <attribute key="place" value="Dry Creek" count="1" />
+            <attribute key="place" value="Four Mile Mesa, Colorado" count="1" />
+            <attribute key="place" value="West Denver, Colorado" count="1" />
+            <attribute key="place" value="Green Mountain Creek, Colorado" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="1" />
+            <attribute key="taxon" value="Inoceramus sagensis" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/108" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/108?oldid=3581914">
@@ -2568,9 +2568,9 @@ Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolh
             <attribute key="207.145.38.73" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Green Mountain Creek, Colorado" />
-            <attribute key="place" value="Green Mountain, Colorado" />
-            <attribute key="place" value="South Platte River, Colorado" />
+            <attribute key="place" value="Green Mountain, Colorado" count="1" />
+            <attribute key="place" value="South Platte River, Colorado" count="1" />
+            <attribute key="place" value="Green Mountain Creek, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/109" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/109?oldid=3614592">
@@ -2586,8 +2586,8 @@ Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolh
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Green Mountain Creek, Colorado" />
-            <attribute key="place" value="South Platte River" />
+            <attribute key="place" value="South Platte River" count="1" />
+            <attribute key="place" value="Green Mountain Creek, Colorado" count="2" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/110" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/110?oldid=3546234">
@@ -2613,8 +2613,8 @@ Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolh
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="place" value="Cheltenham Schoolhouse" />
-            <attribute key="place" value="Green Mountain Creek, Colorado" />
+            <attribute key="place" value="Cheltenham Schoolhouse" count="1" />
+            <attribute key="place" value="Green Mountain Creek, Colorado" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/112" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/112?oldid=3580324">
@@ -2628,12 +2628,12 @@ Prof. Geo. L. Cannon and I went out to the creek S of {{place|Cheltenham Schoolh
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Cheltenham schoolhouse" />
-            <attribute key="taxon" value="Lymnaea" />
-            <attribute key="taxon" value="Planorbis parvus" />
-            <attribute key="taxon" value="Pupilla muscorum" />
-            <attribute key="taxon" value="Succinea grosvenori" />
-            <attribute key="taxon" value="Vallonia gracillicosta" />
+            <attribute key="place" value="Cheltenham schoolhouse" count="1" />
+            <attribute key="taxon" value="Vallonia gracillicosta" count="1" />
+            <attribute key="taxon" value="Pupilla muscorum" count="1" />
+            <attribute key="taxon" value="Succinea grosvenori" count="2" />
+            <attribute key="taxon" value="Lymnaea" count="1" />
+            <attribute key="taxon" value="Planorbis parvus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/113" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/113?oldid=3614593">
@@ -2652,11 +2652,11 @@ Drove north in morning, taking Frank Rohwer and Clinton Fullen with me. Visited 
             <attribute key="173.69.207.29" value="2" />
         </editors>
         <annotations>
-            <attribute key="dated" value="1907-04-07" />
-            <attribute key="place" value="Boulder, Colorado" />
-            <attribute key="taxon" value="Baculites" />
-            <attribute key="taxon" value="Inoceramus" />
-            <attribute key="taxon" value="Inoceramus labiatus" />
+            <attribute key="dated" value="1907-04-07" count="1" />
+            <attribute key="place" value="Boulder, Colorado" count="1" />
+            <attribute key="taxon" value="Baculites" count="1" />
+            <attribute key="taxon" value="Inoceramus" count="1" />
+            <attribute key="taxon" value="Inoceramus labiatus" count="1" />
         </annotations>
     </page>
     <page title="Page:Field Notes of Junius Henderson, Notebook 1.djvu/114" uri="http://en.wikisource.org/wiki/Page:Field_Notes_of_Junius_Henderson,_Notebook_1.djvu/114?oldid=3581927">
@@ -2673,11 +2673,11 @@ Drove north in morning, taking Frank Rohwer and Clinton Fullen with me. Visited 
             <attribute key="173.69.207.29" value="1" />
         </editors>
         <annotations>
-            <attribute key="place" value="Left Hand Creek, Colorado" />
-            <attribute key="taxon" value="Baculites ovatus" />
-            <attribute key="taxon" value="Heteroceras" />
-            <attribute key="taxon" value="Inoceramus barabini" />
-            <attribute key="taxon" value="Inoceramus deformis" />
+            <attribute key="place" value="Left Hand Creek, Colorado" count="1" />
+            <attribute key="taxon" value="Baculites ovatus" count="1" />
+            <attribute key="taxon" value="Inoceramus barabini" count="1" />
+            <attribute key="taxon" value="Inoceramus deformis" count="1" />
+            <attribute key="taxon" value="Heteroceras" count="1" />
         </annotations>
     </page>
 </transcription>

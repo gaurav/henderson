@@ -68,7 +68,7 @@ for my $node (@nodes) {
 
     my $annotation_entries = $xp->find('annotations/attribute', $node);
 
-    my $num_annotations = scalar @$annotation_entries;
+    my $num_annotations = 0;
     my $num_dateds = 0;
     my $num_places = 0;
     my $num_taxa = 0;
@@ -76,22 +76,25 @@ for my $node (@nodes) {
     for my $annotation (@$annotation_entries) {
         my $key = lc($annotation->getAttribute('key'));
         my $value = $annotation->getAttribute('value');
+        my $count = $annotation->getAttribute('count');
+
+        $num_annotations += $count;
 
         if($key eq 'dated') {
             $value = POSIX::mktime(0, 0, 0, $3, ($2 - 1), ($1-1900))
                 if($value =~ /^(\d+)-(\d+)-(\d+)$/);
             $dateds->add_data($value);
-            $num_dateds++;
+            $num_dateds += $count;
         }
 
         if($key eq 'place') {
             push @places, $value;
-            $num_places++;
+            $num_places += $count;
         }
 
         if($key eq 'taxon') {
             push @taxa, $value;
-            $num_taxa++;
+            $num_taxa += $count;
         }
     }
 
