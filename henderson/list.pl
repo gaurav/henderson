@@ -66,6 +66,7 @@ for my $node (@nodes) {
     for my $annotation (@$annotation_entries) {
         my $key = lc($annotation->getAttribute('key'));
         my $value = $annotation->getAttribute('value');
+        my $count = $annotation->getAttribute('count');
 
         if($key eq $annotation_type) {
             #if($key eq 'dated') {
@@ -74,9 +75,9 @@ for my $node (@nodes) {
             #}
 
             if(exists $annotations{$value}) {
-                $annotations{$value}++;
+                $annotations{$value} += $count;
             } else {
-                $annotations{$value} = 1;
+                $annotations{$value} = $count;
             }
         }
     }

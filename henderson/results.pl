@@ -94,6 +94,12 @@ for my $node (@nodes) {
 
         if($key eq 'taxon') {
             push @taxa, $value for(1..$count);
+            state $cooperi_count = 0;
+            if($value eq 'Oreohelix cooperi') {
+                $cooperi_count+=$count;
+
+                say STDERR "#$cooperi_count: Adding $value on page $page_no.";
+            }
             $num_taxa += $count;
         }
     }

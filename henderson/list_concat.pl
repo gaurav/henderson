@@ -73,7 +73,12 @@ foreach my $entry (@entries) {
         if($tag =~ /^$annotation_type\|(.*)$/i) {
             my $value = $1;
             if($value =~ /^\s*(.*?)\s*\|\s*(.*)\s*$/) {
-                $value = $1;
+                if(defined $2) { 
+                    # $value = "$1 => $2";
+                    $value = $1;
+                } else {
+                    $value = $1;
+                }
             }
 
             if(exists $annotations{$value}) {
@@ -96,7 +101,7 @@ sub sorter {
     #}
 }
 
-my $csv = Text::CSV->new();
+my $csv = Text::CSV->new({binary => 1});
 say "value,frequency";
 
 %hash_to_sort = %annotations;
