@@ -1,35 +1,58 @@
+=head1 NAME
+
 The Junius Henderson Field Note Project
+
+=head1 FAQs
+
+=head2 Who was Junius Henderson?
+
+Junius Henderson was the first curator of the University of Colorado
+Museum of Natural History. Between 1905 and 1931, he kept 13 notebooks
+(1,672 pages in total) detailing his travels across the Southern Rocky 
+Mountains of North America and elsewhere. These notebooks were scanned
+by the National Snow and Ice Data Center (NSIDC).
+
+You can read more about him L<on Wikipedia|http://en.wikipedia.org/wiki/Junius_Henderson>;
+we have uploaded all his notebooks (and some of his photographs)
+L<to the Wikimedia Commons|http://commons.wikimedia.org/wiki/Category:Junius_Henderson>.
+
+=head1 Workflow
 
 =over 4
 
-=item Who was Junius Henderson?
+=item 1. Install the L<WWW::Wikisource> module (from the 'WWW-Wikisource' directory).
 
-L<http://en.wikipedia.org/wiki/Junius_Henderson>
+=item 2. Run the L<wikisource2xml.pl> script (which was installed as part of step 1).
 
-=item What did he write?
+=item 3. In the C<scripts> directory:
 
-L<http://en.wikisource.org/wiki/Author:Junius_Henderson>
+=over 4
+
+=item 1. Test
 
 =back
+
+=back
+
+=head1 External links
 
 For more details, please read the following blog posts:
 
 =over 4
 
-=item An Ode to Founders and a Field Notes Challenge: Part 1
+=item *
+L<An Ode to Founders and a Field Notes Challenge: Part 1|http://soyouthinkyoucandigitize.wordpress.com/2011/11/28/an-ode-to-founders-and-a-field-notes-challenge-part-1/>
 
-L<http://soyouthinkyoucandigitize.wordpress.com/2011/11/28/an-ode-to-founders-and-a-field-notes-challenge-part-1/>
+=item *
+Field Note Challenge Part 2: L<Veni, Vidi, Wiki|http://soyouthinkyoucandigitize.wordpress.com/2011/12/05/field-note-challenge-part-2-veni-vidi-wiki/>
 
-=item Field Note Challenge Part 2: Veni, Vidi, Wiki
+=item *
+Field Notes Challenge Part 3: L<New Year's Digital Resolutions|http://soyouthinkyoucandigitize.wordpress.com/2012/01/06/field-notes-challenge-part-3-new-years-digital-resolutions/>
 
-L<http://soyouthinkyoucandigitize.wordpress.com/2011/12/05/field-note-challenge-part-2-veni-vidi-wiki/>
+=item *
+Field Notes Challenge Part 4: L<Help, 'Cause We Need Somebod(y/ies)|http://soyouthinkyoucandigitize.wordpress.com/2012/01/12/field-notes-challenge-part-4-help-cause-we-need-somebodies/>
 
-=item Field Notes Challenge Part 3: New Year's Digital Resolutions
-
-L<http://soyouthinkyoucandigitize.wordpress.com/2012/01/06/field-notes-challenge-part-3-new-years-digital-resolutions/>
-
-=item Field Notes Challenge Part 4: Help, 'Cause We Need Somebod(y/ies)
-
-L<http://soyouthinkyoucandigitize.wordpress.com/2012/01/12/field-notes-challenge-part-4-help-cause-we-need-somebodies/>
+=item *
+Field Notes Challenge Part 4.5: L<JHFNP, Post 4.5|http://soyouthinkyoucandigitize.wordpress.com/2012/01/23/jhfnp-post-4-5/>
 
 =back
