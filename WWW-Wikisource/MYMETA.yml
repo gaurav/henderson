@@ -1,0 +1,24 @@
+---
+abstract: 'An API for Wikisource'
+author:
+  - 'Gaurav Vaidya <gaurav@ggvaidya.com>'
+build_requires:
+  Carp: 0
+  MediaWiki::API: 0
+  Test::More: 0
+  Try::Tiny: 0
+  XML::Writer: 0
+dynamic_config: 0
+generated_by: 'Module::Build version 0.4, CPAN::Meta::Converter version 2.120530'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: WWW-Wikisource
+provides:
+  WWW::Wikisource:
+    file: lib/WWW/Wikisource.pm
+    version: 0.01
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01

@@ -3,9 +3,17 @@ package WWW::Wikisource;
 use warnings;
 use strict;
 
+use Carp;
+use Try::Tiny;
+
+use MediaWiki::API;
+
+use WWW::Wikisource::IndexPage;
+use WWW::Wikisource::Page;
+
 =head1 NAME
 
-WWW::Wikisource - The great new WWW::Wikisource!
+WWW::Wikisource - An API for Wikisource
 
 =head1 VERSION
 
@@ -18,34 +26,88 @@ our $VERSION = '0.01';
 
 =head1 SYNOPSIS
 
-Quick summary of what the module does.
-
-Perhaps a little code snippet.
+This module lets you access Wikisource; in particular, it
+hopes to make Index pages (provided through the Proofread Page
+extension) accessible to Perl scripts.
 
     use WWW::Wikisource;
 
-    my $foo = WWW::Wikisource->new();
-    ...
+    my $ws = WWW::Wikisource->new();
+    $page = $ws->get('Page:Field Notes of Junius Henderson, Notebook 1.djvu/1')
+    $index_page = $ws->get_index('Index:Field Notes of Junius Henderson, Notebook 1.djvu')
 
-=head1 EXPORT
+=head1 METHODS
 
-A list of functions that can be exported.  You can delete this section
-if you don't export anything, such as for a purely object-oriented module.
-
-=head1 SUBROUTINES/METHODS
-
-=head2 function1
+=head2 new
 
 =cut
 
-sub function1 {
+sub new {
+    my $class = shift;
+
+    my $self = {};
+    bless $self, $class;
+
+    # Initialization.
+    $self->{'mwa'} = MediaWiki::API->new({
+        api_url => 'http://en.wikisource.org/w/api.php',
+        use_http_get => 1,
+        retries => 4,
+        max_lag => 5
+    });
+
+    return $self;
 }
 
-=head2 function2
+=head2 get
+
+  $page = $ws->get('Wikisource:About')
+
+Open a particular page (by title) on Wikisource.
+
+Returns undef if the page doesn't exist, or
+a WWW::Wikisource::Page if it does.
+
 
 =cut
 
-sub function2 {
+sub get {
+    my $self = shift;
+    my $title = shift;
+
+    croak "get() needs one argument: a page title to look up"
+        if not defined $title;
+    
+    my $mw = $self->{'mwa'};
+
+    my $page = WWW::Wikisource::Page->new($title, {MediaWikiAPI => $mw});
+
+    # Return 'undef' if no such page found.
+    return undef if $page->is_missing();
+    
+    return $page;
+}
+
+=head2 get_index
+
+  $index = $ws->get_index('Index:Wind in the Willows (1913).djvu');
+
+Returns undef if this Index page doesn't exist, or a WWW::Wikisource::IndexPage
+object if it does.
+
+
+=cut
+
+sub get_index {
+    my $self = shift;
+    my $title = shift;
+
+    croak "get_index() needs one argument: a page title to look up"
+        if not defined $title;
+    
+    my $mw = $self->{'mwa'};
+
+    return WWW::Wikisource::IndexPage->new($title, {MediaWikiAPI => $mw}) 
 }
 
 =head1 AUTHOR
