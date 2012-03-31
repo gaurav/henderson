@@ -21,7 +21,7 @@ Workflow
 
 2. Run `wikisource2xml.pl 'Index:Name of Index on Wikisource.djvu' > download.xml` to download an XML version of the Wikisource document identified by the provided Index. `wikisource2xml.pl` should have been installed to your path 
 
-3. In the [`scripts`](scripts/) directory:
+3. In the `scripts` directory:
 
     1. Run `perl concat.pl download.xml > download_concat.txt`; this will create a "concat" file which combines multiple pages so that entries are divided by `{{new-entry}}` tags.
 
