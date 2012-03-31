@@ -19,11 +19,19 @@ Workflow
 
 1. Install the `WWW::Wikisource` module (from the `WWW-Wikisource` directory).
 
-2. Run the `wikisource2xml.pl` script (which was installed as part of step 1).
+2. Run `wikisource2xml.pl 'Index:Name of Index on Wikisource.djvu' > download.xml` to download an XML version of the Wikisource document identified by the provided Index. `wikisource2xml.pl` should have been installed to your path 
 
-3. In the `scripts` directory:
+3. In the `[scripts](scripts/)` directory:
 
-    1. Test
+    1. Run `perl concat.pl download.xml > download_concat.txt`; this will create a "concat" file which combines multiple pages so that entries are divided by `{{new-entry}}` tags.
+
+    2. Run `perl results.pl download.xml` to calculate the per-page statistics for annotations on this page. Remember to use the `--skip` command line option to skip front matter.
+
+    3. Similarly, `perl results_concat.pl < download_concat.txt` will generate per-*entry* statistics for annotations. Remember to use the `--skip` command line option to skip entries which cover front matter.
+
+    4. Finally, run `perl concat2stuff.pl dwc < download_concat.txt > download_dwc.csv` to write out a CSV file using DarwinCore headers.
+
+    5. You can use `list.pl` and `list_concat.pl` to generate a list of all annotations detected in XML and "concat" files respectively.
 
 External links
 --------------
