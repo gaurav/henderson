@@ -60,10 +60,20 @@ foreach my $entry (@entries) {
 
     # TODO: Split by {{...}} references, then process all of them.   
     # We can't just download them, because relative order is really important here.
-    my @tags = ($entry =~ /{{(#?[\w\s]+\|.*?)}}/ig);
-    
-    foreach my $tag (@tags) {
-        my $result = $method->($tag, $entry, $entry_count);
+    while($entry =~ /{{(#?[\w\s]+\|.*?)}}/ig) {
+        my $tag = $1;
+
+        my $pos = pos($entry);
+
+        my $CONTEXT_SIZE = 250;
+        my $start = $pos - int($CONTEXT_SIZE/2);
+        $start = 0 if $start < 0;
+        # say STDERR "pos = $pos, start = $start";
+
+        my $context = substr($entry, $start, $CONTEXT_SIZE);
+        $context = "" unless ($tag =~ /^taxon/i);
+        # say STDERR "substr($start, $CONTEXT_SIZE) = '$context'";
+        my $result = $method->($tag, $entry, $entry_count, $context);
         if(defined $result) {
             $csv->print(\*STDOUT, $result);
         }
@@ -72,7 +82,7 @@ foreach my $entry (@entries) {
 
 # Some processing methods.
 sub dwc {
-    my ($tag, $entry, $entry_count) = @_;
+    my ($tag, $entry, $entry_count, $context) = @_;
 
     # From https://docs.google.com/spreadsheet/ccc?key=0AvsrI9Pi83gYdGpnLUZadG56ejJuQmZMSHFiX1hFTkE#gid=0
     return [
@@ -229,7 +239,7 @@ sub dwc {
             "",
 
             # "dataGeneralizations",
-            "", # $entry,
+            $context, # "", # $entry,
 
             # "identificationRemarks",
             "",
@@ -318,7 +328,7 @@ sub dwc {
 }
 
 sub trail { 
-    my ($tag, $entry, $entry_count) = @_;
+    my ($tag, $entry, $entry_count, $context) = @_;
 
     return ["EntryNo", "Date", "Place", "URI", "Entry"]
         if not defined $tag;
