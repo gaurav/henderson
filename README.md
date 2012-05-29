@@ -19,7 +19,7 @@ Workflow
 
 1. Install the `WWW::Wikisource` module (from the `WWW-Wikisource` directory).
 
-2. Run `wikisource2xml.pl 'Index:Name of Index on Wikisource.djvu' > download.xml` to download an XML version of the Wikisource document identified by the provided Index. `wikisource2xml.pl` should have been installed to your path 
+2. Run `wikisource2xml.pl 'Index:Name of Index on Wikisource.djvu' > download.xml` to download an XML version of the Wikisource document identified by the provided Index. `wikisource2xml.pl` should have been installed to your path when you installed the `WWW::Wikisource` module.
 
 3. In the `scripts` directory:
 
