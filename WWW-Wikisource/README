@@ -6,7 +6,7 @@ the Wikimedia Foundation, the organization behind Wikipedia,
 and runs the same Mediawiki software other Wikipedia-like
 websites use.
 
-This module will provide an API to access and manipulate
+This module provides an API to access and manipulate
 Wikisource documents. In particular, Wikisource differs
 from other MediaWiki installations because of the 
 Proofread Page extension, which allows side-by-side
