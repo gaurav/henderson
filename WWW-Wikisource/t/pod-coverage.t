@@ -1,3 +1,10 @@
+#!perl -T 
+#
+# pod-coverage.t
+#
+# Ensures that all methods are individually documented in POD.
+#
+
 use strict;
 use warnings;
 use Test::More;

@@ -1,4 +1,9 @@
 #!perl -T
+#
+# pod.t
+#
+# Checks for POD errors in files.
+# 
 
 use strict;
 use warnings;

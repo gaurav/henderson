@@ -1,4 +1,9 @@
 #!perl -T
+#
+# manifest.t
+#
+# Checks the manifest.
+#
 
 use strict;
 use warnings;

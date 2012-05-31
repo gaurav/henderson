@@ -1,6 +1,11 @@
 #!perl -T
-
-# Tests XML export.
+# 
+# xml.t
+#
+# Tests XML export; however, it really just does an XML export and sees if the
+# process dies. If we ever develop an XSD, we can validate that against the
+# produced XML file and see if that worked.
+#
 
 use strict;
 use warnings;
