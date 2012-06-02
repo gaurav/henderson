@@ -1,4 +1,10 @@
 #!perl -T
+#
+# boilerplate.t
+#
+# Checks to see if boilerplate text is still present in
+# this distribution. It must be exterminated.
+#
 
 use strict;
 use warnings;
@@ -49,6 +55,8 @@ TODO: {
   );
 
   module_boilerplate_ok('lib/WWW/Wikisource.pm');
+  module_boilerplate_ok('lib/WWW/Wikisource/Page.pm');
+  module_boilerplate_ok('lib/WWW/Wikisource/IndexPage.pm');
 
 
 }

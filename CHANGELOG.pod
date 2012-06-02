@@ -2,6 +2,10 @@
 
 =over 4
 
+=item In development
+
+Updated documentation inside scripts and in README.md.
+
 =item Version 0.01-01 (March 31, 2012)
 
 Updated README.md.

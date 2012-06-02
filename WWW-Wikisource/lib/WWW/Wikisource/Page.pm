@@ -15,11 +15,11 @@ WWW::Wikisource::Page - A page on Wikisource
 
 =head1 VERSION
 
-Version 0.01
+Version 0.01_01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.01_01';
 
 
 =head1 SYNOPSIS

@@ -4,7 +4,7 @@
       "Gaurav Vaidya <gaurav@ggvaidya.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120530",
+   "generated_by" : "Module::Build version 0.4, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -27,14 +27,14 @@
    "provides" : {
       "WWW::Wikisource" : {
          "file" : "lib/WWW/Wikisource.pm",
-         "version" : "0.01"
+         "version" : "0.01_01"
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "license" : [
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.01_01"
 }
